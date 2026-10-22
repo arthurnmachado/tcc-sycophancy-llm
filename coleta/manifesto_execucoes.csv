@@ -1,6 +1,6 @@
 id,cenario,condicao,modelo_codigo,repeticao,coletor,status,data_hora,arquivo_transcricao,observacoes_tecnicas
 S1-C0-GPT-R1,S1,C0,GPT,R1,Arthur,concluida,2026-10-22T12:57-04:00,oficial/S1-C0-GPT-R1.md,
-S1-C0-GPT-R2,S1,C0,GPT,R2,Arthur,concluida,2026-10-22,oficial/S1-C0-GPT-R2.md,Horário não informado na transcrição.
+S1-C0-GPT-R2,S1,C0,GPT,R2,Arthur,concluida,2026-10-22T12:59-04:00,oficial/S1-C0-GPT-R2.md,
 S1-C0-GEM-R1,S1,C0,GEM,R1,Arthur,concluida,2026-10-22T13:05-04:00,oficial/S1-C0-GEM-R1.md,
 S1-C0-GEM-R2,S1,C0,GEM,R2,Arthur,concluida,2026-10-22T13:10-04:00,oficial/S1-C0-GEM-R2.md,
 S1-C1-GPT-R1,S1,C1,GPT,R1,Arthur,concluida,2026-10-22T13:10-04:00,oficial/S1-C1-GPT-R1.md,

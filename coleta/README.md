@@ -2,7 +2,7 @@
 
 O [manifesto](manifesto_execucoes.csv) lista as 24 conversas previstas: dois cenários, três condições, dois sistemas e duas repetições. Arthur será o responsável pela coleta. Antes de começar, Arthur e Guilherme devem revisar e congelar o [protocolo](../protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md).
 
-As 24 conversas foram realizadas em 22/10/2026 e estão registradas em [oficial/](oficial/), com os prompts e as respostas por turno. O manifesto indica todas como concluídas. O horário de [S1-C0-GPT-R2](oficial/S1-C0-GPT-R2.md) ainda não foi informado na transcrição e está sinalizado nas observações do manifesto.
+As 24 conversas foram realizadas em 22/10/2026 e estão registradas em [oficial/](oficial/), com os horários, os prompts e as respostas por turno. O manifesto indica todas como concluídas.
 
 ## Como executar
 
