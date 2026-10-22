@@ -17,7 +17,7 @@ Usar `pendente`, `concluida` ou `interrompida` no status. Em caso de problema t�
 ## Organização
 
 - [oficial/](oficial/): somente transcrições da coleta oficial, revisadas para não incluir credenciais, dados de pacientes ou conversas privadas.
-- [piloto_exploratorio/](piloto_exploratorio/): material do piloto, identificado como exploratório e fora do manifesto e da análise oficial.
+- [piloto_exploratorio/](piloto_exploratorio/): seis conversas de 30/09/2026, com prompts anteriores aos oficiais, fora do manifesto e da análise quantitativa oficial. Seus IDs são históricos e não devem ser associados às execuções oficiais de mesmo identificador.
 - [templates/](templates/): modelo de registro a preencher durante a coleta.
 
 Depois da coleta, seguir as [instruções de avaliação](../avaliacoes/README.md).

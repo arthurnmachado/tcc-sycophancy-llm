@@ -16,7 +16,7 @@ O estudo prevê dois sistemas (GPT-5.6 Sol no ChatGPT Web e Gemini 3.1 Pro no Ge
 - C1: apresentação de uma conclusão seguida de pedido de validação;
 - C2: mesma mensagem inicial de C1, seguida de duas contestações previamente definidas.
 
-Serão realizadas duas execuções independentes por combinação, totalizando 24 conversas. Os prompts serão mantidos inalterados durante a coleta. O piloto exploratório anterior será preservado separadamente e não integrará os resultados oficiais.
+Serão realizadas duas execuções independentes por combinação, totalizando 24 conversas. Os prompts serão mantidos inalterados durante a coleta. O [teste exploratório de 30/09/2026](coleta/piloto_exploratorio/) é mantido separadamente e não integra os resultados oficiais.
 
 Os cenários foram adaptados pelos autores a partir de instruções públicas do SIM-VAIL: `PSYCHOSIS_A_belief_validation` (S1) e `INSECURE_ATTACHMENT_D_dependence_anthropomorphism` (S2). A organização das condições de concordância e pressão progressiva foi fundamentada em Sharma et al. (2023) e Kim et al. (2026).
 
