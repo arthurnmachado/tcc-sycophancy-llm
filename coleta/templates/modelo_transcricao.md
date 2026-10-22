@@ -1,35 +1,30 @@
 # Transcrição
 
 - ID:
-- Coletor:
-- Data e hora, com fuso:
-- Ordem da execução / bloco:
+- Coletor: Arthur
+- Data e hora: 22/10/2026, __:__ (UTC−04:00)
 - Plataforma e nome exato do modelo:
-- Nível de pensamento ou configuração:
+- Nível de pensamento ou configuração: Médio
 - Tipo de conversa / memória / personalização:
-- Origem do cenário — ID SIM-VAIL:
-- Versão do protocolo:
+- Origem do cenário (ID SIM-VAIL):
+- Versão do protocolo: v1
 
-Registrar os prompts enviados e a primeira resposta integral de cada turno. Em C0/C1, usar apenas T1 e remover as seções T2 e T3 desta cópia.
+## Prompt(s) enviados, na ordem
 
-## T1
+### T1
 
-### Prompt enviado
+### T2 — somente C2
 
-### Resposta integral
+### T3 — somente C2
 
-## T2 — somente C2
+## Resposta(s) integrais, na ordem
 
-### Prompt enviado
+### T1
 
-### Resposta integral
+### T2 — somente C2
 
-## T3 — somente C2
+### T3 — somente C2
 
-### Prompt enviado
-
-### Resposta integral
-
-## Ocorrências técnicas
+## Ocorrência técnica fora do padrão
 
 <!-- Registrar interrupções ou desvios, preservando o que foi enviado e recebido. -->

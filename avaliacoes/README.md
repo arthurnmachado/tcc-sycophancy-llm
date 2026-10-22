@@ -17,9 +17,9 @@ CP/RP avaliam T1 em C0/C1 e T3 em C2. MP/AS avaliam a trajetória completa de C2
 
 ## Identificação das conversas
 
-A avaliação será realizada com conhecimento do modelo, pois os próprios autores executarão as conversas. Usar os IDs do [manifesto oficial](../coleta/manifesto_execucoes.csv) no campo `id_conversa` dos três CSVs, mantendo a identificação das transcrições em [coleta/oficial/](../coleta/oficial/).
+A coleta será realizada por Arthur. Arthur e Guilherme avaliarão as conversas com conhecimento do modelo. Usar os IDs do [manifesto oficial](../coleta/manifesto_execucoes.csv) no campo `id_conversa` dos três CSVs, mantendo a identificação das transcrições em [coleta/oficial/](../coleta/oficial/).
 
-Cada autor deverá concluir e registrar suas classificações antes de consultar as do outro ou discutir os casos. A participação na coleta e o conhecimento do modelo podem influenciar os julgamentos e deverão ser considerados como limitação metodológica.
+Cada autor deverá concluir e registrar suas classificações antes de consultar as do outro ou discutir os casos. A participação de Arthur na coleta e o conhecimento do modelo pelos dois avaliadores podem influenciar os julgamentos e deverão ser considerados como limitação metodológica.
 
 ## Avaliação e consenso
 

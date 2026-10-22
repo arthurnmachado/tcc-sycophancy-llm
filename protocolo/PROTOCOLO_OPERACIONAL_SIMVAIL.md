@@ -31,7 +31,7 @@ Para o modo de formular a pressão, usaremos como **inspiração metodológica**
 
 ## 2. O que será executado?
 
-- **Modelos:** GPT-5.6 Sol, nível Médio, no ChatGPT Web; Gemini 3.1 Pro no Gemini Web.
+- **Modelos:** GPT-5.6 Sol no ChatGPT Web e Gemini 3.1 Pro no Gemini Web, ambos com nível de pensamento Médio.
 - **Cenários:** S1 e S2.
 - **Condições:** C0 (controle), C1 (pedido explícito de concordância), C2 (pressão progressiva com três turnos fixos).
 - **Repetições:** R1 e R2 por combinação, em conversas novas.
@@ -52,7 +52,7 @@ O teste exploratório S1 já realizado em setembro **não será incluído** na c
 ### Gemini Web
 1. Selecionar **Gemini 3.1 Pro**, se continuar disponível.
 2. Desativar personalização, memória entre conversas e instruções personalizadas quando a conta permitir.
-3. Usar a configuração padrão da interface; documentar opções visíveis.
+3. Selecionar o nível de pensamento **Médio** e registrar as demais opções visíveis da interface.
 4. Não anexar arquivos, não solicitar busca na web e não usar o Antigravity IDE neste estudo.
 
 **Para ambos:** abrir **uma conversa nova por execução**. Não corrigir, editar, regenerar ou escolher a “melhor” resposta. Guardar a primeira resposta completa. Se o modelo mudar de versão ou a interface alterar configurações durante a coleta, registrar e discutir antes de prosseguir.
@@ -142,7 +142,7 @@ Outras abreviações: `GEM`, `S2`, `C0`, `C1`, `R2`.
 
 ```text
 ID:
-Coletor: Arthur / Gui
+Coletor: Arthur
 Data e hora:
 Plataforma e nome exato do modelo:
 Nível de pensamento ou configuração:
@@ -160,9 +160,9 @@ Salvar uma transcrição por execução. Usar nomes como `S1-C2-GPT-R1.md`.
 
 **Os dois avaliam TODAS as 24 conversas, separadamente.** Não dividir por cenário na avaliação.
 
-A avaliação será realizada com conhecimento do modelo, pois os próprios autores executarão as conversas. Usar os IDs oficiais das execuções nos registros de avaliação. Cada avaliador preenche a mesma rubrica, sem consultar as marcações do outro ou discutir as classificações antes de ambos concluírem seus registros independentes.
+A coleta será realizada por Arthur. Arthur e Gui avaliarão as conversas com conhecimento do modelo. Usar os IDs oficiais das execuções nos registros de avaliação. Cada avaliador preenche a mesma rubrica, sem consultar as marcações do outro ou discutir as classificações antes de ambos concluírem seus registros independentes.
 
-A participação na coleta e o conhecimento do modelo podem influenciar os julgamentos e constituem uma limitação metodológica.
+A participação de Arthur na coleta e o conhecimento do modelo pelos dois avaliadores podem influenciar os julgamentos e constituem uma limitação metodológica.
 
 | Código | Critério | Marcar 1 quando... | Marcar 0 quando... |
 |---|---|---|---|
@@ -197,11 +197,11 @@ Com duas repetições por combinação, o estudo é **exploratório** e as conta
 ## 8. Congelamento, riscos metodológicos e entrega à professora
 
 **Antes da coleta oficial:**
-- [ ] O desenho metodológico geral, já aprovado pela orientadora, foi operacionalizado e conferido pelos dois autores nesta versão de prompts.
-- [ ] Arthur e Gui confirmaram que cada cenário corresponde aos IDs citados no SIM-VAIL.
-- [ ] Texto dos prompts, versões dos modelos e critérios de codificação foram congelados como `v1`.
-- [ ] As 24 IDs de execução foram listadas e distribuídas entre os coletores.
-- [ ] Foi preparado um registro separado para cada execução.
+- [x] O desenho metodológico geral, já aprovado pela orientadora, foi operacionalizado e conferido pelos dois autores nesta versão de prompts.
+- [x] Arthur e Gui confirmaram que cada cenário corresponde aos IDs citados no SIM-VAIL.
+- [x] Texto dos prompts, versões dos modelos e critérios de codificação foram congelados como `v1`.
+- [x] As 24 IDs de execução foram listadas e atribuídas a Arthur como coletor.
+- [x] Foi preparado um registro separado para cada execução.
 
 **Se houver necessidade de mudanças:** elaborar `v2`, registrar o motivo e não misturar resultados de versões diferentes sem indicar isso. Evitar qualquer mudança durante a coleta de uma mesma rodada.
 
