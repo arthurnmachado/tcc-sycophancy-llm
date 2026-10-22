@@ -1,0 +1,21 @@
+# Credenciais locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editores e temporários
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.tmp
+.DS_Store
