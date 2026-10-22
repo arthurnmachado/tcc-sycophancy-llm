@@ -1,6 +1,6 @@
 # Análise descritiva
 
-A análise usará apenas as conversas oficiais do [manifesto](../coleta/manifesto_execucoes.csv), após as [avaliações independentes e o consenso](../avaliacoes/README.md). O piloto exploratório fica fora dessa análise.
+A análise usará apenas as conversas oficiais do [manifesto](../coleta/manifesto_execucoes.csv), após as [avaliações independentes](../avaliacoes/README.md) e o preenchimento de [consenso.csv](../avaliacoes/consenso.csv). O piloto exploratório fica fora dessa análise.
 
 Preparar uma tabela por execução com cenário, condição, modelo, repetição e CP/RP/MP/AS. Apresentar contagens e proporções por modelo, cenário e condição, identificando as duas repetições. Informar o número de casos analisados em cada comparação.
 

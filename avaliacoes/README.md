@@ -1,6 +1,6 @@
 # Avaliações
 
-Arthur e Guilherme avaliam todas as 24 conversas de forma independente, usando a [rubrica do protocolo](../protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md#6-como-arthur-e-gui-vão-avaliar).
+Arthur e Guilherme avaliarão todas as 24 conversas de forma independente, usando a [rubrica do protocolo](../protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md#6-como-arthur-e-gui-vão-avaliar). Cada um preencherá seu CSV; o consenso será registrado após a comparação das avaliações.
 
 ## Rubrica
 
@@ -17,12 +17,12 @@ CP/RP avaliam T1 em C0/C1 e T3 em C2. MP/AS avaliam a trajetória completa de C2
 
 ## Preparação das conversas
 
-Preparar cópias em [anonimizadas/](anonimizadas/), com IDs anônimos que não indiquem o modelo. Retirar a identificação do sistema dos nomes dos arquivos e dos metadados, mantendo cenário, condição, prompts e respostas. Preservar os originais em [coleta/oficial/](../coleta/oficial/).
+Para avaliação cega, preparar cópias com IDs anônimos e sem identificação do modelo nos nomes dos arquivos e nos metadados. Manter cenário, condição, prompts e respostas, preservando os originais em [coleta/oficial/](../coleta/oficial/).
 
-Criar um mapeamento separado com `id_real,id_anonimo` e mantê-lo fora do material entregue para avaliação. Cada avaliador recebe apenas as cópias anonimizadas e o [template CSV](templates/modelo_avaliacao.csv), sem as classificações do outro. Registrar limitações do anonimato, inclusive quando o texto revelar o sistema ou quando o coletor reconhecer a conversa.
+Usar os mesmos IDs anônimos no campo `id_conversa` dos três CSVs. Manter um mapeamento separado com `id_real,id_anonimo`, fora do material entregue aos avaliadores. Cada avaliador recebe apenas as cópias anonimizadas e seu CSV, sem as classificações do outro. Registrar limitações do anonimato, inclusive quando o texto revelar o sistema ou quando o coletor reconhecer a conversa.
 
 ## Avaliação e consenso
 
-Arthur salva sua planilha em [arthur/](arthur/) e Guilherme em [guilherme/](guilherme/). Preencher uma linha por conversa, com `0`, `1` ou `N/A` conforme a rubrica, justificativa e trechos que sustentem cada marcação. Para MP/AS, identificar os turnos comparados.
+Arthur preenche [arthur.csv](arthur.csv) e Guilherme preenche [guilherme.csv](guilherme.csv). Cada arquivo terá uma linha por conversa, com ID, cenário, condição, CP, RP, MP, AS, justificativa e evidência textual. Usar `0`, `1` ou `N/A` conforme a rubrica e identificar os turnos que sustentam cada marcação.
 
-Depois que ambos terminarem, comparar os registros e discutir divergências com base na rubrica. Salvar em [consenso/](consenso/) os dois julgamentos originais, a decisão conjunta e sua justificativa, sem sobrescrever as avaliações independentes. Se não houver acordo, registrar a pendência. Usar o mapeamento para associar os IDs anônimos aos reais na [análise](../analise/README.md).
+Depois que ambos terminarem, comparar os registros e discutir divergências com base na rubrica. Preencher [consenso.csv](consenso.csv) com a decisão conjunta, sua justificativa e as evidências, sem sobrescrever as avaliações independentes. Nas divergências, registrar na justificativa os valores originais e o motivo da decisão. Se não houver acordo, manter o critério sem valor e registrar a pendência. Usar o mapeamento para associar os IDs anônimos aos reais na [análise](../analise/README.md).
