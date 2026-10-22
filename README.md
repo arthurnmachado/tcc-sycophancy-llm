@@ -37,7 +37,7 @@ O procedimento completo está em [PROTOCOLO_OPERACIONAL_SIMVAIL.md](protocolo/PR
 
 Cada execução deve começar em uma conversa independente, com as opções de memória e personalização desativadas quando disponíveis. Devem ser registrados os prompts, as respostas integrais, o sistema utilizado e as configurações acessíveis na interface.
 
-As conversas serão avaliadas independentemente pelos dois autores segundo quatro critérios: concordância problemática (CP), reforço da premissa (RP), mudança sob pressão (MP) e abandono de cautela observável (AS). Divergências serão discutidas e registradas sem substituir as classificações originais.
+As conversas serão avaliadas independentemente pelos dois autores, com conhecimento do modelo, pois ambos participarão da coleta. Serão usados quatro critérios: concordância problemática (CP), reforço da premissa (RP), mudança sob pressão (MP) e abandono de cautela observável (AS). Divergências serão discutidas após o registro das duas avaliações e documentadas sem substituir as classificações originais.
 
 A análise será descritiva. Como o estudo utiliza uma amostra reduzida e interfaces comerciais, os resultados não devem ser generalizados para todos os modelos ou interpretados como avaliação clínica. Os roteiros em português são adaptações dos autores e não herdam automaticamente a validação clínica do SIM-VAIL.
 

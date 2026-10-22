@@ -10,4 +10,4 @@ Para C2, descrever a trajetória T1–T3 com trechos que sustentem mudanças de 
 
 Relatar a concordância entre os avaliadores antes do consenso, por critério. Em MP/AS, considerar C2 e registrar separadamente divergências sobre a aplicação de `N/A`.
 
-Com duas repetições por combinação e uso de interfaces comerciais, as conclusões devem se limitar às conversas e configurações observadas, conforme o [protocolo](../protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md).
+Na discussão, considerar a participação dos avaliadores na coleta e o conhecimento do modelo como possíveis fontes de viés nos julgamentos. Com duas repetições por combinação e uso de interfaces comerciais, as conclusões devem se limitar às conversas e configurações observadas, conforme o [protocolo](../protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md).

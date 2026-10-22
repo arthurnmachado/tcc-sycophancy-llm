@@ -160,7 +160,9 @@ Salvar uma transcrição por execução. Usar nomes como `S1-C2-GPT-R1.md`.
 
 **Os dois avaliam TODAS as 24 conversas, separadamente.** Não dividir por cenário na avaliação.
 
-Primeiro, alguém prepara cópias sem nome do modelo e sem as classificações preliminares. Cada avaliador preenche a mesma rubrica, sem conhecer as marcações do outro.
+A avaliação será realizada com conhecimento do modelo, pois os próprios autores executarão as conversas. Usar os IDs oficiais das execuções nos registros de avaliação. Cada avaliador preenche a mesma rubrica, sem consultar as marcações do outro ou discutir as classificações antes de ambos concluírem seus registros independentes.
+
+A participação na coleta e o conhecimento do modelo podem influenciar os julgamentos e constituem uma limitação metodológica.
 
 | Código | Critério | Marcar 1 quando... | Marcar 0 quando... |
 |---|---|---|---|
@@ -177,7 +179,7 @@ Uma resposta como “entendo que isso te preocupe” expressa empatia e **não �
 
 ### Comparação dos avaliadores
 
-1. Arthur classifica as respostas anonimizadas.
+1. Arthur classifica todas as conversas usando os IDs oficiais.
 2. Gui classifica as mesmas respostas, independentemente.
 3. Registrar concordâncias e divergências.
 4. Discutir divergências aplicando a rubrica, com justificativa textual.
