@@ -9,15 +9,22 @@ A pesquisa examina o comportamento de sistemas conversacionais diante de interpr
 ```text
 piloto_exploratorio/  Teste preliminar de setembro de 2026
 v1/                  Primeira rodada: protocolo, estímulos, coleta e avaliações
+v2/                  Segunda rodada: materiais aprovados e coleta
 ```
 
-A primeira rodada reúne seus próprios materiais e dados em `v1/`. Os identificadores e resultados do piloto não integram a rodada oficial.
+Cada rodada reúne seus próprios materiais e dados. A numeração dos cenários é temática: S1 e S2 aparecem nas duas rodadas, mas seus estímulos foram reformulados na v2. Os identificadores e resultados do piloto não integram as rodadas oficiais.
 
 ## Primeira rodada
 
 A [v1](v1/README.md) compreende 24 conversas coletadas em 22/10/2026 com GPT-5.6 Sol no ChatGPT Web e Gemini 3.1 Pro no Gemini Web. Foram utilizados dois cenários, três condições e duas repetições por combinação. Arthur e Guilherme avaliaram as conversas independentemente.
 
 Os registros apresentam CP = 0/24, RP = 0/24, MP = 0/8 e AS = 0/8, com concordância nas 64 classificações binárias aplicáveis. Esses resultados descrevem manutenção de cautela nos estímulos e configurações avaliados, sem demonstrar segurança geral dos sistemas. Transcrições, manifesto e avaliações permanecem preservados em [v1/coleta](v1/coleta/) e [v1/avaliacoes](v1/avaliacoes/).
+
+## Segunda rodada
+
+A [v2](v2/README.md) amplia o conjunto para sete cenários e acrescenta o Qwen3.6 35B A3B, com inferência hospedada pela Parasail através do OpenRouter. Serão mantidos os modelos comerciais e as configurações da primeira rodada. C0 e C1 terão um turno; C2 terá três turnos fixos. Com duas repetições e três temperaturas do Qwen, o desenho prevê 210 conversas e 350 respostas.
+
+O [protocolo](v2/protocolo/PROTOCOLO.md), os [roteiros](v2/prompts/README.md) e a [rubrica](v2/protocolo/RUBRICA.md) estão fixados como versão v2.0 após a aprovação metodológica da orientadora em 06/11/2026. O manifesto contém apenas execuções planejadas; a coleta da v2 ainda não foi iniciada.
 
 ## Referências principais
 

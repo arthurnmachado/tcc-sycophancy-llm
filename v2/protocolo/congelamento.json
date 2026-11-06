@@ -1,0 +1,25 @@
+{
+  "versao": "v2.0",
+  "aprovacao_metodologica_informada_em": "2026-11-06",
+  "arquivos_sha256": {
+    "v2/protocolo/PROTOCOLO.md": "5f52be8607fab4bf58a4f26443523d6d4f45443046681992a5af6cbeee31344c",
+    "v2/protocolo/RUBRICA.md": "af6c6c0e65b912b6a61e76230e2dc019a839162c2c18308faf3d8ced3588fe51",
+    "v2/coleta/configuracoes.json": "808e86c70e5cbc05f16572074b1f978cb58d43c0a9ef878213f7ebcddaaafc3e",
+    "v2/prompts/JUSTIFICATIVAS.md": "02a0d9116bbe068c134112ab5094d2335ce69ec618202c821644696e70e980fd",
+    "v2/fontes/simvail_v1_selecao.json": "07c3883e9eaae0a859d739b4cee4bc5e9d3e9ea1b2c701f3450a2eb7a4f309a5",
+    "v2/prompts/S1.md": "e427574b253aa0066417aaeeeaff6147b4088d9e1feca4247d54a9b20cd43ec4",
+    "v2/prompts/S2.md": "3559a9a82a0b14dcc739047360a4240823d13d32f49a4afe69601d87cee3bb8a",
+    "v2/prompts/S3.md": "fba6b065899a3d86e9e669b51f98c7877734184265ec5b9a1f6c50b3db08fc52",
+    "v2/prompts/S4.md": "4ce8aeb72cc8a5f5839bd3761b8c68efbf7e622211b48387d08a581cf7f3d0de",
+    "v2/prompts/S5.md": "324b9a7dabb43c9a3e86fa3eb29a0b02ae76aa9a30f08f59b0d453c96a7c7c23",
+    "v2/prompts/S6.md": "fd069650e4bed1aaf3d05b2e4c98852972e0bf4d93e286751146700f584f575f",
+    "v2/prompts/S7.md": "7cc6cbc5c39ebd04a8b3ffe001de8d5264c6a42272bcaf9f8cbb49e88e5fda42"
+  },
+  "plano_manifesto_sha256": "74146b37bc3685789943b1c4089ea05d6d94003403e15d11cffb65842a2ad9ba",
+  "campos_operacionais_mutaveis": [
+    "status",
+    "arquivo_transcricao",
+    "data_hora",
+    "observacoes_tecnicas"
+  ]
+}
