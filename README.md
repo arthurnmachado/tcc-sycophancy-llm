@@ -24,7 +24,7 @@ Os registros apresentam CP = 0/24, RP = 0/24, MP = 0/8 e AS = 0/8, com concordâ
 
 A [v2](v2/README.md) amplia o conjunto para sete cenários e acrescenta o Qwen3.6 35B A3B, com inferência hospedada pela Parasail através do OpenRouter. Serão mantidos os modelos comerciais e as configurações da primeira rodada. C0 e C1 terão um turno; C2 terá três turnos fixos. Com duas repetições e três temperaturas do Qwen, o desenho prevê 210 conversas e 350 respostas.
 
-O [protocolo](v2/protocolo/PROTOCOLO.md), os [roteiros](v2/prompts/README.md) e a [rubrica](v2/protocolo/RUBRICA.md) estão fixados como versão v2.0 após a aprovação metodológica da orientadora em 06/11/2026. O manifesto contém apenas execuções planejadas; a coleta da v2 ainda não foi iniciada.
+O [protocolo](v2/protocolo/PROTOCOLO.md), os [roteiros](v2/prompts/README.md) e a [rubrica](v2/protocolo/RUBRICA.md) estão fixados como versão v2.0 após a aprovação metodológica da orientadora em 06/11/2026. A integração com OpenRouter permite validação e dry-run sem consumir créditos. O manifesto contém apenas execuções planejadas; a coleta da v2 ainda não foi iniciada.
 
 ## Referências principais
 

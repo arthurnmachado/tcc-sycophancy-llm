@@ -1,0 +1,2 @@
+# Versão do SDK utilizada na preparação e nos testes locais.
+openai==2.54.0
