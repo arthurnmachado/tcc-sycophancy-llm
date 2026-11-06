@@ -1,48 +1,26 @@
-# Análise de Vulnerabilidades em LLMs: Sycophancy e Falhas de Alinhamento em Contextos de Saúde Mental
+# Sycophancy e falhas de alinhamento em contextos de saúde mental
 
-Repositório do Trabalho de Conclusão de Curso de Arthur Nagase Machado e Guilherme Aquino do Nascimento, desenvolvido na Universidade Federal de Mato Grosso do Sul (UFMS).
+Repositório do Trabalho de Conclusão de Curso de Arthur Nagase Machado e Guilherme Aquino do Nascimento, do curso de Engenharia de Computação da Universidade Federal de Mato Grosso do Sul.
 
-## Objetivo
+A pesquisa examina o comportamento de sistemas conversacionais diante de interpretações, preferências e intenções apresentadas em interações sintéticas em português. Os cenários são adaptações autorais de instruções públicas do SIM-VAIL. O estudo não envolve participantes humanos ou dados clínicos reais e não avalia eficácia terapêutica.
 
-Investigar a ocorrência de *sycophancy* em sistemas conversacionais baseados em grandes modelos de linguagem (LLMs), com foco na concordância com premissas insuficientemente fundamentadas e na mudança de posicionamento diante da insistência do usuário em contextos sensíveis de saúde mental.
-
-A pesquisa utiliza interações sintéticas em português. Não envolve pacientes, dados clínicos reais ou avaliação da eficácia terapêutica dos sistemas.
-
-## Procedimento experimental
-
-O estudo prevê dois sistemas (GPT-5.6 Sol no ChatGPT Web e Gemini 3.1 Pro no Gemini Web), dois cenários e três condições de interação:
-
-- C0: apresentação neutra da situação, sem pedido explícito de concordância;
-- C1: apresentação de uma conclusão seguida de pedido de validação;
-- C2: mesma mensagem inicial de C1, seguida de duas contestações previamente definidas.
-
-Serão realizadas duas execuções independentes por combinação, totalizando 24 conversas. Os prompts serão mantidos inalterados durante a coleta. O [teste exploratório de 30/09/2026](coleta/piloto_exploratorio/) é mantido separadamente e não integra os resultados oficiais.
-
-Os cenários foram adaptados pelos autores a partir de instruções públicas do SIM-VAIL: `PSYCHOSIS_A_belief_validation` (S1) e `INSECURE_ATTACHMENT_D_dependence_anthropomorphism` (S2). A organização das condições de concordância e pressão progressiva foi fundamentada em Sharma et al. (2023) e Kim et al. (2026).
-
-## Organização do repositório
+## Organização
 
 ```text
-protocolo/        Protocolo de execução e critérios de avaliação
-prompts/          Roteiros dos cenários e justificativas
-coleta/           Transcrições, metadados e registro das execuções
-avaliacoes/       Classificações independentes e consenso dos autores
-analise/          Dados consolidados e análises descritivas
-tcc/             Arquivos do trabalho acadêmico, quando incluídos
+piloto_exploratorio/  Teste preliminar de setembro de 2026
+v1/                  Primeira rodada: protocolo, estímulos, coleta e avaliações
 ```
 
-O procedimento completo está em [PROTOCOLO_OPERACIONAL_SIMVAIL.md](protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md). A origem e a justificativa dos estímulos constam em [JUSTIFICATIVAS.md](prompts/JUSTIFICATIVAS.md).
+A primeira rodada reúne seus próprios materiais e dados em `v1/`. Os identificadores e resultados do piloto não integram a rodada oficial.
 
-## Coleta e avaliação
+## Primeira rodada
 
-Arthur será o responsável pela coleta. Cada execução deve começar em uma conversa independente, com as opções de memória e personalização desativadas quando disponíveis. Os dois sistemas usarão nível de pensamento Médio. Devem ser registrados os prompts, as respostas integrais, o sistema utilizado e as configurações acessíveis na interface.
+A [v1](v1/README.md) compreende 24 conversas coletadas em 22/10/2026 com GPT-5.6 Sol no ChatGPT Web e Gemini 3.1 Pro no Gemini Web. Foram utilizados dois cenários, três condições e duas repetições por combinação. Arthur e Guilherme avaliaram as conversas independentemente.
 
-As conversas serão avaliadas independentemente por Arthur e Guilherme, com conhecimento do modelo. Serão usados quatro critérios: concordância problemática (CP), reforço da premissa (RP), mudança sob pressão (MP) e abandono de cautela observável (AS). Divergências serão discutidas após o registro das duas avaliações e documentadas sem substituir as classificações originais.
+Os registros apresentam CP = 0/24, RP = 0/24, MP = 0/8 e AS = 0/8, com concordância nas 64 classificações binárias aplicáveis. Esses resultados descrevem manutenção de cautela nos estímulos e configurações avaliados, sem demonstrar segurança geral dos sistemas. Transcrições, manifesto e avaliações permanecem preservados em [v1/coleta](v1/coleta/) e [v1/avaliacoes](v1/avaliacoes/).
 
-A análise será descritiva. Como o estudo utiliza uma amostra reduzida e interfaces comerciais, os resultados não devem ser generalizados para todos os modelos ou interpretados como avaliação clínica. Os roteiros em português são adaptações dos autores e não herdam automaticamente a validação clínica do SIM-VAIL.
+## Referências principais
 
-## Referências
-
-- Weilnhammer et al. (2026). *A clinically validated framework for auditing AI chatbot behavior in mental health interactions*. [Nature Medicine](https://doi.org/10.1038/s41591-026-04577-2) | [SIM-VAIL](https://github.com/veithweilnhammer/sim-vail).
-- Sharma et al. (2023). *Towards Understanding Sycophancy in Language Models*. [Artigo](https://arxiv.org/abs/2310.13548) | [SycophancyEval](https://github.com/meg-tong/sycophancy-eval).
-- Kim et al. (2026). *The Doctor Will Agree With You Now: Sycophancy of Large Language Models in Multi-Turn Medical Conversations*. [ACL Anthology](https://aclanthology.org/2026.healing-1.2/).
+- Weilnhammer et al. (2026). *A clinically validated framework for auditing AI chatbot behavior in mental health interactions*. [Artigo](https://doi.org/10.1038/s41591-026-04577-2) e [repositório SIM-VAIL](https://github.com/veithweilnhammer/sim-vail).
+- Sharma et al. (2023). *Towards Understanding Sycophancy in Language Models*. [Artigo](https://arxiv.org/abs/2310.13548).
+- Kim et al. (2026). *The Doctor Will Agree With You Now: Sycophancy of Large Language Models in Multi-Turn Medical Conversations*. [Artigo](https://aclanthology.org/2026.healing-1.2/).

@@ -2,7 +2,7 @@
 
 Este documento prepara a seção Experimentos, dedicada à origem e à escolha dos estímulos. Metodologia, Resultados e Discussão serão seções distintas do TCC.
 
-Os roteiros seguem o [protocolo operacional](../protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md) e adaptam duas instruções públicas do [SIM-VAIL v1](https://github.com/veithweilnhammer/sim-vail/blob/main/repro/petri_overrides/src/petri/tasks/v1/auditor_instruction_labels_v1.json). São textos autorais em português, sem validação clínica própria, e não reproduzem a auditoria dinâmica do SIM-VAIL. As justificativas devem ser revisadas pelos autores antes do congelamento.
+Os roteiros seguem o [protocolo operacional](../protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md) e adaptam duas instruções públicas do [SIM-VAIL v1](https://github.com/veithweilnhammer/sim-vail/blob/main/repro/petri_overrides/src/petri/tasks/v1/auditor_instruction_labels_v1.json). São textos autorais em português, sem validação clínica própria, e não reproduzem a auditoria dinâmica do SIM-VAIL. A coleta da v1 foi concluída em 22/10/2026; este documento preserva a origem, as justificativas e as limitações dos estímulos utilizados.
 
 A estrutura de contestação tem como referências o teste `are_you_sure` do [SycophancyEval, de Sharma et al. (2023)](https://github.com/meg-tong/sycophancy-eval), e a pressão crescente em conversas médicas de [Kim et al. (2026)](https://aclanthology.org/2026.healing-1.2/). Esses trabalhos fundamentam a observação da resposta à insistência; os prompts deste TCC não foram copiados dos artigos.
 

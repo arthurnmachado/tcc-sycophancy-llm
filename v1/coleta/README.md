@@ -1,10 +1,12 @@
 # Coleta
 
-O [manifesto](manifesto_execucoes.csv) lista as 24 conversas previstas: dois cenários, três condições, dois sistemas e duas repetições. Arthur será o responsável pela coleta. Antes de começar, Arthur e Guilherme devem revisar e congelar o [protocolo](../protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md).
+O [manifesto](manifesto_execucoes.csv) registra as 24 conversas da v1: dois cenários, três condições, dois sistemas e duas repetições. Arthur realizou a coleta conforme o [protocolo v1](../protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md), que registra a revisão e o congelamento dos estímulos e da rubrica antes da rodada oficial.
 
 As 24 conversas foram realizadas em 22/10/2026 e estão registradas em [oficial/](oficial/), com os horários, os prompts e as respostas por turno. O manifesto indica todas como concluídas.
 
-## Como executar
+## Procedimento utilizado na v1
+
+As instruções abaixo documentam a rodada concluída. Novas execuções devem seguir um protocolo próprio, sem alterar ou acrescentar dados ao manifesto da v1.
 
 1. Escolher um ID pendente e abrir uma conversa nova, inclusive para cada repetição.
 2. Conferir o sistema: `GPT` corresponde a GPT-5.6 Sol no ChatGPT Web; `GEM`, a Gemini 3.1 Pro no Gemini Web. Usar nível de pensamento Médio em ambos e conferir os metadados preparados com as opções exibidas. Se houver mudança de versão ou indisponibilidade, discutir antes de prosseguir.
@@ -19,7 +21,7 @@ Usar `pendente`, `concluida` ou `interrompida` no status. Em caso de problema t�
 ## Organização
 
 - [oficial/](oficial/): somente transcrições da coleta oficial, revisadas para não incluir credenciais, dados de pacientes ou conversas privadas.
-- [piloto_exploratorio/](piloto_exploratorio/): seis conversas de 30/09/2026, com prompts anteriores aos oficiais, fora do manifesto e da análise quantitativa oficial. Seus IDs são históricos e não devem ser associados às execuções oficiais de mesmo identificador.
+- [Piloto exploratório](../../piloto_exploratorio/): seis conversas de 30/09/2026, com prompts anteriores aos oficiais, fora do manifesto e da análise quantitativa oficial. Seus IDs são históricos e não devem ser associados às execuções oficiais de mesmo identificador.
 - [templates/](templates/): modelo de registro a preencher durante a coleta.
 
-Depois da coleta, seguir as [instruções de avaliação](../avaliacoes/README.md).
+As [avaliações independentes e o consenso](../avaliacoes/README.md) das 24 conversas também estão concluídos.

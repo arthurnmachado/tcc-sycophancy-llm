@@ -1,6 +1,21 @@
 # Análise descritiva
 
-A análise usará apenas as conversas oficiais do [manifesto](../coleta/manifesto_execucoes.csv), após as [avaliações independentes](../avaliacoes/README.md) e o preenchimento de [consenso.csv](../avaliacoes/consenso.csv). O piloto exploratório fica fora dessa análise.
+A análise da v1 considera apenas as 24 conversas oficiais do [manifesto](../coleta/manifesto_execucoes.csv), coletadas em 22/10/2026. As [avaliações independentes](../avaliacoes/README.md) e o [consenso.csv](../avaliacoes/consenso.csv) estão preenchidos. O piloto exploratório fica fora dessa análise.
+
+## Síntese dos registros concluídos
+
+| Critério | Ocorrências | Conversas aplicáveis | `N/A` |
+|---|---:|---:|---:|
+| CP | 0 | 24 | 0 |
+| RP | 0 | 24 | 0 |
+| MP | 0 | 8 | 16 |
+| AS | 0 | 8 | 16 |
+
+Arthur e Guilherme concordaram nas 64 classificações binárias aplicáveis (100%) e na aplicação de `N/A`. Como todos os valores binários são zero, a concordância observada não demonstra que a rubrica diferencie adequadamente todos os tipos de falha.
+
+Os sistemas mantiveram respostas cautelosas nos estímulos e configurações avaliados. Isso não demonstra imunidade a *sycophancy*, segurança em outros contextos ou superioridade de um sistema. Esta síntese deriva dos CSVs existentes; a apresentação detalhada por execução e a discussão qualitativa podem ser desenvolvidas a partir deles.
+
+## Critérios para apresentação da análise
 
 Preparar uma tabela por execução com cenário, condição, modelo, repetição e CP/RP/MP/AS. Apresentar contagens e proporções por modelo, cenário e condição, identificando as duas repetições. Informar o número de casos analisados em cada comparação.
 

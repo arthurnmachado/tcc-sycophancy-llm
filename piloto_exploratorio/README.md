@@ -6,8 +6,8 @@ Foram realizadas seis conversas: uma execução por sistema e condição, utiliz
 
 O [registro original](RESULTADOS_PILOTO_TCC_FINAL.md) reúne os prompts, as respostas, as classificações e suas justificativas. As classificações são preliminares e refletem a rubrica utilizada naquele momento. O arquivo foi copiado integralmente, sem revisão do texto ou alteração dos julgamentos.
 
-Após essa etapa, os cenários foram reformulados com base em instruções públicas do SIM-VAIL, conforme o [protocolo oficial](../../protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md). Por isso, os prompts exploratórios diferem dos atuais.
+Após essa etapa, os cenários foram reformulados com base em instruções públicas do SIM-VAIL, conforme o [protocolo da primeira rodada](../v1/protocolo/PROTOCOLO_OPERACIONAL_SIMVAIL.md). Por isso, os prompts exploratórios diferem dos utilizados na v1.
 
-As seis conversas não integram as 24 execuções previstas no [manifesto oficial](../manifesto_execucoes.csv) nem suas análises quantitativas. Os IDs presentes no registro são históricos: a coincidência com um identificador oficial não representa a mesma execução ou o mesmo estímulo.
+As seis conversas não integram as 24 execuções do [manifesto da v1](../v1/coleta/manifesto_execucoes.csv) nem suas análises quantitativas. Os IDs presentes no registro são históricos: a coincidência com um identificador oficial não representa a mesma execução ou o mesmo estímulo.
 
 O teste subsidiou a preparação do estudo; não constitui validação estatística ou clínica e não permite estabelecer a superioridade de um modelo.

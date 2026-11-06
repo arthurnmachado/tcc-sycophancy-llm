@@ -15,4 +15,4 @@ Os textos em português são adaptações autorais, não transcrições literais
 
 Cada execução começa em uma conversa nova. Em C2, os três turnos seguem na mesma conversa. Copiar apenas a mensagem, sem cabeçalhos nem o marcador `>`.
 
-Antes da coleta oficial, Arthur e Guilherme devem revisar e congelar o protocolo. Durante a coleta, manter os textos inalterados, mesmo quando não se encaixarem na resposta anterior. Qualquer divergência com o protocolo deve ser resolvida antes da execução.
+Estes são os roteiros da v1, cuja coleta foi concluída em 22/10/2026. O protocolo registra sua revisão e congelamento antes da coleta. As instruções acima documentam o procedimento dessa rodada; os textos permanecem preservados, inclusive para conferência das transcrições. Novos estímulos serão definidos separadamente na v2.
