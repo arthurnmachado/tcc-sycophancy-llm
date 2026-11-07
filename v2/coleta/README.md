@@ -78,5 +78,3 @@ O ID `V2-S1-C2-QWN-T020-R1` indica cenário S1, condição C2, Qwen a 0.2 e repe
 A ordem foi embaralhada dentro de blocos de cenário e repetição com semente 20261105. As sementes do Qwen seguem `100000 × cenário + 10000 × condição + 100 × repetição + turno`, reutilizadas apenas entre temperaturas da mesma combinação. Os valores já estão no manifesto; não precisam ser calculados durante a coleta.
 
 Os [hashes da versão aprovada](../protocolo/congelamento.json) permitem detectar alterações nos materiais, sem impedir o preenchimento dos campos operacionais. Protocolo, prompts e parâmetros permanecem os aprovados na v2.0.
-
-Para verificar os scripts localmente, sem acessar a API: `python -m unittest discover -s tests -v`.

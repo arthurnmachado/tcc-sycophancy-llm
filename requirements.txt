@@ -1,2 +1,2 @@
-# Versão do SDK utilizada na preparação e nos testes locais.
+# SDK utilizado na coleta pela API do OpenRouter.
 openai==2.54.0
