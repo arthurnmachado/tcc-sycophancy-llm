@@ -1,5 +1,6 @@
 """Verificações locais da coleta. O transporte simulado não acessa a internet."""
 
+import csv
 import io
 import json
 import os
@@ -42,9 +43,37 @@ class Preparacao(unittest.TestCase):
             alteracao.start()
             self.addCleanup(alteracao.stop)
         self.experimentos, configuracoes = materiais.conferir_materiais()
+        # Limpar apenas a cópia temporária: os testes não dependem do avanço da coleta real.
+        for pasta in ('logs_api', 'transcricoes'):
+            for caminho in (materiais.COLETA / pasta).glob('*QWN*'):
+                caminho.unlink()
+        for e in self.experimentos:
+            if e['modelo_codigo'] == 'QWN':
+                e.update(status='pendente', data_hora='', observacoes_tecnicas='',
+                         arquivo_transcricao=f"transcricoes/{e['id']}-A01.md")
+        self.gravar_manifesto()
         self.experimento = next(e for e in self.experimentos if e['id'] == ID)
         self.qwen = configuracoes['sistemas']['QWN']
         self.turnos = materiais.ler_turnos('S1', 'C2')
+
+    def gravar_manifesto(self):
+        with materiais.MANIFESTO.open('w', encoding='utf-8', newline='') as arquivo:
+            escritor = csv.DictWriter(arquivo, fieldnames=self.experimentos[0].keys())
+            escritor.writeheader()
+            escritor.writerows(self.experimentos)
+
+    def preparar_fila(self):
+        # Simular só três conversas restantes para testar a fila inteira sem chamadas reais.
+        for e in self.experimentos:
+            if e['modelo_codigo'] == 'QWN':
+                e['status'] = 'concluida'
+        primeiras = sorted([e for e in self.experimentos if e['modelo_codigo'] == 'QWN'
+                            and e['condicao'] == 'C0'], key=lambda e: int(e['ordem']))[:4]
+        self.ja_concluida = primeiras[0]
+        self.fila = primeiras[1:]
+        for e in self.fila:
+            e['status'] = 'pendente'
+        self.gravar_manifesto()
 
 
 class TestesMateriais(Preparacao):
@@ -73,10 +102,22 @@ class TestesMateriais(Preparacao):
         depois = {p: p.read_bytes() for p in self.raiz.rglob('*') if p.is_file()}
         self.assertEqual(antes, depois)
 
+    def test_simulacao_da_fila_pula_concluidas_sem_escrever(self):
+        self.preparar_fila()
+        antes = {p: p.read_bytes() for p in self.raiz.rglob('*') if p.is_file()}
+        saida = io.StringIO()
+        with patch.dict(os.environ, {}, clear=True), patch('sys.argv', ['coletar_qwen.py', '--pendentes']):
+            with redirect_stdout(saida):
+                self.assertEqual(coleta.main(), 0)
+        self.assertNotIn(self.ja_concluida['id'], saida.getvalue())
+        for e in self.fila:
+            self.assertIn(e['id'], saida.getvalue())
+        self.assertEqual(antes, {p: p.read_bytes() for p in self.raiz.rglob('*') if p.is_file()})
+
 
 @unittest.skipIf(OpenAI is None, 'Instale requirements.txt para os testes com SDK.')
 class TestesAPI(Preparacao):
-    def executar(self, respostas, nova_tentativa=False):
+    def executar(self, respostas, nova_tentativa=False, em_fila=False):
         self.pedidos = []
         def responder(requisicao):
             self.pedidos.append(json.loads(requisicao.content))
@@ -86,6 +127,10 @@ class TestesAPI(Preparacao):
             return httpx.Response(200, json=resposta, headers={'x-request-id': 'teste-local'})
         with OpenAI(api_key='chave-ficticia', base_url=self.qwen['base_url'], max_retries=0,
                     http_client=httpx.Client(transport=httpx.MockTransport(responder))) as cliente:
+            if em_fila:
+                with patch('openai.OpenAI', return_value=cliente), patch.dict(os.environ, {'OPENROUTER_API_KEY': 'chave-ficticia'}):
+                    with patch('sys.argv', ['coletar_qwen.py', '--pendentes', '--executar']), redirect_stdout(io.StringIO()):
+                        return coleta.main()
             return coleta.coletar(self.experimento, self.experimentos, self.qwen,
                                   self.turnos, cliente, nova_tentativa)
 
@@ -142,6 +187,26 @@ class TestesAPI(Preparacao):
         self.turnos = materiais.ler_turnos('S1', 'C0')
         resultado = self.executar([self.resposta('Não posso apoiar essa decisão.')])
         self.assertEqual(resultado['status'], 'concluida')
+
+    def test_fila_respeita_ordem_e_pula_concluidas(self):
+        self.preparar_fila()
+        self.assertEqual(self.executar([self.resposta() for _ in self.fila], em_fila=True), 0)
+        esperados = [(int(e['seed_t1']), self.qwen['configuracoes'][e['configuracao']]['temperature']) for e in self.fila]
+        self.assertEqual([(p['seed'], p['temperature']) for p in self.pedidos], esperados)
+        self.assertTrue(all(len(p['messages']) == 1 for p in self.pedidos))
+        registros, _ = materiais.conferir_materiais()
+        self.assertTrue(all(e['status'] == 'concluida' for e in registros if e['modelo_codigo'] == 'QWN'))
+
+    def test_fila_para_no_erro_sem_repetir_ou_pular_a_falha(self):
+        self.preparar_fila()
+        self.assertEqual(self.executar([self.resposta(), httpx.ReadTimeout('falha simulada')], em_fila=True), 1)
+        self.assertEqual(len(self.pedidos), 2)
+        registros, _ = materiais.conferir_materiais()
+        status = {e['id']: e['status'] for e in registros}
+        self.assertEqual([status[e['id']] for e in self.fila], ['concluida', 'interrompida', 'pendente'])
+        with self.assertRaises(ValueError):
+            self.executar([], em_fila=True)
+        self.assertEqual(self.pedidos, [])
 
 
 if __name__ == '__main__':

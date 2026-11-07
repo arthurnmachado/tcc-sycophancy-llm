@@ -1,4 +1,4 @@
-"""Coleta uma conversa do Qwen. Sem --executar, apenas mostra o planejamento."""
+"""Coleta uma conversa ou a fila do Qwen. Sem --executar, apenas mostra o planejamento."""
 
 import argparse
 import csv
@@ -138,28 +138,42 @@ def coletar(experimento, experimentos, qwen, turnos, cliente, nova_tentativa=Fal
 
 def main():
     argumentos = argparse.ArgumentParser(description=__doc__)
-    argumentos.add_argument('--id', required=True, help='ID da conversa no manifesto.')
+    selecao = argumentos.add_mutually_exclusive_group(required=True)
+    selecao.add_argument('--id', help='ID de uma conversa no manifesto.')
+    selecao.add_argument('--pendentes', action='store_true', help='Executa a fila na ordem do manifesto.')
     argumentos.add_argument('--executar', action='store_true', help='Faz chamadas reais, com consumo de créditos.')
     argumentos.add_argument('--nova-tentativa', action='store_true', help='Reinicia desde T1 e preserva a tentativa anterior.')
     opcoes = argumentos.parse_args()
+    if opcoes.nova_tentativa and (opcoes.pendentes or not opcoes.executar):
+        raise ValueError('--nova-tentativa exige --id e --executar.')
 
-    # 1. Conferir os materiais e selecionar uma única conversa do manifesto.
+    # 1. Escolher uma conversa ou todas as não concluídas, na ordem já planejada.
     experimentos, configuracoes = conferir_materiais()
-    experimento = next((e for e in experimentos if e['id'] == opcoes.id), None)
-    if experimento is None or experimento['modelo_codigo'] != 'QWN':
-        raise ValueError('Escolha um ID QWN do manifesto. ChatGPT e Gemini são coletados manualmente.')
-    turnos = ler_turnos(experimento['cenario'], experimento['condicao'])
+    if opcoes.pendentes:
+        fila = sorted([e for e in experimentos if e['modelo_codigo'] == 'QWN'
+                       and e['status'] != 'concluida'], key=lambda e: int(e['ordem']))
+    else:
+        fila = [e for e in experimentos if e['id'] == opcoes.id and e['modelo_codigo'] == 'QWN']
+        if not fila:
+            raise ValueError('Escolha um ID QWN do manifesto. ChatGPT e Gemini são coletados manualmente.')
+    if not fila:
+        print('Todas as conversas do Qwen já foram concluídas.')
+        return 0
     qwen = configuracoes['sistemas']['QWN']
 
     # 2. Sem --executar, mostrar o plano e encerrar sem chave, rede ou novos arquivos.
-    print(f"{experimento['id']} | {len(turnos)} turno(s)")
-    print(json.dumps(montar_pedido(experimento, qwen, [{'role': 'user', 'content': turnos[0]}], 1),
-                     ensure_ascii=False, indent=2))
-    for numero, texto in enumerate(turnos[1:], 2):
-        print(f"T{numero} (seed {experimento[f'seed_t{numero}']}): {texto}")
     if not opcoes.executar:
-        if opcoes.nova_tentativa:
-            raise ValueError('--nova-tentativa exige --executar.')
+        chamadas = 0
+        for posicao, experimento in enumerate(fila, 1):
+            turnos = ler_turnos(experimento['cenario'], experimento['condicao'])
+            chamadas += len(turnos)
+            print(f"[{posicao}/{len(fila)}] {experimento['id']} | {len(turnos)} turno(s) | {experimento['status']}")
+            if not opcoes.pendentes:
+                print(json.dumps(montar_pedido(experimento, qwen, [{'role': 'user', 'content': turnos[0]}], 1),
+                                 ensure_ascii=False, indent=2))
+                for numero, texto in enumerate(turnos[1:], 2):
+                    print(f"T{numero} (seed {experimento[f'seed_t{numero}']}): {texto}")
+        print(f'{len(fila)} conversa(s), {chamadas} chamada(s) previstas se não houver interrupções.')
         print('Somente conferência. Nenhuma chamada realizada.')
         return 0
 
@@ -169,9 +183,17 @@ def main():
     if not chave:
         raise ValueError('Defina OPENROUTER_API_KEY no ambiente local.')
     with OpenAI(base_url=qwen['base_url'], api_key=chave, max_retries=0, timeout=300) as cliente:
-        resultado = coletar(experimento, experimentos, qwen, turnos, cliente, opcoes.nova_tentativa)
-    print(f"{resultado['tentativa']}: {resultado['status']}")
-    return 0 if resultado['status'] == 'concluida' else 1
+        # Uma conversa por vez. coletar() começa cada histórico vazio e salva a cada turno.
+        for posicao, experimento in enumerate(fila, 1):
+            print(f"[{posicao}/{len(fila)}] {experimento['id']}", flush=True)
+            turnos = ler_turnos(experimento['cenario'], experimento['condicao'])
+            resultado = coletar(experimento, experimentos, qwen, turnos, cliente, opcoes.nova_tentativa)
+            print(f"{resultado['tentativa']}: {resultado['status']}", flush=True)
+            if resultado['status'] != 'concluida':
+                print('Coleta parada. Consulte o log antes de decidir sobre uma nova tentativa.')
+                return 1
+    print('Coleta concluída.')
+    return 0
 
 
 if __name__ == '__main__':
