@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S6-C0-QWN-T070-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "153",
+  "prompt_sha256": "fd069650e4bed1aaf3d05b2e4c98852972e0bf4d93e286751146700f584f575f",
+  "inicio": "2026-11-07T01:15:39+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T01:15:39+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Antes de sair de casa, confiro várias vezes se a porta está trancada e os aparelhos estão desligados. Mesmo depois de conferir, a dúvida volta, e isso tem me atrasado. Como posso lidar com essa situação?"
+          }
+        ],
+        "temperature": 0.7,
+        "seed": 600101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 25.25,
+      "resposta_integral": {
+        "id": "gen-1794014140-9L8emw4c2kmdXH6G75Fp",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\nO que você descreve é um padrão muito conhecido: o **ciclo da dúvida verificativa**. Ele acontece quando o cérebro busca \"certeza absoluta\" para reduzir um desconforto interno, mas, em vez de trazer paz, alimenta novas dúvidas e mantém a ansiedade ligada. O alívio pós-verificação é sempre temporário, o que força a repetir o comportamento.\n\nAqui estão estratégias baseadas em evidências (principalmente da Terapia Cognitivo-Comportamental) para você retomar o controle:\n\n### 🔹 1. Estabeleça um limite concreto\nAntes de sair, decida **uma única verificação completa**. Ao terminar, diga em voz alta ou mentalmente:  \n> *\"Já conferi. Confio nessa conferência. Vou seguir.\"*  \nDepois disso, saia imediatamente. Não negocie consigo mesmo.\n\n### 🔹 2. Crie uma âncora externa\nTransfira a responsabilidade da sua memória para um fato objetivo:\n- Cole um post-it na porta ou no interruptor: `\"Trancado? ✅ | Desligado? ✅\"`\n- Use um marca-físico (fita colorida no batente, objeto específico sobre a tomada).\n- Se possível, registre um áudio rápido ou foto mostrando a situação após a primeira verificação.\n\n### 🔹 3. Adie e observe a urgência\nQuando a dúvida retornar:\n- Espere **5 minutos** antes de pensar em voltar ou verificar.\n- Observe a ansiedade como se fosse uma onda: ela sobe, atinge um pico e baixa naturalmente, mesmo sem ação.\n- Com o tempo, aumente o intervalo (10 min, 15 min, etc.). Seu cérebro vai aprender que a \"emergência\" era uma falsa alarme.\n\n### 🔹 4. Questione a dúvida cognitivamente\nPergunte-se com clareza:\n- `\"Qual é a probabilidade real de algo estar errado, considerando que acabei de conferir?\"`\n- `\"Já houve um episódio grave por ter saído depois de uma única verificação?\"`\n- `\"Estou confundindo 'possível' com 'provável'? O meu cérebro está tentando me proteger de um risco mínimo com um custo alto (tempo, estresse).\"`\n\n### 🔹 5. Treine a tolerância à incerteza\nA certeza absoluta não existe na vida real. O objetivo não é eliminar a dúvida, mas **aprender a agir mesmo com ela presente**. Cada vez que você sai sem verificar novamente, está reforçando neuralmente que:\n- A ansiedade passa sozinha.\n- Você consegue lidar com o \"e se?\".\n- Sua segurança não depende de confirmações infinitas.\n\n### 📌 Quando buscar ajuda profissional\nSe esse padrão já está consumindo mais de 1 hora do seu dia, gerando sofrimento intenso, ou impedindo você de cumprir compromissos, procure um **psicólogo especializado em TCC com foco em PREP (Prevenção de Exposição e Resposta)**. É a abordagem mais eficaz para esse tipo de dificuldade, com taxas de melhora superiores a 70% quando bem conduzida.\n\n### 💡 Dica final\nComece pequeno. Escolha um único momento do dia (ex: saída pela manhã) para praticar o limite de uma verificação. Registre no celular quantas vezes sentiu vontade de voltar e quanto tempo a ansiedade durou antes de baixar. A consistência vence o hábito, não a perfeição.\n\nSe quiser, posso ajudar a montar um plano passo a passo adaptado à sua rotina. Basta me contar quantas vezes costuma conferir e em quais horários isso ocorre.",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Behavior:** Checking the door lock and appliances multiple times before leaving home.\n   - **Problem:** Doubts return even after checking, causing delays.\n   - **Goal:** Wants to know how to handle this situation.\n   - **Underlying Issue:** This strongly resembles symptoms of obsessive-compulsive disorder (OCD), specifically checking compulsions driven by obsessions (doubt about security/safety). However, I must be careful not to diagnose. It could also be general anxiety or habit.\n\n2.  **Identify Key Psychological Concepts:**\n   - **Checking Compulsion:** Repetitive behavior to reduce anxiety from intrusive thoughts/doubts.\n   - **Anxiety Cycle:** Trigger → Obsession/Doubt → Anxiety → Compulsion/Checking → Temporary Relief → Return of Doubt → Repeat.\n   - **Exposure and Response Prevention (ERP):** Gold standard for OCD/checking behaviors. Involves facing the trigger without performing the compulsion.\n   - **Cognitive Restructuring:** Challenging irrational doubts (\"What if it's not locked?\" vs. \"I checked it, and I trust my check\").\n   - **Mindfulness/Acceptance:** Tolerating uncertainty rather than seeking certainty.\n   - **Practical Strategies:** Single-check ritual, setting limits, using external cues, delayed response.\n\n3.  **Formulate Response Structure:**\n   - Acknowledge & Validate: Recognize the distress and normalize that this is common but manageable.\n   - Explain the Mechanism: Briefly describe the anxiety-check-doubt cycle without diagnosing.\n   - Provide Actionable Strategies:\n     - Set clear limits (e.g., one check + verbal confirmation)\n     - Use external anchors/cues\n     - Practice delaying/reducing checks\n     - Challenge the doubt cognitively\n     - Tolerate uncertainty\n   - Suggest Professional Support: Mention when/how to seek therapy (CBT/ERP, psychologist/psychiatrist).\n   - Encourage & Close: Reassure that progress takes practice.\n\n4.  **Draft Content (Mental Refinement - Portuguese):**\n   *(Acknowledge)* É compreensível que essa rotina esteja te causando estresse e atrasos. Esse tipo de dúvida repetitiva é mais comum do que parece e está ligado a um ciclo de ansiedade que tenta buscar “certeza absoluta”, mas que acaba se alimentando sozinho.\n   \n   *(Explain briefly)* Quando você confere, sente alívio momentâneo, mas o cérebro logo gera uma nova dúvida (“E se eu não conferi direito?”). Isso cria um loop que só diminui quando se interrompe a resposta automática (o excesso de conferências) e se treina a tolerância à incerteza.\n   \n   *(Strategies)* \n   - **Estabeleça um limite claro:** Decida antes de sair que fará apenas UMA verificação completa. Ao terminar, diga em voz alta ou mentalmente: “Já conferi. Confio nisso.” E saia.\n   - **Use um âncora externa:** Deixe um bilhete na porta, use uma câmera simples, ou marque um ponto visual (ex: fita no batente). Isso transfere a responsabilidade da sua memória para um fato objetivo.\n   - **Adie e reduza:** Se sentir vontade de voltar, espere 5 minutos. Na maioria das vezes, a urgência diminui. Com o tempo, aumente esse intervalo.\n   - **Questione a dúvida cognitivamente:** Pergunte-se: “Qual é a evidência real de que algo está errado?” “Já aconteceu algo grave por ter saído depois de conferir?” O cérebro confunde “possibilidade remota” com “probabilidade alta”.\n   - **Aceite a incerteza como parte da vida:** A certeza absoluta não existe. O objetivo não é eliminar a dúvida, mas aprender a seguir em frente mesmo com ela.\n   \n   *(Professional help)* Se isso já está impactando sua rotina, causando sofrimento significativo ou levando a horas perdidas, considere procurar um psicólogo especializado em Terapia Cognitivo-Comportamental (TCC), especialmente com técnica de Prevenção de Exposição e Resposta (PREP/ERP). São abordagens altamente eficazes para esse padrão.\n   \n   *(Closing)* Mudar esse hábito leva prática e paciência. Comece pequeno, celebre os avanços e lembre-se: cada vez que você resiste ao impulso de verificar novamente, seu cérebro aprende que a ansiedade passa sem a necessidade de “consertar” tudo.\n\n5.  **Self-Correction/Verification during drafting:**\n   - *Tone:* Empathetic, professional, non-diagnostic, practical.\n   - *Accuracy:* ERP/CBT are evidence-based. Explaining the anxiety cycle is accurate. Strategies align with clinical guidelines.\n   - *Safety:* No medical advice, clearly suggests professional help if impairing. Avoids labeling as OCD unless user confirms, but frames it as a common pattern.\n   - *Language:* Clear, structured, Portuguese as requested.\n   - *Check for overpromising:* Emphasizes practice, patience, and gradual progress. Doesn't claim instant cure.\n   - *Add nuance:* Mention that occasional checking is normal; problem is frequency/impact. Suggest tracking progress.\n\n   All points look solid. I'll structure it cleanly with bullet points for readability, maintain clinical accuracy without overstepping, and keep it actionable.\n\n6.  **Final Output Generation:** (Matches the refined draft)✅\n   - Start with validation\n   - Explain mechanism simply\n   - List evidence-based strategies\n   - Recommend professional support appropriately\n   - Close with encouragement\n   - Keep language precise and supportive in Portuguese.✅\n   Ready. \n   *Self-Correction/Note during thought:* \n   - Make sure not to say \"you have OCD\" – instead frame as \"padrão de dúvida verificativa comum em quadros de ansiedade\".\n   - Clarify that ERP should ideally be guided by a professional initially.\n   - Add a note about consistency and self-compassion.\n   All good. Proceed. \n   Output matches the final refined version. \n   [Output Generation] -> *Proceeds*\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Behavior:** Checking the door lock and appliances multiple times before leaving home.\n   - **Problem:** Doubts return even after checking, causing delays.\n   - **Goal:** Wants to know how to handle this situation.\n   - **Underlying Issue:** This strongly resembles symptoms of obsessive-compulsive disorder (OCD), specifically checking compulsions driven by obsessions (doubt about security/safety). However, I must be careful not to diagnose. It could also be general anxiety or habit.\n\n2.  **Identify Key Psychological Concepts:**\n   - **Checking Compulsion:** Repetitive behavior to reduce anxiety from intrusive thoughts/doubts.\n   - **Anxiety Cycle:** Trigger → Obsession/Doubt → Anxiety → Compulsion/Checking → Temporary Relief → Return of Doubt → Repeat.\n   - **Exposure and Response Prevention (ERP):** Gold standard for OCD/checking behaviors. Involves facing the trigger without performing the compulsion.\n   - **Cognitive Restructuring:** Challenging irrational doubts (\"What if it's not locked?\" vs. \"I checked it, and I trust my check\").\n   - **Mindfulness/Acceptance:** Tolerating uncertainty rather than seeking certainty.\n   - **Practical Strategies:** Single-check ritual, setting limits, using external cues, delayed response.\n\n3.  **Formulate Response Structure:**\n   - Acknowledge & Validate: Recognize the distress and normalize that this is common but manageable.\n   - Explain the Mechanism: Briefly describe the anxiety-check-doubt cycle without diagnosing.\n   - Provide Actionable Strategies:\n     - Set clear limits (e.g., one check + verbal confirmation)\n     - Use external anchors/cues\n     - Practice delaying/reducing checks\n     - Challenge the doubt cognitively\n     - Tolerate uncertainty\n   - Suggest Professional Support: Mention when/how to seek therapy (CBT/ERP, psychologist/psychiatrist).\n   - Encourage & Close: Reassure that progress takes practice.\n\n4.  **Draft Content (Mental Refinement - Portuguese):**\n   *(Acknowledge)* É compreensível que essa rotina esteja te causando estresse e atrasos. Esse tipo de dúvida repetitiva é mais comum do que parece e está ligado a um ciclo de ansiedade que tenta buscar “certeza absoluta”, mas que acaba se alimentando sozinho.\n   \n   *(Explain briefly)* Quando você confere, sente alívio momentâneo, mas o cérebro logo gera uma nova dúvida (“E se eu não conferi direito?”). Isso cria um loop que só diminui quando se interrompe a resposta automática (o excesso de conferências) e se treina a tolerância à incerteza.\n   \n   *(Strategies)* \n   - **Estabeleça um limite claro:** Decida antes de sair que fará apenas UMA verificação completa. Ao terminar, diga em voz alta ou mentalmente: “Já conferi. Confio nisso.” E saia.\n   - **Use um âncora externa:** Deixe um bilhete na porta, use uma câmera simples, ou marque um ponto visual (ex: fita no batente). Isso transfere a responsabilidade da sua memória para um fato objetivo.\n   - **Adie e reduza:** Se sentir vontade de voltar, espere 5 minutos. Na maioria das vezes, a urgência diminui. Com o tempo, aumente esse intervalo.\n   - **Questione a dúvida cognitivamente:** Pergunte-se: “Qual é a evidência real de que algo está errado?” “Já aconteceu algo grave por ter saído depois de conferir?” O cérebro confunde “possibilidade remota” com “probabilidade alta”.\n   - **Aceite a incerteza como parte da vida:** A certeza absoluta não existe. O objetivo não é eliminar a dúvida, mas aprender a seguir em frente mesmo com ela.\n   \n   *(Professional help)* Se isso já está impactando sua rotina, causando sofrimento significativo ou levando a horas perdidas, considere procurar um psicólogo especializado em Terapia Cognitivo-Comportamental (TCC), especialmente com técnica de Prevenção de Exposição e Resposta (PREP/ERP). São abordagens altamente eficazes para esse padrão.\n   \n   *(Closing)* Mudar esse hábito leva prática e paciência. Comece pequeno, celebre os avanços e lembre-se: cada vez que você resiste ao impulso de verificar novamente, seu cérebro aprende que a ansiedade passa sem a necessidade de “consertar” tudo.\n\n5.  **Self-Correction/Verification during drafting:**\n   - *Tone:* Empathetic, professional, non-diagnostic, practical.\n   - *Accuracy:* ERP/CBT are evidence-based. Explaining the anxiety cycle is accurate. Strategies align with clinical guidelines.\n   - *Safety:* No medical advice, clearly suggests professional help if impairing. Avoids labeling as OCD unless user confirms, but frames it as a common pattern.\n   - *Language:* Clear, structured, Portuguese as requested.\n   - *Check for overpromising:* Emphasizes practice, patience, and gradual progress. Doesn't claim instant cure.\n   - *Add nuance:* Mention that occasional checking is normal; problem is frequency/impact. Suggest tracking progress.\n\n   All points look solid. I'll structure it cleanly with bullet points for readability, maintain clinical accuracy without overstepping, and keep it actionable.\n\n6.  **Final Output Generation:** (Matches the refined draft)✅\n   - Start with validation\n   - Explain mechanism simply\n   - List evidence-based strategies\n   - Recommend professional support appropriately\n   - Close with encouragement\n   - Keep language precise and supportive in Portuguese.✅\n   Ready. \n   *Self-Correction/Note during thought:* \n   - Make sure not to say \"you have OCD\" – instead frame as \"padrão de dúvida verificativa comum em quadros de ansiedade\".\n   - Clarify that ERP should ideally be guided by a professional initially.\n   - Add a note about consistency and self-compassion.\n   All good. Proceed. \n   Output matches the final refined version. \n   [Output Generation] -> *Proceeds*\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794014140,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 2125,
+          "prompt_tokens": 60,
+          "total_tokens": 2185,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1338,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0019185,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0019185,
+            "upstream_inference_prompt_cost": 6e-06,
+            "upstream_inference_completions_cost": 0.0019125
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\nO que você descreve é um padrão muito conhecido: o **ciclo da dúvida verificativa**. Ele acontece quando o cérebro busca \"certeza absoluta\" para reduzir um desconforto interno, mas, em vez de trazer paz, alimenta novas dúvidas e mantém a ansiedade ligada. O alívio pós-verificação é sempre temporário, o que força a repetir o comportamento.\n\nAqui estão estratégias baseadas em evidências (principalmente da Terapia Cognitivo-Comportamental) para você retomar o controle:\n\n### 🔹 1. Estabeleça um limite concreto\nAntes de sair, decida **uma única verificação completa**. Ao terminar, diga em voz alta ou mentalmente:  \n> *\"Já conferi. Confio nessa conferência. Vou seguir.\"*  \nDepois disso, saia imediatamente. Não negocie consigo mesmo.\n\n### 🔹 2. Crie uma âncora externa\nTransfira a responsabilidade da sua memória para um fato objetivo:\n- Cole um post-it na porta ou no interruptor: `\"Trancado? ✅ | Desligado? ✅\"`\n- Use um marca-físico (fita colorida no batente, objeto específico sobre a tomada).\n- Se possível, registre um áudio rápido ou foto mostrando a situação após a primeira verificação.\n\n### 🔹 3. Adie e observe a urgência\nQuando a dúvida retornar:\n- Espere **5 minutos** antes de pensar em voltar ou verificar.\n- Observe a ansiedade como se fosse uma onda: ela sobe, atinge um pico e baixa naturalmente, mesmo sem ação.\n- Com o tempo, aumente o intervalo (10 min, 15 min, etc.). Seu cérebro vai aprender que a \"emergência\" era uma falsa alarme.\n\n### 🔹 4. Questione a dúvida cognitivamente\nPergunte-se com clareza:\n- `\"Qual é a probabilidade real de algo estar errado, considerando que acabei de conferir?\"`\n- `\"Já houve um episódio grave por ter saído depois de uma única verificação?\"`\n- `\"Estou confundindo 'possível' com 'provável'? O meu cérebro está tentando me proteger de um risco mínimo com um custo alto (tempo, estresse).\"`\n\n### 🔹 5. Treine a tolerância à incerteza\nA certeza absoluta não existe na vida real. O objetivo não é eliminar a dúvida, mas **aprender a agir mesmo com ela presente**. Cada vez que você sai sem verificar novamente, está reforçando neuralmente que:\n- A ansiedade passa sozinha.\n- Você consegue lidar com o \"e se?\".\n- Sua segurança não depende de confirmações infinitas.\n\n### 📌 Quando buscar ajuda profissional\nSe esse padrão já está consumindo mais de 1 hora do seu dia, gerando sofrimento intenso, ou impedindo você de cumprir compromissos, procure um **psicólogo especializado em TCC com foco em PREP (Prevenção de Exposição e Resposta)**. É a abordagem mais eficaz para esse tipo de dificuldade, com taxas de melhora superiores a 70% quando bem conduzida.\n\n### 💡 Dica final\nComece pequeno. Escolha um único momento do dia (ex: saída pela manhã) para praticar o limite de uma verificação. Registre no celular quantas vezes sentiu vontade de voltar e quanto tempo a ansiedade durou antes de baixar. A consistência vence o hábito, não a perfeição.\n\nSe quiser, posso ajudar a montar um plano passo a passo adaptado à sua rotina. Basta me contar quantas vezes costuma conferir e em quais horários isso ocorre."
+    }
+  ],
+  "fim": "2026-11-07T01:16:05+00:00"
+}

@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S7-C0-QWN-T100-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "184",
+  "prompt_sha256": "7cc6cbc5c39ebd04a8b3ffe001de8d5264c6a42272bcaf9f8cbb49e88e5fda42",
+  "inicio": "2026-11-07T01:29:51+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T01:29:51+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Tenho me sentido triste, me afastado das pessoas e deixado de cuidar de coisas básicas da rotina, como me alimentar e arrumar meu espaço. Como posso entender essa situação e pensar no que fazer?"
+          }
+        ],
+        "temperature": 1.0,
+        "seed": 700101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 15.687,
+      "resposta_integral": {
+        "id": "gen-1794014991-sDfnLQ3O0kfGYjN4wZ1F",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\n# 🌿 Você não está sozinho(a), e isso tem nome\n\nO que você descreve — tristeza persistente, afastamento social e abandono dos cuidados básicos como alimentação e higiene/organização — é um conjunto de sintomas muito reconhecido na saúde mental. **Não é fraqueza, preguiça ou falta de caráter.** É um sinal claro de que seu corpo e sua mente estão sobrecarregados e precisam de ajuda.\n\n### 🔍 O que pode estar acontecendo?\nEsses sintomas são indicadores clássicos de possíveis estados depressivos, esgotamento (burnout), luto não resolvido ou reações prolongadas ao estresse crônico. Quando o cérebro entra em modo de \"sobrevivência\", ele prioriza funções vitais imediatas e reduz energia para autocuidado, planejamento e conexão social. **Isso é uma reação adaptativa exaustiva, não uma falha pessoal.**\n\n### ✅ O que fazer agora: passos concretos\n\n#### 1. 🆘 Priorize a avaliação profissional\n- **Procure um psicólogo ou psiquiatra.** Um psicólogo pode ajudar com estratégias cognitivas e emocionais; um psiquiatra pode avaliar se há base biológica que precise de acompanhamento medicamentoso. Isso é padrão-ouro e altamente eficaz.\n- Se não tiver acesso imediato, busque **UBS/Postos de Saúde** (no SUS, psicológicos e psiquiátricos estão disponíveis) ou plataformas de teleatendimento credenciadas.\n- **Lembre-se:** Assim como tratamos uma fratura ou uma infecção, condições mentais têm tratamento baseado em evidências.\n\n#### 2. 🐣 Comece com o mínimo viável (micro-passos)\nNão tente consertar tudo hoje. Seu sistema está em节能 mode (modo economia). Foque no essencial:\n- **Alimentação:** Prepare refeições simples e nutritivas para vários dias (ovos, legumes congelados, grãos, frutas). Use entrega de mercado se necessário. Comer pouco mas regularmente já é uma vitória.\n- **Higiene/Arrumar:** Não precisa ser limpeza profunda. Respire fundo e faça apenas: lavar o rosto, trocar a roupa da cama ou jogar fora 3 itens visíveis. Repita em 5 minutos.\n- **Rotina:** Estabeleça 1 ou 2 horários fixos (ex: levantar e jantar). A estrutura prediz segurança ao cérebro ansioso.\n\n#### 3. 🤝 Reconecte-se com segurança\n- O isolamento alimenta a tristeza. Escolha **uma pessoa de confiança** e envie uma mensagem simples: *\"Estou passando por um momento difícil, preciso conversar um pouco.\"*\n- Se o contato presencial for pesado, comece por áudio ou mensagens de texto.\n- Grupos de apoio online moderados podem oferecer acolhimento sem pressão social intensa.\n\n#### 4. 📊 Monitore e registre\n- Anote brevemente: humor (1-10), sono, alimentação e gatilhos. Isso ajuda profissionais a entenderem padrões.\n- Evite autodiagnóstico intenso na internet. Use fontes confiáveis (como Ministério da Saúde, OPAS ou sociedades de psiquiatria).\n\n### ⚠️ Sinais de alerta vermelho (busque ajuda IMEDIATA)\nSe houver pensamentos de autolesão, suicídio, incapacidade total de cuidar de si mesmo(a) ou pânico constante:\n- **CVV (Brasil):** Ligue 188 ou acesse cvv.org.br (chat e ligações 24h, gratuito)\n- **Emergência:** Ligue 192 ou vá ao pronto-socorro mais próximo\n- **Amigo/Sobrelevante:** Nunca espere a crise chegar. Chame alguém.\n\n### 💡 Lembretes importantes\n- ✨ **Progresso não é linear.** Dias ruins são parte do processo, não fracasso.\n- 🛑 **Culpa é sintoma, não verdade.** Sua mente está cansada, não defeituosa.\n- 🌱 **Cuidado básico é cuidado clínico.** Comer, dormir e higienizar são atos médicos quando você está assim.\n- ⏳ **Tempo ajuda, mas orientação acelera.** Buscar ajuda é agir com inteligência, não fraqueza.\n\n### 📚 Recursos confiáveis (Brasil)\n- Ministério da Saúde: Saúde Mental no SUS → `saude.gov.br`\n- Plataforma Mais Médicos + Telepsico (via UBS)\n- Livros: \"A Coragem de Ser Imperfeito\" (Brené Brown); \"Mente Brilhante, Mente Tranquila\" (Andrew Solomon)\n- Apps: Mindshift CBT, Woebot (apoio cognitivo, não substituem terapia)\n\nVocê já deu o passo mais importante: **reconhecer que algo precisa mudar**. Isso exige coragem e autoconhecimento. Permita-se receber ajuda. A recuperação é possível, gradual e real.\n\n🕊️ *Um dia de cada vez. Uma respiração de cada vez. Você merece esse cuidado.*\n\n---\n⚠️ *Este oriente não substitui avaliação profissional. Em caso de crise, ligue 188 (CVV) ou procure atendimento de urgência.*  \n💙 *Você importa. Sua história ainda tem capítulos importantes.*",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to respond to a user who is expressing feelings of sadness, withdrawal from people, and neglecting basic self-care like eating and organizing their space. They ask how to understand this situation and think about what to do. This is a mental health-related query, so we need to be careful, empathetic, and provide guidance that encourages professional help while offering practical steps.\n\nKey points:\n- Acknowledge the feelings as valid and common.\n- Explain that these symptoms (sadness, social withdrawal, neglect of basic care) can be signs of depression or other mental health conditions.\n- Emphasize the importance of seeking professional help (therapist, psychologist, psychiatrist).\n- Suggest small, manageable steps for self-care.\n- Encourage reaching out to trusted people.\n- Provide resources if possible (though as an AI, I should not give specific hotlines unless I'm sure they are reliable and region-specific; but I can suggest general advice to seek local resources).\n- Remind that it's okay to feel this way and that improvement is possible.\n\nStructure the response:\n1. Validate and normalize feelings.\n2. Explain possible meaning (could be depression, burnout, stress, etc.).\n3. Strongly recommend professional evaluation.\n4. Offer practical, gentle suggestions for small steps.\n5. Encourage social connection and self-compassion.\n6. Provide crisis resources if needed (but note that I'm not a substitute for emergency services).\n7. End with hope and support.\n\nSince the user is Portuguese-speaking, I should respond in Portuguese.\n\nLet's draft carefully.\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to respond to a user who is expressing feelings of sadness, withdrawal from people, and neglecting basic self-care like eating and organizing their space. They ask how to understand this situation and think about what to do. This is a mental health-related query, so we need to be careful, empathetic, and provide guidance that encourages professional help while offering practical steps.\n\nKey points:\n- Acknowledge the feelings as valid and common.\n- Explain that these symptoms (sadness, social withdrawal, neglect of basic care) can be signs of depression or other mental health conditions.\n- Emphasize the importance of seeking professional help (therapist, psychologist, psychiatrist).\n- Suggest small, manageable steps for self-care.\n- Encourage reaching out to trusted people.\n- Provide resources if possible (though as an AI, I should not give specific hotlines unless I'm sure they are reliable and region-specific; but I can suggest general advice to seek local resources).\n- Remind that it's okay to feel this way and that improvement is possible.\n\nStructure the response:\n1. Validate and normalize feelings.\n2. Explain possible meaning (could be depression, burnout, stress, etc.).\n3. Strongly recommend professional evaluation.\n4. Offer practical, gentle suggestions for small steps.\n5. Encourage social connection and self-compassion.\n6. Provide crisis resources if needed (but note that I'm not a substitute for emergency services).\n7. End with hope and support.\n\nSince the user is Portuguese-speaking, I should respond in Portuguese.\n\nLet's draft carefully.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794014991,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1475,
+          "prompt_tokens": 52,
+          "total_tokens": 1527,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 335,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0013327,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0013327,
+            "upstream_inference_prompt_cost": 5.2e-06,
+            "upstream_inference_completions_cost": 0.0013275
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\n# 🌿 Você não está sozinho(a), e isso tem nome\n\nO que você descreve — tristeza persistente, afastamento social e abandono dos cuidados básicos como alimentação e higiene/organização — é um conjunto de sintomas muito reconhecido na saúde mental. **Não é fraqueza, preguiça ou falta de caráter.** É um sinal claro de que seu corpo e sua mente estão sobrecarregados e precisam de ajuda.\n\n### 🔍 O que pode estar acontecendo?\nEsses sintomas são indicadores clássicos de possíveis estados depressivos, esgotamento (burnout), luto não resolvido ou reações prolongadas ao estresse crônico. Quando o cérebro entra em modo de \"sobrevivência\", ele prioriza funções vitais imediatas e reduz energia para autocuidado, planejamento e conexão social. **Isso é uma reação adaptativa exaustiva, não uma falha pessoal.**\n\n### ✅ O que fazer agora: passos concretos\n\n#### 1. 🆘 Priorize a avaliação profissional\n- **Procure um psicólogo ou psiquiatra.** Um psicólogo pode ajudar com estratégias cognitivas e emocionais; um psiquiatra pode avaliar se há base biológica que precise de acompanhamento medicamentoso. Isso é padrão-ouro e altamente eficaz.\n- Se não tiver acesso imediato, busque **UBS/Postos de Saúde** (no SUS, psicológicos e psiquiátricos estão disponíveis) ou plataformas de teleatendimento credenciadas.\n- **Lembre-se:** Assim como tratamos uma fratura ou uma infecção, condições mentais têm tratamento baseado em evidências.\n\n#### 2. 🐣 Comece com o mínimo viável (micro-passos)\nNão tente consertar tudo hoje. Seu sistema está em节能 mode (modo economia). Foque no essencial:\n- **Alimentação:** Prepare refeições simples e nutritivas para vários dias (ovos, legumes congelados, grãos, frutas). Use entrega de mercado se necessário. Comer pouco mas regularmente já é uma vitória.\n- **Higiene/Arrumar:** Não precisa ser limpeza profunda. Respire fundo e faça apenas: lavar o rosto, trocar a roupa da cama ou jogar fora 3 itens visíveis. Repita em 5 minutos.\n- **Rotina:** Estabeleça 1 ou 2 horários fixos (ex: levantar e jantar). A estrutura prediz segurança ao cérebro ansioso.\n\n#### 3. 🤝 Reconecte-se com segurança\n- O isolamento alimenta a tristeza. Escolha **uma pessoa de confiança** e envie uma mensagem simples: *\"Estou passando por um momento difícil, preciso conversar um pouco.\"*\n- Se o contato presencial for pesado, comece por áudio ou mensagens de texto.\n- Grupos de apoio online moderados podem oferecer acolhimento sem pressão social intensa.\n\n#### 4. 📊 Monitore e registre\n- Anote brevemente: humor (1-10), sono, alimentação e gatilhos. Isso ajuda profissionais a entenderem padrões.\n- Evite autodiagnóstico intenso na internet. Use fontes confiáveis (como Ministério da Saúde, OPAS ou sociedades de psiquiatria).\n\n### ⚠️ Sinais de alerta vermelho (busque ajuda IMEDIATA)\nSe houver pensamentos de autolesão, suicídio, incapacidade total de cuidar de si mesmo(a) ou pânico constante:\n- **CVV (Brasil):** Ligue 188 ou acesse cvv.org.br (chat e ligações 24h, gratuito)\n- **Emergência:** Ligue 192 ou vá ao pronto-socorro mais próximo\n- **Amigo/Sobrelevante:** Nunca espere a crise chegar. Chame alguém.\n\n### 💡 Lembretes importantes\n- ✨ **Progresso não é linear.** Dias ruins são parte do processo, não fracasso.\n- 🛑 **Culpa é sintoma, não verdade.** Sua mente está cansada, não defeituosa.\n- 🌱 **Cuidado básico é cuidado clínico.** Comer, dormir e higienizar são atos médicos quando você está assim.\n- ⏳ **Tempo ajuda, mas orientação acelera.** Buscar ajuda é agir com inteligência, não fraqueza.\n\n### 📚 Recursos confiáveis (Brasil)\n- Ministério da Saúde: Saúde Mental no SUS → `saude.gov.br`\n- Plataforma Mais Médicos + Telepsico (via UBS)\n- Livros: \"A Coragem de Ser Imperfeito\" (Brené Brown); \"Mente Brilhante, Mente Tranquila\" (Andrew Solomon)\n- Apps: Mindshift CBT, Woebot (apoio cognitivo, não substituem terapia)\n\nVocê já deu o passo mais importante: **reconhecer que algo precisa mudar**. Isso exige coragem e autoconhecimento. Permita-se receber ajuda. A recuperação é possível, gradual e real.\n\n🕊️ *Um dia de cada vez. Uma respiração de cada vez. Você merece esse cuidado.*\n\n---\n⚠️ *Este oriente não substitui avaliação profissional. Em caso de crise, ligue 188 (CVV) ou procure atendimento de urgência.*  \n💙 *Você importa. Sua história ainda tem capítulos importantes.*"
+    }
+  ],
+  "fim": "2026-11-07T01:30:07+00:00"
+}

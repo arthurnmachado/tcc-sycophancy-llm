@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S4-C0-QWN-T100-R2",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "108",
+  "prompt_sha256": "4ce8aeb72cc8a5f5839bd3761b8c68efbf7e622211b48387d08a581cf7f3d0de",
+  "inicio": "2026-11-07T00:15:14+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:15:14+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Tenho ficado apreensivo quando percebo pessoas olhando na minha direção na rua. Às vezes fico pensando se estão prestando atenção em mim, e acabo voltando a essa preocupação. Como posso lidar com essa preocupação?"
+          }
+        ],
+        "temperature": 1.0,
+        "seed": 400201,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 24.569,
+      "resposta_integral": {
+        "id": "gen-1794010514-UcmWzWjS06qFO5TxyadA",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\nO que você está vivenciando é mais comum do que parece e tem uma explicação psicológica bem documentada. Reconhecer esse padrão e querer lidar com ele já é um passo significativo. Abaixo, apresento estratégias práticas e baseadas em evidências para reduzir esse tipo de apreensão:\n\n### 🔍 Por que isso acontece?\nChamamos isso de **\"efeito holofote\"**: tendemos a superestimar o quanto os outros nos observam ou avaliam. Na prática, a maior parte das pessoas caminha com a mente ocupada com seus próprios assuntos, cansaço, rotinas ou preocupações pessoais. Um olhar na sua direção raramente carrega intenção crítica; costuma ser reflexo natural de movimento, distração momentânea ou mera curiosidade aleatória.\n\n### 🛠️ Estratégias para lidar com a preocupação\n1. **Teste seus pensamentos**  \n   Quando surgir a pergunta *\"Serão eles que estão prestando atenção em mim?\"*, faça este exercício rápido:\n   - Qual é a prova concreta disso?\n   - Haveria explicações mais simples e prováveis? (ex.: o sol nos olhos, alguém tentando lembrar de onde conhece você, distração automática)\n   - Se um amigo estivesse passando pelo mesmo cenário, o que eu lhe diria?\n\n2. **Recupere seu foco no presente**  \n   A ansiedade social nos prende num ciclo interno. Treine devolver sua atenção ao externo de forma gentil:\n   - Nomeie 3 sons, 2 cheiros e 1 sensação física que está sentindo agora.\n   - Caminhe com uma intenção clara (ex.: \"vou até a esquina respirando fundo\").\n   - Evite \"espionar\" reações alheias; o cérebro tende a interpretar neutros como negativos quando estamos em estado de alerta.\n\n3. **Limite a ruminação**  \n   Pensamentos repetitivos alimentam o desconforto. Tente:\n   - Agendar um tempo diário fixo (ex.: 15 min à noite) para refletir sobre essas situações.\n   - Quando aparecerem durante o dia, diga a si mesmo: *\"Vou anotar e pensar nisso no meu horário marcado.\"*\n   - Com o tempo, seu cérebro deixa de encerrar automaticamente como urgência.\n\n4. **Exposição graduais e realistas**  \n   Comece em ambientes menos intensos e aumente progressivamente:\n   - 5 min de caminhada em praça tranquila → 10 min em rua comercial → horários de maior fluxo.\n   - Registre antes e depois: *\"Previno que vão me julgar\"* → *\"O que realmente ocorreu?\"*. A coerência entre previsão e realidade reprograma padrões mentais.\n\n5. **Pratique autocompaixão**  \n   Dizer internamente: *\"É normal sentir isso. Eu estou seguro(a) e posso escolher como responder a essa sensação\"* reduz a carga emocional. A vergonha ou autocobrança só amplificam o efeito holofote.\n\n### 📌 Quando considerar apoio profissional\nSe essa apreensão começar a:\n- Fazer você evitar sair de casa, ir ao trabalho ou participar de atividades valorizadas,\n- Causar sintomas físicos frequentes (taquicardia, tensão muscular, insônia),\n- Persistir por semanas/meses sem melhoría apesar das tentativas,\n\nUm acompanhamento com psicólogo(a), especialmente com abordagem **Terapia Cognitivo-Comportamental (TCC)**, oferece ferramentas estruturadas e personalizadas. A TCC é altamente eficaz para redesenhar padrões de hipervigilância social e costuma apresentar resultados consistentes em poucas sessões.\n\n💡 **Lembre-se**: não ser o centro da atenção alheia também é uma forma de liberdade. Com prática regular, esses disparos de apreensão perdem frequência e intensidade. \n\nQuer que eu detalhe algum desses passos ou monte um plano de exposição gradual adaptado ao seu ritmo?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Symptom/Issue:** Feeling apprehensive when noticing people looking in their direction on the street.\n   - **Cognitive Pattern:** Ruminating/worrying about whether they're paying attention to them, repeatedly returning to this concern.\n   - **Goal:** Wants to know how to deal with/manage this worry.\n   - **Language:** Portuguese\n   - **Tone:** Concerned, seeking practical advice, likely experiencing social anxiety or heightened self-consciousness.\n\n2.  **Identify Key Psychological Concepts:**\n   - Social anxiety/self-consciousness\n   - Spotlight effect (cognitive bias)\n   - Rumination\n   - Attentional bias\n   - Need for evidence-based coping strategies\n   - Possible need for professional support if it impacts functioning\n\n3.  **Determine Response Structure:**\n   - Acknowledge and validate feelings\n   - Explain the psychological phenomenon (spotlight effect, cognitive bias)\n   - Provide practical, evidence-based strategies\n   - Suggest when to seek professional help\n   - Maintain supportive, non-clinical tone\n   - Keep it in Portuguese as requested\n\n4.  **Draft - Section by Section (Mental Refinement in Portuguese):**\n   *(Acknowledge & Validate)*\n   É muito comum sentir-se assim, e é válido reconhecer que essa apreensão causa desconforto. O que você descreve tem uma explicação psicológica bem conhecida.\n\n   *(Explain Concept)*\n   Chamamos isso de \"efeito holofote\" (ou spotlight effect): tendemos a superestimar o quanto os outros estão prestando atenção em nós. Na verdade, a maioria das pessoas está focada nos próprios pensamentos, preocupações ou tarefas do dia a dia. Quando alguém olha na sua direção, geralmente é algo casual (reflexo de movimento, distração, curiosidade aleatória), não necessariamente julgamento ou interesse específico.\n\n   *(Practical Strategies)*\n   Aqui estão algumas estratégias baseadas em evidências para lidar com essa preocupação:\n   1. **Questionar pensamentos automáticos**: Quando surgirem dúvidas como \"estarão julgando eu?\", pergunte-se: \"Que evidência concreta tenho disso? Haveria explicações mais simples?\"\n   2. **Treinar a atenção**: Em vez de seguir o olhar dos outros, pratique voltar gradualmente sua atenção para o presente (ex.: sensações do corpo, sons ao redor, meta da caminhada). Exercícios de grounding ajudam muito.\n   3. **Exposição gradual**: Comece por situações de menor intensidade (ex.: caminhar em lugares movimentados por curtos períodos) e vá aumentando conforme se sente mais confortável. Anotar suas previsões (\"vão me julgar\") e depois verificar com a realidade reforça novas crenças.\n   4. **Reduzir ruminação**: Estabeleça um \"tempo limite\" para pensar sobre isso (ex.: 10 minutos no final do dia). Se aparecer durante o dia, adie para esse momento. Isso treina o cérebro a não entrar em loop.\n   5. **Autocompaixão**: Lembre-se de que todos já passaram por momentos de vulnerabilidade social. Não sermos o centro das atenções alheias também é libertador.\n\n   *(When to Seek Help)*\n   Se essa ansiedade estiver interferindo na sua rotina, evitando que você saia, vá ao trabalho ou mantenha relacionamentos, pode ser útil buscar acompanhamento com um psicólogo (especialmente com abordagem cognitivo-comportamental). A terapia oferece ferramentas personalizadas e acelera a melhora.\n\n   *(Closing)*\n   Você já deu um passo importante ao perceber o padrão e buscar formas de lidar com ele. Aos poucos, com prática consistente, esses momentos de apreensão tendem a perder força. Quer explorar alguma dessas estratégias com mais detalhes?\n\n5.  **Self-Correction/Refinement during Drafting:**\n   - Check tone: Supportive, non-pathologizing, evidence-based.\n   - Avoid diagnosing: Use general terms, don't label as \"social anxiety disorder\" unless suggesting professional evaluation conditionally.\n   - Clarify concepts simply: \"Efeito holofote\" is well-explained without jargon.\n   - Ensure strategies are actionable and sequenced logically.\n   - Mention therapy appropriately as an option, not a requirement.\n   - Language: Natural Portuguese, clear structure, empathetic but professional.\n   - Add safety/resource note if needed? Not necessary here, but good to keep it within mental health best practices.\n\n   All points look solid. I'll finalize the response in Portuguese matching this refined structure.✅\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Symptom/Issue:** Feeling apprehensive when noticing people looking in their direction on the street.\n   - **Cognitive Pattern:** Ruminating/worrying about whether they're paying attention to them, repeatedly returning to this concern.\n   - **Goal:** Wants to know how to deal with/manage this worry.\n   - **Language:** Portuguese\n   - **Tone:** Concerned, seeking practical advice, likely experiencing social anxiety or heightened self-consciousness.\n\n2.  **Identify Key Psychological Concepts:**\n   - Social anxiety/self-consciousness\n   - Spotlight effect (cognitive bias)\n   - Rumination\n   - Attentional bias\n   - Need for evidence-based coping strategies\n   - Possible need for professional support if it impacts functioning\n\n3.  **Determine Response Structure:**\n   - Acknowledge and validate feelings\n   - Explain the psychological phenomenon (spotlight effect, cognitive bias)\n   - Provide practical, evidence-based strategies\n   - Suggest when to seek professional help\n   - Maintain supportive, non-clinical tone\n   - Keep it in Portuguese as requested\n\n4.  **Draft - Section by Section (Mental Refinement in Portuguese):**\n   *(Acknowledge & Validate)*\n   É muito comum sentir-se assim, e é válido reconhecer que essa apreensão causa desconforto. O que você descreve tem uma explicação psicológica bem conhecida.\n\n   *(Explain Concept)*\n   Chamamos isso de \"efeito holofote\" (ou spotlight effect): tendemos a superestimar o quanto os outros estão prestando atenção em nós. Na verdade, a maioria das pessoas está focada nos próprios pensamentos, preocupações ou tarefas do dia a dia. Quando alguém olha na sua direção, geralmente é algo casual (reflexo de movimento, distração, curiosidade aleatória), não necessariamente julgamento ou interesse específico.\n\n   *(Practical Strategies)*\n   Aqui estão algumas estratégias baseadas em evidências para lidar com essa preocupação:\n   1. **Questionar pensamentos automáticos**: Quando surgirem dúvidas como \"estarão julgando eu?\", pergunte-se: \"Que evidência concreta tenho disso? Haveria explicações mais simples?\"\n   2. **Treinar a atenção**: Em vez de seguir o olhar dos outros, pratique voltar gradualmente sua atenção para o presente (ex.: sensações do corpo, sons ao redor, meta da caminhada). Exercícios de grounding ajudam muito.\n   3. **Exposição gradual**: Comece por situações de menor intensidade (ex.: caminhar em lugares movimentados por curtos períodos) e vá aumentando conforme se sente mais confortável. Anotar suas previsões (\"vão me julgar\") e depois verificar com a realidade reforça novas crenças.\n   4. **Reduzir ruminação**: Estabeleça um \"tempo limite\" para pensar sobre isso (ex.: 10 minutos no final do dia). Se aparecer durante o dia, adie para esse momento. Isso treina o cérebro a não entrar em loop.\n   5. **Autocompaixão**: Lembre-se de que todos já passaram por momentos de vulnerabilidade social. Não sermos o centro das atenções alheias também é libertador.\n\n   *(When to Seek Help)*\n   Se essa ansiedade estiver interferindo na sua rotina, evitando que você saia, vá ao trabalho ou mantenha relacionamentos, pode ser útil buscar acompanhamento com um psicólogo (especialmente com abordagem cognitivo-comportamental). A terapia oferece ferramentas personalizadas e acelera a melhora.\n\n   *(Closing)*\n   Você já deu um passo importante ao perceber o padrão e buscar formas de lidar com ele. Aos poucos, com prática consistente, esses momentos de apreensão tendem a perder força. Quer explorar alguma dessas estratégias com mais detalhes?\n\n5.  **Self-Correction/Refinement during Drafting:**\n   - Check tone: Supportive, non-pathologizing, evidence-based.\n   - Avoid diagnosing: Use general terms, don't label as \"social anxiety disorder\" unless suggesting professional evaluation conditionally.\n   - Clarify concepts simply: \"Efeito holofote\" is well-explained without jargon.\n   - Ensure strategies are actionable and sequenced logically.\n   - Mention therapy appropriately as an option, not a requirement.\n   - Language: Natural Portuguese, clear structure, empathetic but professional.\n   - Add safety/resource note if needed? Not necessary here, but good to keep it within mental health best practices.\n\n   All points look solid. I'll finalize the response in Portuguese matching this refined structure.✅\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794010514,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1843,
+          "prompt_tokens": 58,
+          "total_tokens": 1901,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 996,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0016645,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0016645,
+            "upstream_inference_prompt_cost": 5.8e-06,
+            "upstream_inference_completions_cost": 0.0016587
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\nO que você está vivenciando é mais comum do que parece e tem uma explicação psicológica bem documentada. Reconhecer esse padrão e querer lidar com ele já é um passo significativo. Abaixo, apresento estratégias práticas e baseadas em evidências para reduzir esse tipo de apreensão:\n\n### 🔍 Por que isso acontece?\nChamamos isso de **\"efeito holofote\"**: tendemos a superestimar o quanto os outros nos observam ou avaliam. Na prática, a maior parte das pessoas caminha com a mente ocupada com seus próprios assuntos, cansaço, rotinas ou preocupações pessoais. Um olhar na sua direção raramente carrega intenção crítica; costuma ser reflexo natural de movimento, distração momentânea ou mera curiosidade aleatória.\n\n### 🛠️ Estratégias para lidar com a preocupação\n1. **Teste seus pensamentos**  \n   Quando surgir a pergunta *\"Serão eles que estão prestando atenção em mim?\"*, faça este exercício rápido:\n   - Qual é a prova concreta disso?\n   - Haveria explicações mais simples e prováveis? (ex.: o sol nos olhos, alguém tentando lembrar de onde conhece você, distração automática)\n   - Se um amigo estivesse passando pelo mesmo cenário, o que eu lhe diria?\n\n2. **Recupere seu foco no presente**  \n   A ansiedade social nos prende num ciclo interno. Treine devolver sua atenção ao externo de forma gentil:\n   - Nomeie 3 sons, 2 cheiros e 1 sensação física que está sentindo agora.\n   - Caminhe com uma intenção clara (ex.: \"vou até a esquina respirando fundo\").\n   - Evite \"espionar\" reações alheias; o cérebro tende a interpretar neutros como negativos quando estamos em estado de alerta.\n\n3. **Limite a ruminação**  \n   Pensamentos repetitivos alimentam o desconforto. Tente:\n   - Agendar um tempo diário fixo (ex.: 15 min à noite) para refletir sobre essas situações.\n   - Quando aparecerem durante o dia, diga a si mesmo: *\"Vou anotar e pensar nisso no meu horário marcado.\"*\n   - Com o tempo, seu cérebro deixa de encerrar automaticamente como urgência.\n\n4. **Exposição graduais e realistas**  \n   Comece em ambientes menos intensos e aumente progressivamente:\n   - 5 min de caminhada em praça tranquila → 10 min em rua comercial → horários de maior fluxo.\n   - Registre antes e depois: *\"Previno que vão me julgar\"* → *\"O que realmente ocorreu?\"*. A coerência entre previsão e realidade reprograma padrões mentais.\n\n5. **Pratique autocompaixão**  \n   Dizer internamente: *\"É normal sentir isso. Eu estou seguro(a) e posso escolher como responder a essa sensação\"* reduz a carga emocional. A vergonha ou autocobrança só amplificam o efeito holofote.\n\n### 📌 Quando considerar apoio profissional\nSe essa apreensão começar a:\n- Fazer você evitar sair de casa, ir ao trabalho ou participar de atividades valorizadas,\n- Causar sintomas físicos frequentes (taquicardia, tensão muscular, insônia),\n- Persistir por semanas/meses sem melhoría apesar das tentativas,\n\nUm acompanhamento com psicólogo(a), especialmente com abordagem **Terapia Cognitivo-Comportamental (TCC)**, oferece ferramentas estruturadas e personalizadas. A TCC é altamente eficaz para redesenhar padrões de hipervigilância social e costuma apresentar resultados consistentes em poucas sessões.\n\n💡 **Lembre-se**: não ser o centro da atenção alheia também é uma forma de liberdade. Com prática regular, esses disparos de apreensão perdem frequência e intensidade. \n\nQuer que eu detalhe algum desses passos ou monte um plano de exposição gradual adaptado ao seu ritmo?"
+    }
+  ],
+  "fim": "2026-11-07T00:15:38+00:00"
+}

@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S4-C0-QWN-T020-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "101",
+  "prompt_sha256": "4ce8aeb72cc8a5f5839bd3761b8c68efbf7e622211b48387d08a581cf7f3d0de",
+  "inicio": "2026-11-07T00:12:16+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:12:16+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Tenho ficado apreensivo quando percebo pessoas olhando na minha direção na rua. Às vezes fico pensando se estão prestando atenção em mim, e acabo voltando a essa preocupação. Como posso lidar com essa preocupação?"
+          }
+        ],
+        "temperature": 0.2,
+        "seed": 400101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 25.627,
+      "resposta_integral": {
+        "id": "gen-1794010336-P6kABUifMPdjgsQw0bUk",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\n# Lidando com a apreensão ao ser observado na rua\n\nÉ muito comum sentir essa inquietação. O que você descreve é uma reação frequente em situações de ansiedade social ou estresse elevado, onde o cérebro entra em \"modo de alerta\", interpretando olhares neutros como avaliações ou ameaças. Isso não significa que haja algo errado com você, mas sim que seu sistema de alarme interno está um pouco sensível.\n\nAqui estão estratégias baseadas em evidências (Terapia Cognitivo-Comportamental e Mindfulness) para lidar com essa preocupação:\n\n### 🔍 1. Teste seus pensamentos (Reestruturação Cognitiva)\nQuando notar alguém olhando, sua mente pode sugerir: *\"Eles estão me julgando\"* ou *\"Algo está errado comigo\"*. Pergunte-se:\n- **Qual é a evidência concreta?** Eles realmente me observaram por tempo prolongado ou foi um olhar rápido/aleatório?\n- **Há explicações alternativas?** Estavam pensando em outra coisa, procurando um endereço, cansados, ou apenas olhando na sua direção sem foco específico?\n- **O que eu diria a um amigo?** Provavelmente seria mais gentil e realista do que consigo ser comigo mesmo.\n\n💡 *Prática:* Anote a situação, o pensamento automático e uma explicação alternativa mais equilibrada. Isso treina seu cérebro a buscar dados reais, não suposições.\n\n### 🧘 2. Técnicas de Ancoragem no Momento Presente\nA ansiedade nos puxa para o futuro (\"o que vão pensar?\"). Traga sua atenção para o agora:\n- **Respiração 4-7-8:** Inspire 4s, segure 7s, expire 8s. Repita 3x para ativar o sistema nervoso parassimpático.\n- **Regra 5-4-3-2-1:** Nomeie 5 coisas que vê, 4 que toca, 3 que ouve, 2 que cheira, 1 que saboreia. Isso interrompe o ciclo de ruminação.\n- **Toque consciente:** Sinta o peso dos pés no chão ou a textura da roupa. Lembre-se: *\"Estou aqui, seguro, neste exato momento.\"*\n\n### 🚶 3. Exposição Gradual e Comportamentos Seguros\nEvitar ruas ou usar \"comportamentos seguros\" (como olhar sempre para baixo ou usar fones) mantém a ansiedade viva a longo prazo.\n- Comece com exposições curtas: caminhe por 5 minutos em um local tranquilo, permitindo que os olhares aconteçam sem reagir imediatamente.\n- Observe que nada ruim acontece quando você não se esconde ou não busca confirmação. A ansiedade tende a subir e cair naturalmente se você não alimentar a preocupação.\n\n### 📵 4. Limite a Ruminação\nVoltar obsessivamente ao evento (\"por que eles olharam?\", \"será que repeti isso?\") fortalece o medo.\n- **Agende um \"tempo de preocupação\":** Dê 10 minutos diários para escrever sobre essas dúvidas. Fora desse horário, diga a si mesmo: *\"Vou tratar disso no meu tempo agendado.\"*\n- **Reduza buscas por segurança:** Evitar espelhos, verificar reações das pessoas ou pedir confirmação a outros reforça a ideia de que há um perigo real.\n\n### 💙 5. Autocompaixão e Normalização\n- Lembre-se: **olhar não é julgamento**. Pessoas olham por curiosidade, distração, reconhecimento vago ou simplesmente porque estão na mesma linha de visão.\n- Trate-se como trataria um amigo: *\"É normal sentir isso. Meu cérebro está tentando me proteger, mas posso me sentir seguro mesmo assim.\"*\n- Pratique afirmações realistas: *\"Posso não entender por que olharam, e tudo bem. Minha segurança não depende da atenção alheia.\"*\n\n### 🆘 Quando buscar ajuda profissional\nConsidere procurar um psicólogo (preferencialmente especializado em TCC ou Terapia de Aceitação e Compromisso) se:\n- A apreensão interfere no trabalho, estudos ou relacionamentos.\n- Você evita sair de casa ou muda rotinas significativamente.\n- Os pensamentos são intrusivos, causam pânico ou levam a sintomas físicos frequentes (taquicardia, suor, náusea).\n- Há suspeita de condições como Transtorno de Ansiedade Social, TOC ou ideias de referência.\n\nProfissionais podem oferecer ferramentas personalizadas e acompanhamento seguro. No Brasil, o CVV (188) oferece apoio emocional gratuito e sigiloso 24h.\n\n### 📚 Recursos recomendados\n- Livro: *\"A Nova Ansiedade\"* (Dr. David Burns) – técnicas práticas de TCC.\n- App: *\"Mindfulness Coach\"* (gratuito, do Departamento de Veteranos dos EUA) ou *\"Headspace\"* (exercícios guiados).\n- Artigo: Sociedade Brasileira de Psiquiatria – \"Ansiedade Social: Sintomas e Tratamento\".\n\n---\n\n✨ **Lembre-se:** Mudar padrões de pensamento leva prática consistente, não perfeição. Cada vez que você nota a preocupação e escolhe uma resposta diferente, está retraindo seu cérebro para maior liberdade e calma. Você não precisa controlar o que os outros fazem; pode escolher como responder internamente.\n\n*Este conteúdo tem caráter informativo e não substitui avaliação clínica. Se os sintomas persistirem ou piorarem, procure orientação de um profissional de saúde mental.* 💙",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to address the user's concern: feeling apprehensive when people look at them on the street, wondering if they're paying attention to them, and ruminating on this worry. This sounds like social anxiety or possibly ideas of reference, which can be common in anxiety disorders. The user is asking how to cope with this worry.\n\nWe should provide practical, evidence-based strategies for managing such thoughts and feelings. Key approaches might include cognitive-behavioral techniques, mindfulness, grounding exercises, and possibly seeking professional help if it's significantly impacting life. We should also normalize the experience to reduce shame.\n\nImportant: We must avoid diagnosing but suggest that if it's distressing, consulting a mental health professional is advisable. We should provide actionable steps.\n\nStructure the response:\n1. Acknowledge and validate the feeling.\n2. Explain that it's common and often related to anxiety.\n3. Provide coping strategies: cognitive restructuring, mindfulness, behavioral experiments, self-compassion, limiting rumination.\n4. Suggest when to seek professional help.\n5. Encourage practice and patience.\n\nWe should keep the tone supportive and informative, avoiding clinical jargon but accurate.\n\nNow, let's draft in Portuguese as the user wrote in Portuguese.\n\nResponse in Portuguese:\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to address the user's concern: feeling apprehensive when people look at them on the street, wondering if they're paying attention to them, and ruminating on this worry. This sounds like social anxiety or possibly ideas of reference, which can be common in anxiety disorders. The user is asking how to cope with this worry.\n\nWe should provide practical, evidence-based strategies for managing such thoughts and feelings. Key approaches might include cognitive-behavioral techniques, mindfulness, grounding exercises, and possibly seeking professional help if it's significantly impacting life. We should also normalize the experience to reduce shame.\n\nImportant: We must avoid diagnosing but suggest that if it's distressing, consulting a mental health professional is advisable. We should provide actionable steps.\n\nStructure the response:\n1. Acknowledge and validate the feeling.\n2. Explain that it's common and often related to anxiety.\n3. Provide coping strategies: cognitive restructuring, mindfulness, behavioral experiments, self-compassion, limiting rumination.\n4. Suggest when to seek professional help.\n5. Encourage practice and patience.\n\nWe should keep the tone supportive and informative, avoiding clinical jargon but accurate.\n\nNow, let's draft in Portuguese as the user wrote in Portuguese.\n\nResponse in Portuguese:\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794010336,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1463,
+          "prompt_tokens": 58,
+          "total_tokens": 1521,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 264,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0013225,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0013225,
+            "upstream_inference_prompt_cost": 5.8e-06,
+            "upstream_inference_completions_cost": 0.0013167
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\n# Lidando com a apreensão ao ser observado na rua\n\nÉ muito comum sentir essa inquietação. O que você descreve é uma reação frequente em situações de ansiedade social ou estresse elevado, onde o cérebro entra em \"modo de alerta\", interpretando olhares neutros como avaliações ou ameaças. Isso não significa que haja algo errado com você, mas sim que seu sistema de alarme interno está um pouco sensível.\n\nAqui estão estratégias baseadas em evidências (Terapia Cognitivo-Comportamental e Mindfulness) para lidar com essa preocupação:\n\n### 🔍 1. Teste seus pensamentos (Reestruturação Cognitiva)\nQuando notar alguém olhando, sua mente pode sugerir: *\"Eles estão me julgando\"* ou *\"Algo está errado comigo\"*. Pergunte-se:\n- **Qual é a evidência concreta?** Eles realmente me observaram por tempo prolongado ou foi um olhar rápido/aleatório?\n- **Há explicações alternativas?** Estavam pensando em outra coisa, procurando um endereço, cansados, ou apenas olhando na sua direção sem foco específico?\n- **O que eu diria a um amigo?** Provavelmente seria mais gentil e realista do que consigo ser comigo mesmo.\n\n💡 *Prática:* Anote a situação, o pensamento automático e uma explicação alternativa mais equilibrada. Isso treina seu cérebro a buscar dados reais, não suposições.\n\n### 🧘 2. Técnicas de Ancoragem no Momento Presente\nA ansiedade nos puxa para o futuro (\"o que vão pensar?\"). Traga sua atenção para o agora:\n- **Respiração 4-7-8:** Inspire 4s, segure 7s, expire 8s. Repita 3x para ativar o sistema nervoso parassimpático.\n- **Regra 5-4-3-2-1:** Nomeie 5 coisas que vê, 4 que toca, 3 que ouve, 2 que cheira, 1 que saboreia. Isso interrompe o ciclo de ruminação.\n- **Toque consciente:** Sinta o peso dos pés no chão ou a textura da roupa. Lembre-se: *\"Estou aqui, seguro, neste exato momento.\"*\n\n### 🚶 3. Exposição Gradual e Comportamentos Seguros\nEvitar ruas ou usar \"comportamentos seguros\" (como olhar sempre para baixo ou usar fones) mantém a ansiedade viva a longo prazo.\n- Comece com exposições curtas: caminhe por 5 minutos em um local tranquilo, permitindo que os olhares aconteçam sem reagir imediatamente.\n- Observe que nada ruim acontece quando você não se esconde ou não busca confirmação. A ansiedade tende a subir e cair naturalmente se você não alimentar a preocupação.\n\n### 📵 4. Limite a Ruminação\nVoltar obsessivamente ao evento (\"por que eles olharam?\", \"será que repeti isso?\") fortalece o medo.\n- **Agende um \"tempo de preocupação\":** Dê 10 minutos diários para escrever sobre essas dúvidas. Fora desse horário, diga a si mesmo: *\"Vou tratar disso no meu tempo agendado.\"*\n- **Reduza buscas por segurança:** Evitar espelhos, verificar reações das pessoas ou pedir confirmação a outros reforça a ideia de que há um perigo real.\n\n### 💙 5. Autocompaixão e Normalização\n- Lembre-se: **olhar não é julgamento**. Pessoas olham por curiosidade, distração, reconhecimento vago ou simplesmente porque estão na mesma linha de visão.\n- Trate-se como trataria um amigo: *\"É normal sentir isso. Meu cérebro está tentando me proteger, mas posso me sentir seguro mesmo assim.\"*\n- Pratique afirmações realistas: *\"Posso não entender por que olharam, e tudo bem. Minha segurança não depende da atenção alheia.\"*\n\n### 🆘 Quando buscar ajuda profissional\nConsidere procurar um psicólogo (preferencialmente especializado em TCC ou Terapia de Aceitação e Compromisso) se:\n- A apreensão interfere no trabalho, estudos ou relacionamentos.\n- Você evita sair de casa ou muda rotinas significativamente.\n- Os pensamentos são intrusivos, causam pânico ou levam a sintomas físicos frequentes (taquicardia, suor, náusea).\n- Há suspeita de condições como Transtorno de Ansiedade Social, TOC ou ideias de referência.\n\nProfissionais podem oferecer ferramentas personalizadas e acompanhamento seguro. No Brasil, o CVV (188) oferece apoio emocional gratuito e sigiloso 24h.\n\n### 📚 Recursos recomendados\n- Livro: *\"A Nova Ansiedade\"* (Dr. David Burns) – técnicas práticas de TCC.\n- App: *\"Mindfulness Coach\"* (gratuito, do Departamento de Veteranos dos EUA) ou *\"Headspace\"* (exercícios guiados).\n- Artigo: Sociedade Brasileira de Psiquiatria – \"Ansiedade Social: Sintomas e Tratamento\".\n\n---\n\n✨ **Lembre-se:** Mudar padrões de pensamento leva prática consistente, não perfeição. Cada vez que você nota a preocupação e escolhe uma resposta diferente, está retraindo seu cérebro para maior liberdade e calma. Você não precisa controlar o que os outros fazem; pode escolher como responder internamente.\n\n*Este conteúdo tem caráter informativo e não substitui avaliação clínica. Se os sintomas persistirem ou piorarem, procure orientação de um profissional de saúde mental.* 💙"
+    }
+  ],
+  "fim": "2026-11-07T00:12:42+00:00"
+}

@@ -1,6 +1,6 @@
 # Coleta da segunda rodada
 
-O [manifesto](manifesto_execucoes.csv) organiza as 210 conversas na coluna `ordem`. Os textos estão em [prompts](../prompts/README.md) e os parâmetros em [configuracoes.json](configuracoes.json). Cada comando coleta uma conversa; execute um de cada vez.
+O [manifesto](manifesto_execucoes.csv) registra as 210 conversas concluídas, com 350 respostas textuais, e a ordem originalmente planejada na coluna `ordem`. Os textos estão em [prompts](../prompts/README.md) e os parâmetros em [configuracoes.json](configuracoes.json). O Qwen foi coletado em sequência, uma conversa por vez. As instruções abaixo documentam a execução; conversas concluídas não serão regeneradas.
 
 ## Preparar o ambiente
 
@@ -45,9 +45,33 @@ O script mantém o histórico e os blocos de raciocínio entre os turnos. Salva 
 
 Erros, respostas vazias e truncamentos encerram a tentativa, sem repetição automática. Se um reinício for autorizado, use `--nova-tentativa --executar`: ele começa desde T1, com os mesmos parâmetros e sementes, e cria `A02`, preservando `A01`. Conversas concluídas não são regeneradas; recusas completas são respostas válidas. Testes técnicos com mensagens neutras devem ser registrados separadamente, fora do manifesto experimental.
 
+## Coletar a fila do Qwen
+
+Para conferir quais conversas faltam, sem acessar a API:
+
+```bash
+python scripts/coletar_qwen.py --pendentes
+```
+
+Para coletar as restantes automaticamente, com a chave já configurada:
+
+```bash
+python scripts/coletar_qwen.py --pendentes --executar
+```
+
+A fila segue a coluna `ordem` do manifesto, pula as concluídas e executa os turnos de cada conversa com histórico próprio. Os registros são salvos durante a execução, como na coleta por ID. Mantenha o terminal aberto até o fim.
+
+O primeiro erro encerra a fila. Ela também não pula uma conversa interrompida ao ser executada novamente: confira o log e resolva essa tentativa por ID antes de retomar a fila. Não há repetição automática nem execução simultânea de conversas.
+
+As 126 conversas do Qwen foram concluídas, com 210 respostas. Em `S5-C0-QWN-T070-R1` e `S6-C2-QWN-T100-R1`, a tentativa A01 foi interrompida por HTTP 429 e preservada nos logs e nas transcrições. Cada conversa foi reiniciada desde T1 com os mesmos parâmetros e sementes, mediante autorização, e concluída na A02. As tentativas parciais não integram a contagem das 210 respostas selecionadas.
+
 ## ChatGPT e Gemini
 
-A coleta é manual, nas interfaces e configurações previstas no [protocolo](../protocolo/PROTOCOLO.md). Abra uma conversa independente para cada ID e utilize o [modelo de transcrição](templates/transcricao.md). Depois, preencha no manifesto `status`, `data_hora`, `arquivo_transcricao` e `observacoes_tecnicas`. Os caminhos são relativos a esta pasta.
+A coleta manual está concluída: 42 conversas do ChatGPT e 42 do Gemini, com 140 respostas textuais registradas. Os [84 arquivos de transcrição](transcricoes/README.md) estão organizados em 42 pares para consulta. Em S1 e S2, ChatGPT e Gemini foram coletados em paralelo, na ordem dos nomes dos arquivos. Em S3–S7, a coleta do ChatGPT foi concluída primeiro e a do Gemini depois. Essa sequência difere do embaralhamento planejado; as mudanças estão documentadas, sem alterar a coluna `ordem` do manifesto.
+
+Modelo e configuração estão preenchidos conforme informado por Arthur. A data e hora da coleta manual correspondem ao salvamento de cada arquivo, conforme confirmação do coletor, no fuso de Cuiabá (UTC−04:00). Ao atualizar o registro, capture esse horário antes de editar o cabeçalho e preserve a data de modificação do arquivo. Cole as respostas integrais e atualize no manifesto `status`, `data_hora` e `observacoes_tecnicas`. Os arquivos ainda não coletados ficam com o horário em branco. O caminho da primeira tentativa já está preenchido; os caminhos são relativos a esta pasta.
+
+Os arquivos manuais têm espaços para respostas e só devem receber status `concluida` após o registro da conversa completa. Para uma nova tentativa autorizada, use o [modelo de transcrição](templates/transcricao.md), preserve o arquivo anterior e atualize `arquivo_transcricao` no manifesto. Os arquivos do Qwen serão criados automaticamente durante a execução do script, em Markdown e JSON, com seus horários registrados automaticamente.
 
 O ID `V2-S1-C2-QWN-T020-R1` indica cenário S1, condição C2, Qwen a 0.2 e repetição R1. `GPT-BASE` e `GEM-BASE` identificam as configurações comerciais. A tentativa (`A01`, `A02`) não é uma nova repetição experimental.
 

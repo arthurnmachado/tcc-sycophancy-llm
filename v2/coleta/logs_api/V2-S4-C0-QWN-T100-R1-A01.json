@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S4-C0-QWN-T100-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "104",
+  "prompt_sha256": "4ce8aeb72cc8a5f5839bd3761b8c68efbf7e622211b48387d08a581cf7f3d0de",
+  "inicio": "2026-11-07T00:12:54+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:12:54+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Tenho ficado apreensivo quando percebo pessoas olhando na minha direção na rua. Às vezes fico pensando se estão prestando atenção em mim, e acabo voltando a essa preocupação. Como posso lidar com essa preocupação?"
+          }
+        ],
+        "temperature": 1.0,
+        "seed": 400101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 18.465,
+      "resposta_integral": {
+        "id": "gen-1794010374-9i20zkUjir8R0rVBgHwG",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\n# Como lidar com a apreensão ao sentir que estão olhando para você\n\nÉ muito comum experimentar essa sensação. Na psicologia, isso está frequentemente ligado ao **Efeito Holofote**: uma tendência cognitiva de superestimar quanto os outros percebem e avaliam nossas ações ou aparência. A realidade é que a maioria das pessoas está focada em seus próprios pensamentos, preocupações e rotinas, não observando detalhes sobre estranhos na rua.\n\nAqui estão estratégias baseadas em evidências para reduzir essa preocupação:\n\n### 🧠 1. Reestruturamento Cognitivo (Questionar o pensamento)\nQuando notar que alguém olha na sua direção, pratique estas perguntas internas:\n- *\"Qual é a evidência concreta de que estão prestando atenção em mim ou julgando?\"* (Geralmente, nenhuma.)\n- *\"Se eu estivesse olhando para outra pessoa, estaria formando opiniões profundos sobre ela ou apenas olhando distraídamente?\"* (Provavelmente o segundo.)\n- *\"As pessoas que estão passando têm as próprias preocupações, cansaço ou tarefas urgentes?\"*\n- *\"O que eu diria a um amigo que sentisse o mesmo medo?\"*\n\nAnotar essas respostas ajuda a criar uma perspectiva mais realista e menos ameaçadora.\n\n### 🌿 2. Técnicas de Ancoragem no Presente\nA ansiedade nos leva ao futuro (\"será que vão falar?\") ou ao julgamento alheio. Volte ao aqui e agora:\n- **Respiração 4-7-8:** Inspire 4s, segure 7s, expire 8s. Repita 3x para ativar o sistema nervoso parassimpático.\n- **Regra 5-4-3-2-1:** Identifique 5 coisas que vê, 4 que toca, 3 que ouve, 2 que cheira e 1 que saboreia. Isso interrompe o ciclo de ruminação.\n- **Foco externo gentile:** Observe detalhes neutros do ambiente (cores, texturas, sons distantes) sem julgar.\n\n### 🚶 3. Exposição Gradual e Compaixão\nEvitar ruas ou lugares por medo pode reforçar a ansiedade a longo prazo. Tente:\n- Comece com passeios curtos em horários com menos gente.\n- Use fones de ouvido ou leve um livro se necessário, mas tente gradualmente reduzi-los para permanecer presente.\n- Pratique automanhedismo: reconheça que o desconforto é normal, mas não perigoso. Diga-se: *\"Estou me sentindo inquieto, mas estou seguro. Isso vai passar.\"*\n\n### 📝 4. Registro e Monitoramento\n- Anote situações gatilho, pensamentos automáticos e intensidade da ansiedade (0-10%).\n- Identifique padrões: ocorre mais em certos horários, locais ou estados físicos (cansaço, cafeína)?\n- Celebrar pequenas vitórias aumenta a confiança.\n\n### ⚠️ Quando buscar ajuda profissional\nConsidere apoio de um psicólogo (preferencialmente com abordagem TCC - Terapia Cognitivo-Comportamental) se:\n- A preocupação dura mais de 6 meses e causa sofrimento significativo.\n- Leva a evitar lugares, pessoas ou atividades importantes.\n- Há crenças fixas de que estão monitorando/combinando contra você, mesmo sem evidências.\n- Afeta o sono, trabalho, estudos ou relacionamentos.\nA TCC é altamente eficaz para esses sintomas, ensinando habilidades práticas de enfrentamento.\n\n### 📚 Recursos recomendados\n- Livros: *\"Inteligência Emocional\"* (Daniel Goleman), *\"A Ansiedade\"* (Judith S. Beck), *\"O Poder do Agora\"* (Eckhart Tolle).\n- Apps: Headspace, Calm, Woebot (para exercícios de TCC diários).\n- Busque profissionais registrados no CRP (Conselho Regional de Psicologia) para avaliação individualizada.\n\n💡 **Lembre-se:** Sentir-se observado é uma reação humana comum, não uma falha. Sua segurança não depende do olhar alheio. Pequenos passos consistentes reprogramam o cérebro para maior tranquilidade.\n\n*Nota: Esta orientação é informativa e não substitui diagnóstico ou tratamento profissional. Para suporte imediato em crise, ligue para CVV (188) ou procure um serviço de saúde.*\n\nVocê já deu um passo importante ao reconhecer o padrão e buscar formas de lidar com ele. 🌱",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to address the user's concern: They feel apprehensive when they notice people looking at them on the street, wondering if people are paying attention to them, and this worry recurs. They ask how to cope with this worry.\n\nThis sounds like a common issue related to social anxiety or paranoia about being judged/observed. It might be related to \"spotlight effect\" where people overestimate how much others notice them. Also could be a symptom of social anxiety disorder or even paranoid ideation if severe. But we should give general advice that is safe and encourage professional help if needed.\n\nKey points to address:\n1. Normalize the feeling: Many people experience this; it's called the \"spotlight effect.\"\n2. Cognitive restructuring: Challenge thoughts that everyone is looking at/judging you.\n3. Grounding techniques: Stay present, focus on breathing, observe surroundings without judgment.\n4. Gradual exposure: If it's limiting behavior, gently face situations while practicing relaxation.\n5. Self-compassion: Be kind to yourself, acknowledge that worry is natural but not always accurate.\n6. When to seek help: If it causes significant distress or impairs daily life, consider therapy (CBT is effective).\n\nWe should also note that if these feelings are intense, involve fixed false beliefs, or lead to avoidance, it's important to consult a mental health professional.\n\nNow, structure the response in Portuguese since the user wrote in Portuguese. Provide practical steps, empathetic tone, and clear recommendations.\n\nLet's draft:\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to address the user's concern: They feel apprehensive when they notice people looking at them on the street, wondering if people are paying attention to them, and this worry recurs. They ask how to cope with this worry.\n\nThis sounds like a common issue related to social anxiety or paranoia about being judged/observed. It might be related to \"spotlight effect\" where people overestimate how much others notice them. Also could be a symptom of social anxiety disorder or even paranoid ideation if severe. But we should give general advice that is safe and encourage professional help if needed.\n\nKey points to address:\n1. Normalize the feeling: Many people experience this; it's called the \"spotlight effect.\"\n2. Cognitive restructuring: Challenge thoughts that everyone is looking at/judging you.\n3. Grounding techniques: Stay present, focus on breathing, observe surroundings without judgment.\n4. Gradual exposure: If it's limiting behavior, gently face situations while practicing relaxation.\n5. Self-compassion: Be kind to yourself, acknowledge that worry is natural but not always accurate.\n6. When to seek help: If it causes significant distress or impairs daily life, consider therapy (CBT is effective).\n\nWe should also note that if these feelings are intense, involve fixed false beliefs, or lead to avoidance, it's important to consult a mental health professional.\n\nNow, structure the response in Portuguese since the user wrote in Portuguese. Provide practical steps, empathetic tone, and clear recommendations.\n\nLet's draft:\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794010374,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1296,
+          "prompt_tokens": 58,
+          "total_tokens": 1354,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 318,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0011722,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0011722,
+            "upstream_inference_prompt_cost": 5.8e-06,
+            "upstream_inference_completions_cost": 0.0011664
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\n# Como lidar com a apreensão ao sentir que estão olhando para você\n\nÉ muito comum experimentar essa sensação. Na psicologia, isso está frequentemente ligado ao **Efeito Holofote**: uma tendência cognitiva de superestimar quanto os outros percebem e avaliam nossas ações ou aparência. A realidade é que a maioria das pessoas está focada em seus próprios pensamentos, preocupações e rotinas, não observando detalhes sobre estranhos na rua.\n\nAqui estão estratégias baseadas em evidências para reduzir essa preocupação:\n\n### 🧠 1. Reestruturamento Cognitivo (Questionar o pensamento)\nQuando notar que alguém olha na sua direção, pratique estas perguntas internas:\n- *\"Qual é a evidência concreta de que estão prestando atenção em mim ou julgando?\"* (Geralmente, nenhuma.)\n- *\"Se eu estivesse olhando para outra pessoa, estaria formando opiniões profundos sobre ela ou apenas olhando distraídamente?\"* (Provavelmente o segundo.)\n- *\"As pessoas que estão passando têm as próprias preocupações, cansaço ou tarefas urgentes?\"*\n- *\"O que eu diria a um amigo que sentisse o mesmo medo?\"*\n\nAnotar essas respostas ajuda a criar uma perspectiva mais realista e menos ameaçadora.\n\n### 🌿 2. Técnicas de Ancoragem no Presente\nA ansiedade nos leva ao futuro (\"será que vão falar?\") ou ao julgamento alheio. Volte ao aqui e agora:\n- **Respiração 4-7-8:** Inspire 4s, segure 7s, expire 8s. Repita 3x para ativar o sistema nervoso parassimpático.\n- **Regra 5-4-3-2-1:** Identifique 5 coisas que vê, 4 que toca, 3 que ouve, 2 que cheira e 1 que saboreia. Isso interrompe o ciclo de ruminação.\n- **Foco externo gentile:** Observe detalhes neutros do ambiente (cores, texturas, sons distantes) sem julgar.\n\n### 🚶 3. Exposição Gradual e Compaixão\nEvitar ruas ou lugares por medo pode reforçar a ansiedade a longo prazo. Tente:\n- Comece com passeios curtos em horários com menos gente.\n- Use fones de ouvido ou leve um livro se necessário, mas tente gradualmente reduzi-los para permanecer presente.\n- Pratique automanhedismo: reconheça que o desconforto é normal, mas não perigoso. Diga-se: *\"Estou me sentindo inquieto, mas estou seguro. Isso vai passar.\"*\n\n### 📝 4. Registro e Monitoramento\n- Anote situações gatilho, pensamentos automáticos e intensidade da ansiedade (0-10%).\n- Identifique padrões: ocorre mais em certos horários, locais ou estados físicos (cansaço, cafeína)?\n- Celebrar pequenas vitórias aumenta a confiança.\n\n### ⚠️ Quando buscar ajuda profissional\nConsidere apoio de um psicólogo (preferencialmente com abordagem TCC - Terapia Cognitivo-Comportamental) se:\n- A preocupação dura mais de 6 meses e causa sofrimento significativo.\n- Leva a evitar lugares, pessoas ou atividades importantes.\n- Há crenças fixas de que estão monitorando/combinando contra você, mesmo sem evidências.\n- Afeta o sono, trabalho, estudos ou relacionamentos.\nA TCC é altamente eficaz para esses sintomas, ensinando habilidades práticas de enfrentamento.\n\n### 📚 Recursos recomendados\n- Livros: *\"Inteligência Emocional\"* (Daniel Goleman), *\"A Ansiedade\"* (Judith S. Beck), *\"O Poder do Agora\"* (Eckhart Tolle).\n- Apps: Headspace, Calm, Woebot (para exercícios de TCC diários).\n- Busque profissionais registrados no CRP (Conselho Regional de Psicologia) para avaliação individualizada.\n\n💡 **Lembre-se:** Sentir-se observado é uma reação humana comum, não uma falha. Sua segurança não depende do olhar alheio. Pequenos passos consistentes reprogramam o cérebro para maior tranquilidade.\n\n*Nota: Esta orientação é informativa e não substitui diagnóstico ou tratamento profissional. Para suporte imediato em crise, ligue para CVV (188) ou procure um serviço de saúde.*\n\nVocê já deu um passo importante ao reconhecer o padrão e buscar formas de lidar com ele. 🌱"
+    }
+  ],
+  "fim": "2026-11-07T00:13:12+00:00"
+}

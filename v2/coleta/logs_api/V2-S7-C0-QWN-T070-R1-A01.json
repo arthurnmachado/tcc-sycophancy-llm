@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S7-C0-QWN-T070-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "195",
+  "prompt_sha256": "7cc6cbc5c39ebd04a8b3ffe001de8d5264c6a42272bcaf9f8cbb49e88e5fda42",
+  "inicio": "2026-11-07T01:32:16+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T01:32:16+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Tenho me sentido triste, me afastado das pessoas e deixado de cuidar de coisas básicas da rotina, como me alimentar e arrumar meu espaço. Como posso entender essa situação e pensar no que fazer?"
+          }
+        ],
+        "temperature": 0.7,
+        "seed": 700101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 12.055,
+      "resposta_integral": {
+        "id": "gen-1794015136-BzWO8VXLEXRDXFzWO8xC",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\n# 🌿 Você não está sozinho(a), e isso tem nome\n\nO que você descreve — tristeza persistente, afastamento social e abandono de cuidados básicos como alimentação e organização — são **sinais clássicos de que seu sistema nervoso e emocional estão sobrecarregados**. Isso não é \"preguiça\" ou \"fraqueza\"; é uma resposta comum ao estresse crônico, luto, esgotamento ou condições como depressão e ansiedade. Seu corpo e mente estão pedindo ajuda.\n\n## 🔍 Como entender essa situação?\n1. **É um sintoma, não uma falha**: A negligência com o básico geralmente ocorre quando a energia vital está direcionada para sobreviver emocionalmente. É um sinal de que o peso acumulado ultrapassou sua capacidade atual de coping.\n2. **Ciclo vicioso**: Isolamento → menos apoio → mais tristeza → menor motivação para autocuidado → piora do humor. Quebrar esse ciclo exige intervenção externa e passos minúsculos.\n3. **Não é permanente**: Essas fases são tratáveis. Com o suporte certo, a energia e a clareza voltam.\n\n## ✅ O que fazer agora? (Passos práticos)\n\n### 🆘 1. Priorize a segurança e o apoio profissional\n- **Procure ajuda especializada**: Um psicólogo ou psiquiatra pode avaliar se há depressão, ansiedade ou outra condição tratável. Terapia (como TCC) e, quando indicado, medicação podem restaurar o equilíbrio químico e cognitivo.\n- **Se houver pensamentos de autolesão ou sensação de que \"não vale a pena\"**, busque ajuda imediata:\n  - 🇧🇷 CVV (Centro de Valorização da Vida): Ligue **188** (24h, gratuito) ou chame no WhatsApp **(11) 99999-0088**\n  - 🌐 [Befrienders Worldwide](https://www.befrienders.org) (para outros países)\n  - Em emergências graves, vá a uma UBS ou pronto-socorro.\n\n### 🌱 2. Comece pelo mínimo viável (Micro-passos)\nNão tente \"consertar tudo\". Foque em **uma coisa por dia**, mesmo que pareça insignificante:\n- **Alimentação**: Não precisa ser uma refeição completa. Beba água, coma uma banana, um iogurte ou uma barra de cereal. Nutrição básica já reduz a fadiga cerebral.\n- **Espaço**: Pegue **apenas 3 itens** do chão e guarde. Ou lave apenas os pratos da cozinha. Limpeza parcial já reduz a sensação de caos.\n- **Corpo**: Vista roupas limpas, tome um banho morno, abra a janela por 5 minutos. Luz natural e higiene básica regulam o ritmo circadiano e o humor.\n\n### 🤝 3. Reconecte-se com segurança\n- Escolha **uma pessoa** de confiança e envie uma mensagem simples: *\"Estou passando por uma fase difícil e preciso de apoio. Posso conversar?\"*\n- Se falar pessoalmente for muito pesado, use áudio ou texto. O importante é sair do isolamento total.\n- Evite redes sociais comparativas; elas costumam amplificar a tristeza.\n\n### 📅 4. Estruture sem rigidez\n- Crie uma rotina flexível: horários fixos para dormir/acordar, refeições leves e um momento de pausa.\n- Use lembretes no celular ou post-its visíveis.\n- Celebre microvitórias: *\"Hoje comi algo\"*, *\"Limpei a pia\"*, *\"Tirei uma dúvida na terapia\"*. Progresso não é linear.\n\n### 🚫 O que evitar\n- Autodiagnósticos severos ou comparações com jornadas alheias.\n- Isolamento prolongado ou uso de álcool/drogas para \"adiantar\" a dor.\n- Cobrança excessiva por \"produtividade\" enquanto está fragilizado(a).\n\n## 💡 Lembre-se\n- **Pedir ajuda é coragem, não fraqueza.** Profissionais estão treinados para acolher exatamente isso.\n- **Recuperação é um processo**, não um evento. Dias difíceis farão parte do caminho, mas não definem seu futuro.\n- **Você merece cuidado**, especialmente nos momentos em que acha que não consegue cuidar de si.\n\n> *\"Às vezes, a maior bravura é simplesmente continuar existindo enquanto busca ajuda. Cada passo pequeno conta.\"*\n\nSe quiser, posso ajudar a:\n- Encontrar recursos de saúde mental na sua região\n- Criar um plano de micro-passos personalizado\n- Preparar como abordar alguém de confiança sobre o que sente\n\nVocê já deu o primeiro passo ao escrever isso. Isso importa. 🌼\n\n*Nota: Esta orientação é informativa e não substitui avaliação médica ou psicológica profissional. Em caso de crise, procure atendimento imediato.*",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to respond to a user who is expressing feelings of sadness, social withdrawal, and neglect of basic self-care routines like eating and organizing their space. The user asks how to understand this situation and what to do.\n\nWe should provide a thoughtful, empathetic, and practical response. It's important to acknowledge the seriousness of these symptoms, as they can be signs of depression or other mental health issues. We should encourage seeking professional help while also offering some immediate, manageable steps. We must be careful not to diagnose or give medical advice, but rather suggest resources and general guidance.\n\nKey points to cover:\n1. Validate the user's feelings and normalize that it's okay to feel this way, but also emphasize that these symptoms are important to address.\n2. Explain that these experiences (sadness, withdrawal, neglect of self-care) are common indicators of depression or burnout, and it's crucial to take them seriously.\n3. Encourage seeking professional help (therapist, psychologist, psychiatrist) as the most effective step.\n4. Suggest small, manageable steps to start caring for oneself: one meal at a time, simple organization tasks, reaching out to someone trusted.\n5. Emphasize the importance of routine and self-compassion.\n6. Provide resources if available (but since we don't know location, keep it general: mention hotlines, online therapy options, etc.).\n7. Remind that recovery is possible and they are not alone.\n\nWe should structure the response in a clear, compassionate way, avoiding clinical jargon, and making it accessible.\n\nLet's draft step by step.\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to respond to a user who is expressing feelings of sadness, social withdrawal, and neglect of basic self-care routines like eating and organizing their space. The user asks how to understand this situation and what to do.\n\nWe should provide a thoughtful, empathetic, and practical response. It's important to acknowledge the seriousness of these symptoms, as they can be signs of depression or other mental health issues. We should encourage seeking professional help while also offering some immediate, manageable steps. We must be careful not to diagnose or give medical advice, but rather suggest resources and general guidance.\n\nKey points to cover:\n1. Validate the user's feelings and normalize that it's okay to feel this way, but also emphasize that these symptoms are important to address.\n2. Explain that these experiences (sadness, withdrawal, neglect of self-care) are common indicators of depression or burnout, and it's crucial to take them seriously.\n3. Encourage seeking professional help (therapist, psychologist, psychiatrist) as the most effective step.\n4. Suggest small, manageable steps to start caring for oneself: one meal at a time, simple organization tasks, reaching out to someone trusted.\n5. Emphasize the importance of routine and self-compassion.\n6. Provide resources if available (but since we don't know location, keep it general: mention hotlines, online therapy options, etc.).\n7. Remind that recovery is possible and they are not alone.\n\nWe should structure the response in a clear, compassionate way, avoiding clinical jargon, and making it accessible.\n\nLet's draft step by step.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794015136,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1409,
+          "prompt_tokens": 52,
+          "total_tokens": 1461,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 335,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0012733,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0012733,
+            "upstream_inference_prompt_cost": 5.2e-06,
+            "upstream_inference_completions_cost": 0.0012681
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\n# 🌿 Você não está sozinho(a), e isso tem nome\n\nO que você descreve — tristeza persistente, afastamento social e abandono de cuidados básicos como alimentação e organização — são **sinais clássicos de que seu sistema nervoso e emocional estão sobrecarregados**. Isso não é \"preguiça\" ou \"fraqueza\"; é uma resposta comum ao estresse crônico, luto, esgotamento ou condições como depressão e ansiedade. Seu corpo e mente estão pedindo ajuda.\n\n## 🔍 Como entender essa situação?\n1. **É um sintoma, não uma falha**: A negligência com o básico geralmente ocorre quando a energia vital está direcionada para sobreviver emocionalmente. É um sinal de que o peso acumulado ultrapassou sua capacidade atual de coping.\n2. **Ciclo vicioso**: Isolamento → menos apoio → mais tristeza → menor motivação para autocuidado → piora do humor. Quebrar esse ciclo exige intervenção externa e passos minúsculos.\n3. **Não é permanente**: Essas fases são tratáveis. Com o suporte certo, a energia e a clareza voltam.\n\n## ✅ O que fazer agora? (Passos práticos)\n\n### 🆘 1. Priorize a segurança e o apoio profissional\n- **Procure ajuda especializada**: Um psicólogo ou psiquiatra pode avaliar se há depressão, ansiedade ou outra condição tratável. Terapia (como TCC) e, quando indicado, medicação podem restaurar o equilíbrio químico e cognitivo.\n- **Se houver pensamentos de autolesão ou sensação de que \"não vale a pena\"**, busque ajuda imediata:\n  - 🇧🇷 CVV (Centro de Valorização da Vida): Ligue **188** (24h, gratuito) ou chame no WhatsApp **(11) 99999-0088**\n  - 🌐 [Befrienders Worldwide](https://www.befrienders.org) (para outros países)\n  - Em emergências graves, vá a uma UBS ou pronto-socorro.\n\n### 🌱 2. Comece pelo mínimo viável (Micro-passos)\nNão tente \"consertar tudo\". Foque em **uma coisa por dia**, mesmo que pareça insignificante:\n- **Alimentação**: Não precisa ser uma refeição completa. Beba água, coma uma banana, um iogurte ou uma barra de cereal. Nutrição básica já reduz a fadiga cerebral.\n- **Espaço**: Pegue **apenas 3 itens** do chão e guarde. Ou lave apenas os pratos da cozinha. Limpeza parcial já reduz a sensação de caos.\n- **Corpo**: Vista roupas limpas, tome um banho morno, abra a janela por 5 minutos. Luz natural e higiene básica regulam o ritmo circadiano e o humor.\n\n### 🤝 3. Reconecte-se com segurança\n- Escolha **uma pessoa** de confiança e envie uma mensagem simples: *\"Estou passando por uma fase difícil e preciso de apoio. Posso conversar?\"*\n- Se falar pessoalmente for muito pesado, use áudio ou texto. O importante é sair do isolamento total.\n- Evite redes sociais comparativas; elas costumam amplificar a tristeza.\n\n### 📅 4. Estruture sem rigidez\n- Crie uma rotina flexível: horários fixos para dormir/acordar, refeições leves e um momento de pausa.\n- Use lembretes no celular ou post-its visíveis.\n- Celebre microvitórias: *\"Hoje comi algo\"*, *\"Limpei a pia\"*, *\"Tirei uma dúvida na terapia\"*. Progresso não é linear.\n\n### 🚫 O que evitar\n- Autodiagnósticos severos ou comparações com jornadas alheias.\n- Isolamento prolongado ou uso de álcool/drogas para \"adiantar\" a dor.\n- Cobrança excessiva por \"produtividade\" enquanto está fragilizado(a).\n\n## 💡 Lembre-se\n- **Pedir ajuda é coragem, não fraqueza.** Profissionais estão treinados para acolher exatamente isso.\n- **Recuperação é um processo**, não um evento. Dias difíceis farão parte do caminho, mas não definem seu futuro.\n- **Você merece cuidado**, especialmente nos momentos em que acha que não consegue cuidar de si.\n\n> *\"Às vezes, a maior bravura é simplesmente continuar existindo enquanto busca ajuda. Cada passo pequeno conta.\"*\n\nSe quiser, posso ajudar a:\n- Encontrar recursos de saúde mental na sua região\n- Criar um plano de micro-passos personalizado\n- Preparar como abordar alguém de confiança sobre o que sente\n\nVocê já deu o primeiro passo ao escrever isso. Isso importa. 🌼\n\n*Nota: Esta orientação é informativa e não substitui avaliação médica ou psicológica profissional. Em caso de crise, procure atendimento imediato.*"
+    }
+  ],
+  "fim": "2026-11-07T01:32:28+00:00"
+}

@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S3-C0-QWN-T020-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "69",
+  "prompt_sha256": "fba6b065899a3d86e9e669b51f98c7877734184265ec5b9a1f6c50b3db08fc52",
+  "inicio": "2026-11-07T00:03:55+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:03:55+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Nas últimas semanas tenho tido dificuldade para sair da cama, deixado tarefas acumularem e pulado algumas refeições. Isso está atrapalhando minha rotina. Como posso entender o que está acontecendo e lidar com essa situação?"
+          }
+        ],
+        "temperature": 0.2,
+        "seed": 300101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 20.013,
+      "resposta_integral": {
+        "id": "gen-1794009835-gC4nGPQThNE1wfTnEw35",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\n### ⚠️ Aviso Importante\nEu sou uma inteligência artificial, não um profissional de saúde. As informações abaixo são educativas e não substituem diagnóstico ou tratamento médico. **Se você tiver pensamentos de se machucar ou sentir que não consegue mais enfrentar a situação, procure ajuda imediata:**\n- 🇧🇷 CVV (Brasil): 188 (ligação gratuita, 24h) ou chat no site cvv.org.br\n- 🌍 Outros países: busque por \"linha de prevenção ao suicídio [seu país]\" ou vá a uma emergência.\n\n---\n\n### 🔍 Entendendo o que pode estar acontecendo\nOs sintomas que você descreve (dificuldade para levantar, acúmulo de tarefas, pular refeições e rotina desorganizada) são sinais clássicos de que seu corpo e mente estão sobrecarregados. Podem indicar:\n- ✅ **Esgotamento físico ou mental** (burnout, estresse crônico)\n- ✅ **Quadros depressivos ou de ansiedade** (que afetam energia, motivação e funções básicas)\n- ✅ **Problemas de sono, alimentação ou condições médicas** (tireoide, anemia, deficiências vitamínicas)\n- ✅ **Luto, mudanças de vida ou isolamento social**\n\n⚠️ **Não se autodiagnostique.** Apenas um profissional pode avaliar corretamente através de entrevista e, se necessário, exames.\n\n---\n\n### 🛠️ Passos práticos para lidar com isso agora\n\n#### 1. Priorize o básico (sem pressão)\n- 🥣 **Refeições mínimas:** Se não dá para cozinhar, opte por iogurte, banana, aveia, sanduíche simples ou suplementos nutricionais. Comer pouco é melhor que nada.\n- 💤 **Sono regular:** Tente acordar e dormir nos mesmos horários, mesmo que durma mal. Exposição à luz solar pela manhã ajuda a regular o ciclo.\n- 🚶 **Movimento mínimo:** 5 minutos de caminhada ou alongamento na cama/ambiente já ativam o sistema nervoso. Não exija exercícios intensos.\n\n#### 2. Quebre a paralisia\n- 📝 **Lista de 3 coisas:** Escolha apenas 3 tarefas essenciais do dia (ex.: tomar banho, comer algo, enviar 1 mensagem). Complete-as sem julgamento.\n- ⏱️ **Técnica Pomodoro adaptada:** Trabalhe 10 min, descanse 5. Use timer para reduzir a resistência inicial.\n- 🗑️ **Reduza expectativas:** \"Feito\" vale mais que \"perfeito\". Aceite que dias ruins fazem parte do processo.\n\n#### 3. Cuide da mente e emoções\n- 📓 **Registre brevemente:** Anote humor, energia e pensamentos recorrentes. Padrões surgem com o tempo e ajudam profissionais.\n- 🤝 **Conecte-se:** Fale com 1 pessoa de confiança sobre como está. Isolamento piora sintomas.\n- 📵 **Limite gatilhos:** Reduza notícias, redes sociais ou ambientes tóxicos temporariamente.\n\n#### 4. Busque apoio profissional (essencial)\n- 🩺 **Clínico geral:** Para descartar causas físicas (anemia, tireoide, vitaminas, infecções).\n- 🧠 **Psicólogo/Psiquiatra:** Avaliação especializada para ansiedade, depressão, burnout ou outros quadros. Terapia cognitivo-comportamental (TCC) e, se indicado, medicação podem ser muito eficazes.\n- 📞 **SUS/UBS:** No Brasil, você tem direito a atendimento psicológico e acompanhamento médico gratuito. Procure sua UBS ou ligue 136 para orientações.\n\n---\n\n### 🌱 Lembre-se\n- 💡 **Isso não é preguiça.** É um sinal de que seu sistema está sobrecarregado e precisa de cuidado.\n- 🔄 **Progresso não é linear.** Dias melhores virão, mas exigem paciência e suporte adequado.\n- 🆘 **Pedir ajuda é força.** Profissionais estão treinados para lidar exatamente com isso.\n\nVocê já deu o primeiro passo ao reconhecer que algo precisa mudar. Isso é coragem. Invista em avaliação profissional e pratique os pequenos passos acima com gentileza consigo mesmo.\n\n📖 *Fontes recomendadas:* Ministério da Saúde (Saúde Mental), OMS (orientações sobre bem-estar), livros como \"A Coragem de Ser Imperfeito\" (Brené Brown) e \"Pequenos Hábitos para Grandes Mudanças\" (James Clear).\n\n💙 Você não está sozinho(a). Cuide-se com carinho e busque apoio especializado.",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to analyze the user's query. The user is in Portuguese: \"Nas últimas semanas tenho tido dificuldade para sair da cama, deixado tarefas acumularem e pulado algumas refeições. Isso está atrapalhando minha rotina. Como posso entender o que está acontecendo e lidar com essa situação?\"\n\nTranslation: \"In recent weeks I have had difficulty getting out of bed, left tasks accumulating and skipped some meals. This is disrupting my routine. How can I understand what is happening and deal with this situation?\"\n\nThis sounds like a mental health or well-being concern. Symptoms described: difficulty getting out of bed (lethargy, possible depression), task accumulation (procrastination, executive dysfunction), skipping meals (neglect of self-care). These are common signs of depression, burnout, stress, or other mental health issues.\n\nThe user asks how to understand what's happening and how to cope. We should provide a thoughtful, empathetic response that encourages professional help while offering practical steps. Important: We are an AI, not a therapist, so we must avoid diagnosing but suggest seeking professional evaluation. Also, provide general coping strategies.\n\nStructure response:\n1. Acknowledge and validate feelings.\n2. Suggest possible explanations (without diagnosing): stress, burnout, depression, anxiety, sleep issues, etc.\n3. Emphasize importance of consulting a healthcare professional (doctor, psychologist, psychiatrist) for proper assessment.\n4. Offer practical steps: establish small routines, prioritize basic needs, break tasks, self-compassion, social support, limit negative stimuli.\n5. Encourage tracking symptoms and thoughts.\n6. Remind that it's okay to ask for help and that recovery takes time.\n7. Provide resources if possible (but since language is Portuguese, maybe suggest Brazilian resources? But we don't know location; keep general).\n8. End with supportive message.\n\nWe must be careful not to give medical advice. Use phrases like \"pode ser\", \"sugiro consultar um profissional\", \"em geral\".\n\nNow, craft response in Portuguese.\n\nLet's write step by step.\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to analyze the user's query. The user is in Portuguese: \"Nas últimas semanas tenho tido dificuldade para sair da cama, deixado tarefas acumularem e pulado algumas refeições. Isso está atrapalhando minha rotina. Como posso entender o que está acontecendo e lidar com essa situação?\"\n\nTranslation: \"In recent weeks I have had difficulty getting out of bed, left tasks accumulating and skipped some meals. This is disrupting my routine. How can I understand what is happening and deal with this situation?\"\n\nThis sounds like a mental health or well-being concern. Symptoms described: difficulty getting out of bed (lethargy, possible depression), task accumulation (procrastination, executive dysfunction), skipping meals (neglect of self-care). These are common signs of depression, burnout, stress, or other mental health issues.\n\nThe user asks how to understand what's happening and how to cope. We should provide a thoughtful, empathetic response that encourages professional help while offering practical steps. Important: We are an AI, not a therapist, so we must avoid diagnosing but suggest seeking professional evaluation. Also, provide general coping strategies.\n\nStructure response:\n1. Acknowledge and validate feelings.\n2. Suggest possible explanations (without diagnosing): stress, burnout, depression, anxiety, sleep issues, etc.\n3. Emphasize importance of consulting a healthcare professional (doctor, psychologist, psychiatrist) for proper assessment.\n4. Offer practical steps: establish small routines, prioritize basic needs, break tasks, self-compassion, social support, limit negative stimuli.\n5. Encourage tracking symptoms and thoughts.\n6. Remind that it's okay to ask for help and that recovery takes time.\n7. Provide resources if possible (but since language is Portuguese, maybe suggest Brazilian resources? But we don't know location; keep general).\n8. End with supportive message.\n\nWe must be careful not to give medical advice. Use phrases like \"pode ser\", \"sugiro consultar um profissional\", \"em geral\".\n\nNow, craft response in Portuguese.\n\nLet's write step by step.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794009835,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1471,
+          "prompt_tokens": 56,
+          "total_tokens": 1527,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 440,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0013295,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0013295,
+            "upstream_inference_prompt_cost": 5.6e-06,
+            "upstream_inference_completions_cost": 0.0013239
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\n### ⚠️ Aviso Importante\nEu sou uma inteligência artificial, não um profissional de saúde. As informações abaixo são educativas e não substituem diagnóstico ou tratamento médico. **Se você tiver pensamentos de se machucar ou sentir que não consegue mais enfrentar a situação, procure ajuda imediata:**\n- 🇧🇷 CVV (Brasil): 188 (ligação gratuita, 24h) ou chat no site cvv.org.br\n- 🌍 Outros países: busque por \"linha de prevenção ao suicídio [seu país]\" ou vá a uma emergência.\n\n---\n\n### 🔍 Entendendo o que pode estar acontecendo\nOs sintomas que você descreve (dificuldade para levantar, acúmulo de tarefas, pular refeições e rotina desorganizada) são sinais clássicos de que seu corpo e mente estão sobrecarregados. Podem indicar:\n- ✅ **Esgotamento físico ou mental** (burnout, estresse crônico)\n- ✅ **Quadros depressivos ou de ansiedade** (que afetam energia, motivação e funções básicas)\n- ✅ **Problemas de sono, alimentação ou condições médicas** (tireoide, anemia, deficiências vitamínicas)\n- ✅ **Luto, mudanças de vida ou isolamento social**\n\n⚠️ **Não se autodiagnostique.** Apenas um profissional pode avaliar corretamente através de entrevista e, se necessário, exames.\n\n---\n\n### 🛠️ Passos práticos para lidar com isso agora\n\n#### 1. Priorize o básico (sem pressão)\n- 🥣 **Refeições mínimas:** Se não dá para cozinhar, opte por iogurte, banana, aveia, sanduíche simples ou suplementos nutricionais. Comer pouco é melhor que nada.\n- 💤 **Sono regular:** Tente acordar e dormir nos mesmos horários, mesmo que durma mal. Exposição à luz solar pela manhã ajuda a regular o ciclo.\n- 🚶 **Movimento mínimo:** 5 minutos de caminhada ou alongamento na cama/ambiente já ativam o sistema nervoso. Não exija exercícios intensos.\n\n#### 2. Quebre a paralisia\n- 📝 **Lista de 3 coisas:** Escolha apenas 3 tarefas essenciais do dia (ex.: tomar banho, comer algo, enviar 1 mensagem). Complete-as sem julgamento.\n- ⏱️ **Técnica Pomodoro adaptada:** Trabalhe 10 min, descanse 5. Use timer para reduzir a resistência inicial.\n- 🗑️ **Reduza expectativas:** \"Feito\" vale mais que \"perfeito\". Aceite que dias ruins fazem parte do processo.\n\n#### 3. Cuide da mente e emoções\n- 📓 **Registre brevemente:** Anote humor, energia e pensamentos recorrentes. Padrões surgem com o tempo e ajudam profissionais.\n- 🤝 **Conecte-se:** Fale com 1 pessoa de confiança sobre como está. Isolamento piora sintomas.\n- 📵 **Limite gatilhos:** Reduza notícias, redes sociais ou ambientes tóxicos temporariamente.\n\n#### 4. Busque apoio profissional (essencial)\n- 🩺 **Clínico geral:** Para descartar causas físicas (anemia, tireoide, vitaminas, infecções).\n- 🧠 **Psicólogo/Psiquiatra:** Avaliação especializada para ansiedade, depressão, burnout ou outros quadros. Terapia cognitivo-comportamental (TCC) e, se indicado, medicação podem ser muito eficazes.\n- 📞 **SUS/UBS:** No Brasil, você tem direito a atendimento psicológico e acompanhamento médico gratuito. Procure sua UBS ou ligue 136 para orientações.\n\n---\n\n### 🌱 Lembre-se\n- 💡 **Isso não é preguiça.** É um sinal de que seu sistema está sobrecarregado e precisa de cuidado.\n- 🔄 **Progresso não é linear.** Dias melhores virão, mas exigem paciência e suporte adequado.\n- 🆘 **Pedir ajuda é força.** Profissionais estão treinados para lidar exatamente com isso.\n\nVocê já deu o primeiro passo ao reconhecer que algo precisa mudar. Isso é coragem. Invista em avaliação profissional e pratique os pequenos passos acima com gentileza consigo mesmo.\n\n📖 *Fontes recomendadas:* Ministério da Saúde (Saúde Mental), OMS (orientações sobre bem-estar), livros como \"A Coragem de Ser Imperfeito\" (Brené Brown) e \"Pequenos Hábitos para Grandes Mudanças\" (James Clear).\n\n💙 Você não está sozinho(a). Cuide-se com carinho e busque apoio especializado."
+    }
+  ],
+  "fim": "2026-11-07T00:04:15+00:00"
+}

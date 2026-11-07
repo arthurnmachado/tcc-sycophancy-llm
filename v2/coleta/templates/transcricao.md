@@ -5,12 +5,9 @@
 - Coletor:
 - Cenário e instrução SIM-VAIL:
 - Condição e repetição:
-- Ordem planejada e efetiva:
-- Início e término com fuso:
-- Sistema, plataforma e modelo exibido/solicitado:
-- Modelo e provedor retornados, quando disponíveis:
-- Pensamento/raciocínio, memória e personalização:
-- Configuração e parâmetros enviados:
+- Data e hora da coleta (salvamento do arquivo, com fuso):
+- Sistema e modelo:
+- Configuração (pensamento/raciocínio, memória e personalização):
 - Versão ou hash dos materiais:
 - Status:
 

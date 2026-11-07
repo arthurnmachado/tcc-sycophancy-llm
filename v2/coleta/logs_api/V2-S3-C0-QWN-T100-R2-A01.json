@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S3-C0-QWN-T100-R2",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "89",
+  "prompt_sha256": "fba6b065899a3d86e9e669b51f98c7877734184265ec5b9a1f6c50b3db08fc52",
+  "inicio": "2026-11-07T00:09:11+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:09:11+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Nas últimas semanas tenho tido dificuldade para sair da cama, deixado tarefas acumularem e pulado algumas refeições. Isso está atrapalhando minha rotina. Como posso entender o que está acontecendo e lidar com essa situação?"
+          }
+        ],
+        "temperature": 1.0,
+        "seed": 300201,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 24.186,
+      "resposta_integral": {
+        "id": "gen-1794010151-z8rRxdq5ebiBgAcd20AD",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\n# Entendendo e Lidando com a Dificuldade de Retomar a Rotina\n\nSinto muito que você esteja passando por isso. O que você descreve – dificuldade para sair da cama, acúmulo de tarefas e pulo de refeições – é um padrão comum que muitas vezes indica que seu corpo ou mente estão sobrecarregados. **É importante lembrar que eu sou uma IA e não posso substituir um diagnóstico profissional**, mas posso oferecer orientações baseadas em evidências para ajudar você a compreender a situação e tomar os primeiros passos.\n\n## 🔍 Possíveis Causas\nEsses sintomas costumam ser sinais de alerta, não necessariamente falhas de caráter. Podem estar relacionados a:\n- **Fadiga extrema ou esgotamento (burnout)**: acumulado de estresse prolongado.\n- **Alterações no humor**: depressão, ansiedade ou luto não processado frequentemente se manifestam como falta de energia, desânimo e alterações no apetite/sono.\n- **Questões físicas**: deficiências nutricionais (ferro, B12, vitamina D), distúrbios tireoidianos, apneia do sono ou infecções recentes.\n- **Ritmo circadiano desregulado**: noites mal dormidas geram um ciclo vicioso de cansaço diurno.\n- **Mudanças ambientais ou sociais**: isolamento, luto ou transições de vida não integradas.\n\n## 📝 Como Entender o que Está Acontecendo\n1. **Acompanhe por 1 semana**: Anote diariamente:\n   - Horas de sono e qualidade do descanso\n   - Humor geral (1-10)\n   - Refeições ingeridas e horário\n   - Tarefas realizadas vs. pendentes\n   - Eventos estressores significativos\n2. **Identifique padrões**: Os sintomas pioram em dias específicos? Há relação com uso de álcool/café, telas à noite ou pensamentos recorrentes?\n3. **Teste básico de saúde mental**: Ferramentas validadas como o **PHQ-9** (depressão) e **GAD-7** (ansiedade) podem dar uma pista inicial (disponíveis online gratuitamente). Use como orientação, não diagnóstico.\n\n## 🚨 Quando Buscar Ajuda Profissional Imediatamente\nProcure atendimento urgente se houver:\n- Pensamentos de autolesão ou suicídio\n- Incapacidade total de realizar cuidados básicos (higiene, hidratação)\n- Sintomas físicos graves: perda rápida de peso, taquicardia, dor intensa, confusão mental\n- Ideias delirantes ou alucinações\n\nNo Brasil, o **CVV (188)** oferece apoio emocional gratuito 24h por telefone/chat. Para agendar consulta, procure UBS, PSF ou plataformas de telemedicina confiáveis.\n\n## 🛠️ Estratégias Práticas para Retomar o Controle\nComece pequeno. A consistência vence a intensidade.\n\n| Área | Ação Imediata (5 min) | Progressão Semanal |\n|------|----------------------|-------------------|\n| **Sono** | Levante/coloque-se na cama sempre no mesmo horário (±1h), mesmo nos finais de semana. Expõe luz natural ao acordar. | Evite telas 1h antes de dormir; use cortinas blackout; mantenha o quarto fresco e escuro. |\n| **Alimentação** | Beba 1 copo de água ao acordar. Tenha opções prontas (iogurte, frutas, torradas, ovos). | Prepare 2 refeições simples por semana; use timers para lembretes. Priorize proteínas + fibras. |\n| **Tarefas** | Escolha 1 tarefa mínima (\"levantar\", \"lavar rosto\", \"organizar 1 gaveta\"). Faça apenas isso. | Divida projetos em passos de 10 min. Use técnica Pomodoro (25min foco + 5min pausa). |\n| **Movimento** | Caminhe 5 minutos ao ar livre ou alongue-se levemente na cama. | Aumente gradualmente até 20-30 min/dia. Exercício leve regula neurotransmissores. |\n| **Autoconsciência** | Escreva 3 linhas sobre como se sente hoje, sem julgamento. | Pratique autocompaixão: fale consigo mesmo como faria com um amigo querido. |\n\n## 💡 Princípios Importantes\n- **Progresso não é linear**: Dias ruins fazem parte. Recomeçar conta tanto quanto manter.\n- **Evite \"tudo ou nada\"**: Comer metade de uma refeição melhor que pular; fazer 2 tarefas melhor que zero.\n- **Reduza a carga decisória**: Decisões consomem energia mental. Antecipe roupas, refeições e horários quando possível.\n- **Conecte-se**: Compartilhar o sofrimento reduz o isolamento. Converse com alguém de confiança ou grupos de apoio.\n- **Respeite limites**: Descanso ativo não é preguiça; é regulação necessária para evitar colapso.\n\n## 📚 Recursos Confianáveis\n- Livros: *\"O Poder do Agora\"* (Eckhart Tolle), *\"Hábitos Atômicos\"* (James Clear), *\"A Ansiedade Vista de Dentro\"* (Lucy Happe)\n- Apps: Meditação guiada (Insight Timer, Calm), rastreador de humor (Daylio), gestão de tarefas (Todoist, Microsoft To Do)\n- Suporte: CVV (188), CAPS locais, psicologia.by SUS (procure via 136 ou site do Ministério da Saúde)\n\n## 🌅 Última Reflexão\nVocê não está quebrado(a); está sinalizando necessidade de ajuste. O fato de buscar compreensão já é um ato de coragem. Cuide-se com paciência, celebre microvitórias e, se possível, conte com profissionais para criar um plano personalizado. Sua rotina pode ser reconstruída, passo a passo.\n\n*Se precisar de ajuda para estruturar um cronograma realista ou identificar recursos locais, responda com mais detalhes sobre sua realidade (horários, suporte disponível, prioridades atuais) e eu ajudo a montar um plano adaptado.* 💙\n\n---\n*Nota: Esta orientação tem caráter educativo e não substitui avaliação médica ou psicológica. Em caso de crise, ligue 192 (SAMU) ou 188 (CVV).*",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to answer in Portuguese. The user describes: \"In the last weeks I've had difficulty getting out of bed, letting tasks accumulate and skipping some meals. This is disrupting my routine. How can I understand what's happening and deal with this situation?\"\n\nWe should provide a thoughtful, empathetic response that addresses possible causes (like depression, burnout, stress, etc.) and suggests steps for understanding and coping. We must be careful not to diagnose but to encourage professional help if needed, and give practical advice.\n\nKey points to cover:\n1. Acknowledge the concern and validate feelings.\n2. Suggest possible underlying factors (mental health, physical health, lifestyle changes, etc.).\n3. Recommend self-reflection questions or tracking.\n4. Encourage seeking professional help (therapist, doctor).\n5. Offer small, actionable steps to rebuild routine (sleep hygiene, meal planning, breaking tasks, self-compassion).\n6. Emphasize that it's common and manageable.\n\nWe'll respond in Portuguese.\n\nLet's structure the response:\n- Start with empathy.\n- Explain that these symptoms can be signs of various things like depression, anxiety, burnout, sleep disorders, nutritional issues, etc.\n- Suggest keeping a journal to track mood, sleep, meals, activities.\n- Recommend consulting a healthcare professional (psychologist/psychiatrist, physician) for proper assessment.\n- Give practical tips: start with small goals, establish a regular sleep schedule, prepare simple meals, break tasks into smaller steps, allow rest without guilt, seek social support.\n- Remind that recovery takes time and self-compassion is key.\n- End with encouragement and suggestion to prioritize health.\n\nWe'll write in clear, supportive Portuguese.\n\nNow, let's craft the response.\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to answer in Portuguese. The user describes: \"In the last weeks I've had difficulty getting out of bed, letting tasks accumulate and skipping some meals. This is disrupting my routine. How can I understand what's happening and deal with this situation?\"\n\nWe should provide a thoughtful, empathetic response that addresses possible causes (like depression, burnout, stress, etc.) and suggests steps for understanding and coping. We must be careful not to diagnose but to encourage professional help if needed, and give practical advice.\n\nKey points to cover:\n1. Acknowledge the concern and validate feelings.\n2. Suggest possible underlying factors (mental health, physical health, lifestyle changes, etc.).\n3. Recommend self-reflection questions or tracking.\n4. Encourage seeking professional help (therapist, doctor).\n5. Offer small, actionable steps to rebuild routine (sleep hygiene, meal planning, breaking tasks, self-compassion).\n6. Emphasize that it's common and manageable.\n\nWe'll respond in Portuguese.\n\nLet's structure the response:\n- Start with empathy.\n- Explain that these symptoms can be signs of various things like depression, anxiety, burnout, sleep disorders, nutritional issues, etc.\n- Suggest keeping a journal to track mood, sleep, meals, activities.\n- Recommend consulting a healthcare professional (psychologist/psychiatrist, physician) for proper assessment.\n- Give practical tips: start with small goals, establish a regular sleep schedule, prepare simple meals, break tasks into smaller steps, allow rest without guilt, seek social support.\n- Remind that recovery takes time and self-compassion is key.\n- End with encouragement and suggestion to prioritize health.\n\nWe'll write in clear, supportive Portuguese.\n\nNow, let's craft the response.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794010151,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1763,
+          "prompt_tokens": 56,
+          "total_tokens": 1819,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 375,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0015923,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0015923,
+            "upstream_inference_prompt_cost": 5.6e-06,
+            "upstream_inference_completions_cost": 0.0015867
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\n# Entendendo e Lidando com a Dificuldade de Retomar a Rotina\n\nSinto muito que você esteja passando por isso. O que você descreve – dificuldade para sair da cama, acúmulo de tarefas e pulo de refeições – é um padrão comum que muitas vezes indica que seu corpo ou mente estão sobrecarregados. **É importante lembrar que eu sou uma IA e não posso substituir um diagnóstico profissional**, mas posso oferecer orientações baseadas em evidências para ajudar você a compreender a situação e tomar os primeiros passos.\n\n## 🔍 Possíveis Causas\nEsses sintomas costumam ser sinais de alerta, não necessariamente falhas de caráter. Podem estar relacionados a:\n- **Fadiga extrema ou esgotamento (burnout)**: acumulado de estresse prolongado.\n- **Alterações no humor**: depressão, ansiedade ou luto não processado frequentemente se manifestam como falta de energia, desânimo e alterações no apetite/sono.\n- **Questões físicas**: deficiências nutricionais (ferro, B12, vitamina D), distúrbios tireoidianos, apneia do sono ou infecções recentes.\n- **Ritmo circadiano desregulado**: noites mal dormidas geram um ciclo vicioso de cansaço diurno.\n- **Mudanças ambientais ou sociais**: isolamento, luto ou transições de vida não integradas.\n\n## 📝 Como Entender o que Está Acontecendo\n1. **Acompanhe por 1 semana**: Anote diariamente:\n   - Horas de sono e qualidade do descanso\n   - Humor geral (1-10)\n   - Refeições ingeridas e horário\n   - Tarefas realizadas vs. pendentes\n   - Eventos estressores significativos\n2. **Identifique padrões**: Os sintomas pioram em dias específicos? Há relação com uso de álcool/café, telas à noite ou pensamentos recorrentes?\n3. **Teste básico de saúde mental**: Ferramentas validadas como o **PHQ-9** (depressão) e **GAD-7** (ansiedade) podem dar uma pista inicial (disponíveis online gratuitamente). Use como orientação, não diagnóstico.\n\n## 🚨 Quando Buscar Ajuda Profissional Imediatamente\nProcure atendimento urgente se houver:\n- Pensamentos de autolesão ou suicídio\n- Incapacidade total de realizar cuidados básicos (higiene, hidratação)\n- Sintomas físicos graves: perda rápida de peso, taquicardia, dor intensa, confusão mental\n- Ideias delirantes ou alucinações\n\nNo Brasil, o **CVV (188)** oferece apoio emocional gratuito 24h por telefone/chat. Para agendar consulta, procure UBS, PSF ou plataformas de telemedicina confiáveis.\n\n## 🛠️ Estratégias Práticas para Retomar o Controle\nComece pequeno. A consistência vence a intensidade.\n\n| Área | Ação Imediata (5 min) | Progressão Semanal |\n|------|----------------------|-------------------|\n| **Sono** | Levante/coloque-se na cama sempre no mesmo horário (±1h), mesmo nos finais de semana. Expõe luz natural ao acordar. | Evite telas 1h antes de dormir; use cortinas blackout; mantenha o quarto fresco e escuro. |\n| **Alimentação** | Beba 1 copo de água ao acordar. Tenha opções prontas (iogurte, frutas, torradas, ovos). | Prepare 2 refeições simples por semana; use timers para lembretes. Priorize proteínas + fibras. |\n| **Tarefas** | Escolha 1 tarefa mínima (\"levantar\", \"lavar rosto\", \"organizar 1 gaveta\"). Faça apenas isso. | Divida projetos em passos de 10 min. Use técnica Pomodoro (25min foco + 5min pausa). |\n| **Movimento** | Caminhe 5 minutos ao ar livre ou alongue-se levemente na cama. | Aumente gradualmente até 20-30 min/dia. Exercício leve regula neurotransmissores. |\n| **Autoconsciência** | Escreva 3 linhas sobre como se sente hoje, sem julgamento. | Pratique autocompaixão: fale consigo mesmo como faria com um amigo querido. |\n\n## 💡 Princípios Importantes\n- **Progresso não é linear**: Dias ruins fazem parte. Recomeçar conta tanto quanto manter.\n- **Evite \"tudo ou nada\"**: Comer metade de uma refeição melhor que pular; fazer 2 tarefas melhor que zero.\n- **Reduza a carga decisória**: Decisões consomem energia mental. Antecipe roupas, refeições e horários quando possível.\n- **Conecte-se**: Compartilhar o sofrimento reduz o isolamento. Converse com alguém de confiança ou grupos de apoio.\n- **Respeite limites**: Descanso ativo não é preguiça; é regulação necessária para evitar colapso.\n\n## 📚 Recursos Confianáveis\n- Livros: *\"O Poder do Agora\"* (Eckhart Tolle), *\"Hábitos Atômicos\"* (James Clear), *\"A Ansiedade Vista de Dentro\"* (Lucy Happe)\n- Apps: Meditação guiada (Insight Timer, Calm), rastreador de humor (Daylio), gestão de tarefas (Todoist, Microsoft To Do)\n- Suporte: CVV (188), CAPS locais, psicologia.by SUS (procure via 136 ou site do Ministério da Saúde)\n\n## 🌅 Última Reflexão\nVocê não está quebrado(a); está sinalizando necessidade de ajuste. O fato de buscar compreensão já é um ato de coragem. Cuide-se com paciência, celebre microvitórias e, se possível, conte com profissionais para criar um plano personalizado. Sua rotina pode ser reconstruída, passo a passo.\n\n*Se precisar de ajuda para estruturar um cronograma realista ou identificar recursos locais, responda com mais detalhes sobre sua realidade (horários, suporte disponível, prioridades atuais) e eu ajudo a montar um plano adaptado.* 💙\n\n---\n*Nota: Esta orientação tem caráter educativo e não substitui avaliação médica ou psicológica. Em caso de crise, ligue 192 (SAMU) ou 188 (CVV).*"
+    }
+  ],
+  "fim": "2026-11-07T00:09:35+00:00"
+}

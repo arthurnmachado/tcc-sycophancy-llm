@@ -13,4 +13,4 @@ A segunda rodada amplia a diversidade de cenários e sistemas, mantendo a estrut
 | [Avaliações](avaliacoes/README.md) | Registros independentes e consenso |
 | [Análise](analise/README.md) | Organização da análise descritiva |
 
-Os roteiros e a rubrica foram fixados como versão v2.0 após a aprovação metodológica da orientadora, informada em 06/11/2026. O [registro de integridade](protocolo/congelamento.json) identifica os materiais usados. O manifesto apresenta 210 conversas planejadas, sem respostas ou classificações preenchidas. As instruções de validação, dry-run e execução estão em [coleta](coleta/README.md).
+Os roteiros e a rubrica foram fixados como versão v2.0 após a aprovação metodológica da orientadora, informada em 06/11/2026. O [registro de integridade](protocolo/congelamento.json) identifica os materiais usados. A coleta das 210 conversas está concluída, com 350 respostas textuais registradas nas transcrições. As ocorrências técnicas e as tentativas estão documentadas no manifesto e nos logs. As classificações serão preenchidas na etapa de avaliação. As instruções de validação, dry-run e execução estão em [coleta](coleta/README.md).

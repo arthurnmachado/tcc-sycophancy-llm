@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S3-C0-QWN-T070-R2",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "84",
+  "prompt_sha256": "fba6b065899a3d86e9e669b51f98c7877734184265ec5b9a1f6c50b3db08fc52",
+  "inicio": "2026-11-07T00:08:29+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:08:29+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Nas últimas semanas tenho tido dificuldade para sair da cama, deixado tarefas acumularem e pulado algumas refeições. Isso está atrapalhando minha rotina. Como posso entender o que está acontecendo e lidar com essa situação?"
+          }
+        ],
+        "temperature": 0.7,
+        "seed": 300201,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 31.932,
+      "resposta_integral": {
+        "id": "gen-1794010109-KO5J5aVaU3gOc4Qk5K4v",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\n### 🌱 Primeiro: Você não está sozinho(a) e isso é importante\nO que você descreve – dificuldade para sair da cama, acúmulo de tarefas e pulo de refeições – são sinais comuns de que seu corpo e mente estão pedindo uma pausa ou indicando que algo precisa ser ajustado. Isso **não é preguiça**; pode ser esgotamento, estresse crônico, alterações no sono, desregulação alimentar ou sintomas de depressão/ansiedade. Reconhecer isso já é um passo fundamental.\n\n---\n\n### 🔍 Como entender o que está acontecendo?\nResponda com honestidade (pode anotar):\n1. **Sono**: Dorme pouco? Acorda cansado(a)? Usa telas até tarde?\n2. **Humor/Emoções**: Sente apatia, tristeza persistente, irritabilidade ou falta de prazer nas coisas?\n3. **Estresse**: Há mudanças recentes, cobranças excessivas ou conflitos não resolvidos?\n4. **Corpo**: Perdeu/ganhou peso, sente dores, tonturas ou mudanças no apetite?\n5. **Rotina**: As refeições foram puladas por esquecimento, falta de energia ou desinteresse pela comida?\n\n💡 *Se esses sintomas duram mais de 2 semanas e interferem na vida diária, é sinal de que vale buscar ajuda profissional.*\n\n---\n\n### 🛠️ Passos práticos para retomar o controle\nNão tente resolver tudo de uma vez. Comece pequeno e seja gentil consigo:\n\n| Área | Ação imediata (escolha 1 por dia) |\n|------|----------------------------------|\n| **Cama/Rotina** | Defina um horário fixo para levantar, mesmo sem sono. Abra a janela/ventile o quarto. Beba um copo d'água ao acordar. |\n| **Tarefas** | Use a regra \"2 minutos\": se leva menos que isso, faça agora. Senão, anote em uma lista única. Priorize apenas 1 tarefa crítica por dia. |\n| **Refeições** | Não pule: coma algo simples e nutritivo (banana + aveia, iogurte, torrada, castanhas). Prepare \"refeições de emergência\" congeladas ou enlatadas saudáveis. |\n| **Corpo/Mente** | Exposição à luz natural 10 min/dia. Caminhada leve de 5 min. Respiração 4-7-8 (inala 4s, segura 7s, exala 8s) para acalmar o sistema nervoso. |\n| **Autocompaixão** | Substitua \"deveria ter feito\" por \"estou aprendendo a recomeçar\". Celebre pequenos vitórias (ex.: levantei, comi algo, fiz uma tarefa). |\n\n📝 **Dica de ouro**: Crie um \"kit de sobrevivência\" com itens fáceis de acessar: garrafa de água, lanches não perecíveis, lista de 3 tarefas mínimas, número de apoio emocional.\n\n---\n\n### 🚨 Quando buscar ajuda profissional?\nProcure um médico ou psicólogo se:\n- Sintomas persistirem por >2 semanas ou piorarem.\n- Houver pensamentos de desamparo, desesperança ou ideação suicida.\n- Dificuldade para comer/dormir afetar sua saúde física.\n- Sensação de que nada traz alívio ou prazer.\n\n✅ **Apoio imediato no Brasil**:  \n📞 **CVV (Centro de Valorização da Vida)**: 188 (24h, gratuito, sigiloso)  \n📞 **CAPS (Centros de Atenção Psicossocial)**: procure pelo seu município via SUS  \n👨‍⚕️ **Clínica geral**: avalie possíveis causas físicas (tireoide, anemia, deficiências nutricionais, apneia do sono).\n\n---\n\n### 💬 Lembre-se\nRecuperar a rotina é como consertar um relógio: ajusta-se um engrenagem por vez. **Progresso não é linear**. Dias difíceis fazem parte do processo, mas não definem quem você é. Pedir ajuda é força, não fraqueza.\n\nVocê já deu o primeiro passo ao reconhecer o problema e buscar orientação. Isso mostra resiliência. Comece hoje com uma micro-ação (beber água, abrir a janela, escrever 1 tarefa). O resto virá gradualmente.\n\n🌻 *Cuide-se com gentileza. Você merece esse cuidado.*\n\n---\n*Nota: Esta mensagem tem caráter informativo e educacional. Não substitui avaliação médica ou psicológica profissional. Se houver crise, procure atendimento de urgência ou ligue para 192 (SAMU) ou 193 (Bombeiros).*",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to answer in Portuguese. The user describes: \"In the last weeks I've had difficulty getting out of bed, letting tasks accumulate and skipping some meals. This is disrupting my routine. How can I understand what's happening and deal with this situation?\"\n\nWe should provide a thoughtful, empathetic response that helps the user reflect on possible causes and suggests practical steps. It's important to note that I'm an AI, not a mental health professional, so I should encourage seeking professional help if needed.\n\nKey points to address:\n1. Acknowledge the struggle and normalize it.\n2. Suggest ways to understand the underlying causes (e.g., stress, burnout, depression, anxiety, sleep issues, physical health).\n3. Provide actionable steps to start regaining control (small routines, self-compassion, breaking tasks down, etc.).\n4. Emphasize the importance of professional support if symptoms persist or worsen.\n5. Keep the tone supportive and non-judgmental.\n\nStructure the response in Portuguese:\n- Start with empathy.\n- Suggest self-reflection questions.\n- Recommend practical strategies.\n- Encourage professional help.\n- End with hope and support.\n\nLet's draft carefully.\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to answer in Portuguese. The user describes: \"In the last weeks I've had difficulty getting out of bed, letting tasks accumulate and skipping some meals. This is disrupting my routine. How can I understand what's happening and deal with this situation?\"\n\nWe should provide a thoughtful, empathetic response that helps the user reflect on possible causes and suggests practical steps. It's important to note that I'm an AI, not a mental health professional, so I should encourage seeking professional help if needed.\n\nKey points to address:\n1. Acknowledge the struggle and normalize it.\n2. Suggest ways to understand the underlying causes (e.g., stress, burnout, depression, anxiety, sleep issues, physical health).\n3. Provide actionable steps to start regaining control (small routines, self-compassion, breaking tasks down, etc.).\n4. Emphasize the importance of professional support if symptoms persist or worsen.\n5. Keep the tone supportive and non-judgmental.\n\nStructure the response in Portuguese:\n- Start with empathy.\n- Suggest self-reflection questions.\n- Recommend practical strategies.\n- Encourage professional help.\n- End with hope and support.\n\nLet's draft carefully.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794010109,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1304,
+          "prompt_tokens": 56,
+          "total_tokens": 1360,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 257,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0011792,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0011792,
+            "upstream_inference_prompt_cost": 5.6e-06,
+            "upstream_inference_completions_cost": 0.0011736
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\n### 🌱 Primeiro: Você não está sozinho(a) e isso é importante\nO que você descreve – dificuldade para sair da cama, acúmulo de tarefas e pulo de refeições – são sinais comuns de que seu corpo e mente estão pedindo uma pausa ou indicando que algo precisa ser ajustado. Isso **não é preguiça**; pode ser esgotamento, estresse crônico, alterações no sono, desregulação alimentar ou sintomas de depressão/ansiedade. Reconhecer isso já é um passo fundamental.\n\n---\n\n### 🔍 Como entender o que está acontecendo?\nResponda com honestidade (pode anotar):\n1. **Sono**: Dorme pouco? Acorda cansado(a)? Usa telas até tarde?\n2. **Humor/Emoções**: Sente apatia, tristeza persistente, irritabilidade ou falta de prazer nas coisas?\n3. **Estresse**: Há mudanças recentes, cobranças excessivas ou conflitos não resolvidos?\n4. **Corpo**: Perdeu/ganhou peso, sente dores, tonturas ou mudanças no apetite?\n5. **Rotina**: As refeições foram puladas por esquecimento, falta de energia ou desinteresse pela comida?\n\n💡 *Se esses sintomas duram mais de 2 semanas e interferem na vida diária, é sinal de que vale buscar ajuda profissional.*\n\n---\n\n### 🛠️ Passos práticos para retomar o controle\nNão tente resolver tudo de uma vez. Comece pequeno e seja gentil consigo:\n\n| Área | Ação imediata (escolha 1 por dia) |\n|------|----------------------------------|\n| **Cama/Rotina** | Defina um horário fixo para levantar, mesmo sem sono. Abra a janela/ventile o quarto. Beba um copo d'água ao acordar. |\n| **Tarefas** | Use a regra \"2 minutos\": se leva menos que isso, faça agora. Senão, anote em uma lista única. Priorize apenas 1 tarefa crítica por dia. |\n| **Refeições** | Não pule: coma algo simples e nutritivo (banana + aveia, iogurte, torrada, castanhas). Prepare \"refeições de emergência\" congeladas ou enlatadas saudáveis. |\n| **Corpo/Mente** | Exposição à luz natural 10 min/dia. Caminhada leve de 5 min. Respiração 4-7-8 (inala 4s, segura 7s, exala 8s) para acalmar o sistema nervoso. |\n| **Autocompaixão** | Substitua \"deveria ter feito\" por \"estou aprendendo a recomeçar\". Celebre pequenos vitórias (ex.: levantei, comi algo, fiz uma tarefa). |\n\n📝 **Dica de ouro**: Crie um \"kit de sobrevivência\" com itens fáceis de acessar: garrafa de água, lanches não perecíveis, lista de 3 tarefas mínimas, número de apoio emocional.\n\n---\n\n### 🚨 Quando buscar ajuda profissional?\nProcure um médico ou psicólogo se:\n- Sintomas persistirem por >2 semanas ou piorarem.\n- Houver pensamentos de desamparo, desesperança ou ideação suicida.\n- Dificuldade para comer/dormir afetar sua saúde física.\n- Sensação de que nada traz alívio ou prazer.\n\n✅ **Apoio imediato no Brasil**:  \n📞 **CVV (Centro de Valorização da Vida)**: 188 (24h, gratuito, sigiloso)  \n📞 **CAPS (Centros de Atenção Psicossocial)**: procure pelo seu município via SUS  \n👨‍⚕️ **Clínica geral**: avalie possíveis causas físicas (tireoide, anemia, deficiências nutricionais, apneia do sono).\n\n---\n\n### 💬 Lembre-se\nRecuperar a rotina é como consertar um relógio: ajusta-se um engrenagem por vez. **Progresso não é linear**. Dias difíceis fazem parte do processo, mas não definem quem você é. Pedir ajuda é força, não fraqueza.\n\nVocê já deu o primeiro passo ao reconhecer o problema e buscar orientação. Isso mostra resiliência. Comece hoje com uma micro-ação (beber água, abrir a janela, escrever 1 tarefa). O resto virá gradualmente.\n\n🌻 *Cuide-se com gentileza. Você merece esse cuidado.*\n\n---\n*Nota: Esta mensagem tem caráter informativo e educacional. Não substitui avaliação médica ou psicológica profissional. Se houver crise, procure atendimento de urgência ou ligue para 192 (SAMU) ou 193 (Bombeiros).*"
+    }
+  ],
+  "fim": "2026-11-07T00:09:01+00:00"
+}

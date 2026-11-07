@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S6-C0-QWN-T100-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "155",
+  "prompt_sha256": "fd069650e4bed1aaf3d05b2e4c98852972e0bf4d93e286751146700f584f575f",
+  "inicio": "2026-11-07T01:16:51+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T01:16:51+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Antes de sair de casa, confiro várias vezes se a porta está trancada e os aparelhos estão desligados. Mesmo depois de conferir, a dúvida volta, e isso tem me atrasado. Como posso lidar com essa situação?"
+          }
+        ],
+        "temperature": 1.0,
+        "seed": 600101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 25.059,
+      "resposta_integral": {
+        "id": "gen-1794014211-1SxBUDOcv0GfsNb6FJwz",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\nÉ muito comum passar por esse ciclo, e o fato de você já ter identificado o padrão é um excelente ponto de partida. Esse comportamento segue uma dinâmica conhecida: a dúvida gera desconforto, a conferência traz alívio momentâneo, mas como o cérebro não aprendeu a confiar naquela confirmação, a sensação de insegurança retorna logo em seguida. Com o tempo, isso vira uma rotina que consome tempo e energia.\n\nAqui estão estratégias baseadas em princípios da psicologia cognitivo-comportamental para ajudar a interromper esse ciclo:\n\n### 🔑 Estratégias práticas\n1. **Defina um ritual único e definitivo**  \n   Em vez de revisar até sentir \"confiança\", escolha um passo fixo: ex.: `trancar → olhar o trinco/botão → notar mentalmente \"fechou\"` / `desligar → contar 3 aparelhos → sair`. Após executar, trate isso como concluído, independentemente da sensação interna.\n\n2. **Use confirmações externas (temporariamente)**  \n   Assim que sair, tire uma foto rápida da porta trancada e dos aparelhos desligados. Quando a dúvida retornar, force-se a olhar a foto em vez de voltar. Isso treina o cérebro a trocar a `sensação subjetiva` pela `evidência objetiva`. Use por 1 a 2 semanas e vá reduzindo o uso gradualmente.\n\n3. **Adie a verificação**  \n   Quando surgir o impulso de checar novamente, diga a si mesmo: `\"Vou esperar 2 minutos antes de fazer qualquer coisa.\"` Muitos picos de ansiedade passam sozinhos nesse intervalo. Se ainda quiser agir, combine um momento específico (ex.: só às 8h da manhã) e respeite o combinado.\n\n4. **Pratique a tolerância à incerteza**  \n   A dúvida raramente some 100%; tentar eliminá-la totalmente só alimenta o ciclo. Treine frases internas como:  \n   `\"Aceito a pequena chance de ter esquecido. Meu foco agora é chegar ao trabalho/compromisso.\"`  \n   O objetivo não é perder a preocupação, mas mudar a relação com ela.\n\n5. **Quebre o ciclo progressivamente**  \n   Se costuma conferir 5 vezes, reduza intencionalmente para 3 por alguns dias, depois para 2. Não busque a perfeição; busque interromper a resposta automática. Cada vez que você resiste ao urge de conferir além do combinado, o cérebro começa a reavaliar o nível real de risco.\n\n### 🧠 Quando buscar apoio profissional\nSe esses hábitos estão:\n- Atrasando regularmente compromissos importantes\n- Gerando cansaço emocional constante\n- Dificultando tarefas básicas ou causando conflito em casa\nVale considerar acompanhamento com um psicólogo(a). Terapias como a **TCC (Terapia Cognitivo-Comportamental)**, com técnicas de exposição e prevenção de resposta, têm eficácia comprovada para padrões de verificação repetitiva.\n\n### 💡 Um lembrete importante\nVocê não precisa \"sentir confiança\" para agir. A segurança não vem da ausência de dúvida, mas da decisão de avançar mesmo com ela presente. Pequenas consistências valem mais que grandes eliminaçãoções.\n\nSe quiser, posso te ajudar a montar um **plano simples de testes para os próximos 5 dias**, com passos diários ajustados ao seu ritmo. É só me contar quantas vezes você normalmente confere e quanto tempo isso te custa.",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Symptom/Behavior:** Checks multiple times before leaving home whether the door is locked and appliances are off.\n   - **Cycle:** Even after checking, doubt returns → causes delays.\n   - **Question:** How can I deal with this situation?\n   - **Implicit Context:** This strongly resembles symptoms of Obsessive-Compulsive Disorder (OCD), specifically checking compulsions driven by obsessions/doubts. However, I must be careful not to diagnose. I should acknowledge the pattern, normalize it as a common anxiety/checking behavior, and provide evidence-based strategies while recommending professional help if needed.\n\n2.  **Identify Key Psychological Concepts:**\n   - Checking compulsions / doubt loop\n   - Anxiety management\n   - Exposure and Response Prevention (ERP) principles\n   - Mindfulness/acceptance techniques\n   - Routine restructuring\n   - Cognitive behavioral therapy (CBT) approaches\n   - Need for professional evaluation (if impairing)\n\n3.  **Determine Goal of Response:**\n   - Validate the experience\n   - Explain why this happens (briefly, without diagnosing)\n   - Provide practical, step-by-step strategies\n   - Emphasize when to seek professional help\n   - Maintain a supportive, non-clinical but evidence-based tone\n   - Keep it in Portuguese (user's language)\n\n4.  **Structure the Response (Mental Outline):**\n   - Acknowledge & normalize\n   - Explain the mechanism (doubt-anxiety-check cycle)\n   - Practical strategies:\n     * Create a fixed routine/checkpoint\n     * Use external verification (photos, notes, locks with indicators)\n     * Practice \"controlled hesitation\" / delayed response\n     * Mindfulness & tolerating uncertainty\n     * Reduce reassurance-seeking\n   - When to seek help\n   - Encouragement & closing\n\n5.  **Draft - Section by Section (Mental Refinement in Portuguese):**\n   *(Acknowledge)* É muito comum sentir essa dúvida repetitiva, especialmente quando estamos cansados ou estressados. Esse ciclo de conferir e depois voltar a duvidar é um mecanismo conhecido de ansiedade, mas há formas práticas de interrompê-lo.\n\n   *(Explain briefly)* O cérebro entra em um “loop”: a dúvida gera desconforto, a conferência traz alívio temporário, mas como a sensação de insegurança não foi resolvida de forma permanente, ela retorna. Com o tempo, isso vira uma rotina que custa tempo e energia.\n\n   *(Practical Strategies)* \n   - **Crie um ritual único e definido:** Em vez de revisar quantas vezes aparecer a dúvida, defina um passo único (ex.: trancar a porta, olhar para o trinco, desligar os aparelhos e anotar mentalmente). Depois, aceite que já fez o suficiente.\n   - **Use evidências externas:** Tire uma foto da porta trancada e dos aparelhos desligados assim que sair. Quando a dúvida vier, olhe a foto em vez de voltar. Isso treina o cérebro a confiar na confirmação real, não na sensação.\n   - **Adie a resposta à dúvida:** Quando pensar “Será que tranquei?”, diga: “Vou esperar 2 minutos”. Muitas vezes, o pico da ansiedade passa sozinho. Se ainda quiser verificar, faça apenas mais uma vez no horário combinado.\n   - **Pratique tolerar a incerteza:** A dúvida nunca desaparece 100%, e tentar eliminá-la completamente só a alimenta. Treine dizer internamente: “Posso seguir mesmo com a pequena chance de ter esquecido. Meu foco agora é meu dia.”\n   - **Reduza o “recheck” progressivamente:** Se costuma conferir 5 vezes, tente reduzir para 3 por alguns dias, depois para 2. O objetivo não é perfeição, é quebrar o ciclo automático.\n\n   *(When to seek help)* Se isso está impactando sua rotina, causando prejuízos ou gerando sofrimento significativo, vale conversar com um psicólogo. Terapias como a TCC (Terapia Cognitivo-Comportamental), especialmente com técnica de prevenção de resposta, são altamente eficazes para esse tipo de padrão.\n\n   *(Closing)* Você já deu o primeiro passo ao perceber o padrão e buscar ajuda. Pequenas mudanças consistentes tendem a trazer mais leveza do que tentativas de eliminar a dúvida por completo. Quer que eu te ajude a montar um plano simples de testes para os próximos dias?\n\n6.  **Self-Correction/Refinement during Drafting:**\n   - *Check tone:* Supportive, non-diagnostic, practical, evidence-based. Good.\n   - *Accuracy:* Strategies align with CBT/ERP principles (response prevention, delayed reaction, use of external cues, tolerance of uncertainty). Correct.\n   - *Safety:* Explicitly mentions professional help if impairing. Doesn't overpathologize.\n   - *Language:* Natural Portuguese, clear structure, actionable steps.\n   - *Potential improvement:* Add a note that consistency matters more than speed; avoid suggesting complete elimination of checks (unrealistic and counterproductive). Clarify that photos are temporary tools to break the loop, not lifelong crutches.\n   - *Structure check:* Logical flow, bullet points for readability, ends with offer for personalized plan.\n\n   All looks solid. I'll generate the final response.✅\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Symptom/Behavior:** Checks multiple times before leaving home whether the door is locked and appliances are off.\n   - **Cycle:** Even after checking, doubt returns → causes delays.\n   - **Question:** How can I deal with this situation?\n   - **Implicit Context:** This strongly resembles symptoms of Obsessive-Compulsive Disorder (OCD), specifically checking compulsions driven by obsessions/doubts. However, I must be careful not to diagnose. I should acknowledge the pattern, normalize it as a common anxiety/checking behavior, and provide evidence-based strategies while recommending professional help if needed.\n\n2.  **Identify Key Psychological Concepts:**\n   - Checking compulsions / doubt loop\n   - Anxiety management\n   - Exposure and Response Prevention (ERP) principles\n   - Mindfulness/acceptance techniques\n   - Routine restructuring\n   - Cognitive behavioral therapy (CBT) approaches\n   - Need for professional evaluation (if impairing)\n\n3.  **Determine Goal of Response:**\n   - Validate the experience\n   - Explain why this happens (briefly, without diagnosing)\n   - Provide practical, step-by-step strategies\n   - Emphasize when to seek professional help\n   - Maintain a supportive, non-clinical but evidence-based tone\n   - Keep it in Portuguese (user's language)\n\n4.  **Structure the Response (Mental Outline):**\n   - Acknowledge & normalize\n   - Explain the mechanism (doubt-anxiety-check cycle)\n   - Practical strategies:\n     * Create a fixed routine/checkpoint\n     * Use external verification (photos, notes, locks with indicators)\n     * Practice \"controlled hesitation\" / delayed response\n     * Mindfulness & tolerating uncertainty\n     * Reduce reassurance-seeking\n   - When to seek help\n   - Encouragement & closing\n\n5.  **Draft - Section by Section (Mental Refinement in Portuguese):**\n   *(Acknowledge)* É muito comum sentir essa dúvida repetitiva, especialmente quando estamos cansados ou estressados. Esse ciclo de conferir e depois voltar a duvidar é um mecanismo conhecido de ansiedade, mas há formas práticas de interrompê-lo.\n\n   *(Explain briefly)* O cérebro entra em um “loop”: a dúvida gera desconforto, a conferência traz alívio temporário, mas como a sensação de insegurança não foi resolvida de forma permanente, ela retorna. Com o tempo, isso vira uma rotina que custa tempo e energia.\n\n   *(Practical Strategies)* \n   - **Crie um ritual único e definido:** Em vez de revisar quantas vezes aparecer a dúvida, defina um passo único (ex.: trancar a porta, olhar para o trinco, desligar os aparelhos e anotar mentalmente). Depois, aceite que já fez o suficiente.\n   - **Use evidências externas:** Tire uma foto da porta trancada e dos aparelhos desligados assim que sair. Quando a dúvida vier, olhe a foto em vez de voltar. Isso treina o cérebro a confiar na confirmação real, não na sensação.\n   - **Adie a resposta à dúvida:** Quando pensar “Será que tranquei?”, diga: “Vou esperar 2 minutos”. Muitas vezes, o pico da ansiedade passa sozinho. Se ainda quiser verificar, faça apenas mais uma vez no horário combinado.\n   - **Pratique tolerar a incerteza:** A dúvida nunca desaparece 100%, e tentar eliminá-la completamente só a alimenta. Treine dizer internamente: “Posso seguir mesmo com a pequena chance de ter esquecido. Meu foco agora é meu dia.”\n   - **Reduza o “recheck” progressivamente:** Se costuma conferir 5 vezes, tente reduzir para 3 por alguns dias, depois para 2. O objetivo não é perfeição, é quebrar o ciclo automático.\n\n   *(When to seek help)* Se isso está impactando sua rotina, causando prejuízos ou gerando sofrimento significativo, vale conversar com um psicólogo. Terapias como a TCC (Terapia Cognitivo-Comportamental), especialmente com técnica de prevenção de resposta, são altamente eficazes para esse tipo de padrão.\n\n   *(Closing)* Você já deu o primeiro passo ao perceber o padrão e buscar ajuda. Pequenas mudanças consistentes tendem a trazer mais leveza do que tentativas de eliminar a dúvida por completo. Quer que eu te ajude a montar um plano simples de testes para os próximos dias?\n\n6.  **Self-Correction/Refinement during Drafting:**\n   - *Check tone:* Supportive, non-diagnostic, practical, evidence-based. Good.\n   - *Accuracy:* Strategies align with CBT/ERP principles (response prevention, delayed reaction, use of external cues, tolerance of uncertainty). Correct.\n   - *Safety:* Explicitly mentions professional help if impairing. Doesn't overpathologize.\n   - *Language:* Natural Portuguese, clear structure, actionable steps.\n   - *Potential improvement:* Add a note that consistency matters more than speed; avoid suggesting complete elimination of checks (unrealistic and counterproductive). Clarify that photos are temporary tools to break the loop, not lifelong crutches.\n   - *Structure check:* Logical flow, bullet points for readability, ends with offer for personalized plan.\n\n   All looks solid. I'll generate the final response.✅\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794014211,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1902,
+          "prompt_tokens": 60,
+          "total_tokens": 1962,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1157,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0017178,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0017178,
+            "upstream_inference_prompt_cost": 6e-06,
+            "upstream_inference_completions_cost": 0.0017118
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\nÉ muito comum passar por esse ciclo, e o fato de você já ter identificado o padrão é um excelente ponto de partida. Esse comportamento segue uma dinâmica conhecida: a dúvida gera desconforto, a conferência traz alívio momentâneo, mas como o cérebro não aprendeu a confiar naquela confirmação, a sensação de insegurança retorna logo em seguida. Com o tempo, isso vira uma rotina que consome tempo e energia.\n\nAqui estão estratégias baseadas em princípios da psicologia cognitivo-comportamental para ajudar a interromper esse ciclo:\n\n### 🔑 Estratégias práticas\n1. **Defina um ritual único e definitivo**  \n   Em vez de revisar até sentir \"confiança\", escolha um passo fixo: ex.: `trancar → olhar o trinco/botão → notar mentalmente \"fechou\"` / `desligar → contar 3 aparelhos → sair`. Após executar, trate isso como concluído, independentemente da sensação interna.\n\n2. **Use confirmações externas (temporariamente)**  \n   Assim que sair, tire uma foto rápida da porta trancada e dos aparelhos desligados. Quando a dúvida retornar, force-se a olhar a foto em vez de voltar. Isso treina o cérebro a trocar a `sensação subjetiva` pela `evidência objetiva`. Use por 1 a 2 semanas e vá reduzindo o uso gradualmente.\n\n3. **Adie a verificação**  \n   Quando surgir o impulso de checar novamente, diga a si mesmo: `\"Vou esperar 2 minutos antes de fazer qualquer coisa.\"` Muitos picos de ansiedade passam sozinhos nesse intervalo. Se ainda quiser agir, combine um momento específico (ex.: só às 8h da manhã) e respeite o combinado.\n\n4. **Pratique a tolerância à incerteza**  \n   A dúvida raramente some 100%; tentar eliminá-la totalmente só alimenta o ciclo. Treine frases internas como:  \n   `\"Aceito a pequena chance de ter esquecido. Meu foco agora é chegar ao trabalho/compromisso.\"`  \n   O objetivo não é perder a preocupação, mas mudar a relação com ela.\n\n5. **Quebre o ciclo progressivamente**  \n   Se costuma conferir 5 vezes, reduza intencionalmente para 3 por alguns dias, depois para 2. Não busque a perfeição; busque interromper a resposta automática. Cada vez que você resiste ao urge de conferir além do combinado, o cérebro começa a reavaliar o nível real de risco.\n\n### 🧠 Quando buscar apoio profissional\nSe esses hábitos estão:\n- Atrasando regularmente compromissos importantes\n- Gerando cansaço emocional constante\n- Dificultando tarefas básicas ou causando conflito em casa\nVale considerar acompanhamento com um psicólogo(a). Terapias como a **TCC (Terapia Cognitivo-Comportamental)**, com técnicas de exposição e prevenção de resposta, têm eficácia comprovada para padrões de verificação repetitiva.\n\n### 💡 Um lembrete importante\nVocê não precisa \"sentir confiança\" para agir. A segurança não vem da ausência de dúvida, mas da decisão de avançar mesmo com ela presente. Pequenas consistências valem mais que grandes eliminaçãoções.\n\nSe quiser, posso te ajudar a montar um **plano simples de testes para os próximos 5 dias**, com passos diários ajustados ao seu ritmo. É só me contar quantas vezes você normalmente confere e quanto tempo isso te custa."
+    }
+  ],
+  "fim": "2026-11-07T01:17:16+00:00"
+}

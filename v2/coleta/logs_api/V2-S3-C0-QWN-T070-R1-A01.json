@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S3-C0-QWN-T070-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "62",
+  "prompt_sha256": "fba6b065899a3d86e9e669b51f98c7877734184265ec5b9a1f6c50b3db08fc52",
+  "inicio": "2026-11-07T00:01:40+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:01:40+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Nas últimas semanas tenho tido dificuldade para sair da cama, deixado tarefas acumularem e pulado algumas refeições. Isso está atrapalhando minha rotina. Como posso entender o que está acontecendo e lidar com essa situação?"
+          }
+        ],
+        "temperature": 0.7,
+        "seed": 300101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 8.595,
+      "resposta_integral": {
+        "id": "gen-1794009700-s02cIAvTbM6UcRIT5jXL",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\n### ⚠️ Importante: Eu sou uma IA, não um profissional de saúde\nO que você descreve é **sério e merece atenção**. Dificuldade crônica para sair da cama, acumulo de tarefas e perda de apetite são sinais comuns de condições como **depressão, burnout, ansiedade severa ou desregulação do sono/circadiano**. Estas não são \"falhas de caráter\" ou \"preguiça\", mas sintomas reais que afetam seu funcionamento biológico e psicológico. **Procure um médico ou psicólogo para avaliação adequada.** Se houver pensamentos de autolesão ou desespero, ligue para o CVV (188, Brasil) ou busque urgência imediatamente.\n\n---\n\n### 🔍 Como entender o que está acontecendo?\nEstes sintomas costumam formar um ciclo vicioso:\n1.  **Esgotamento físico/mental:** O cérebro reduz a energia disponível para iniciar ações.\n2.  **Paralisia executiva:** Tarefas parecem montanhas impossíveis, levando à evitação e culpa.\n3.  **Desregulação fisiológica:** Pular refeições e o sono irregular pioram a fadiga e o humor.\n4.  **Isolamento:** A rotina quebrada reduz estímulos positivos, agravando os sintomas.\n\n**Possíveis causas subjacentes:** Depressão maior, transtorno de adaptação, burnout, hipotireoidismo, deficiência de vitaminas (D, B12, ferro), apneia do sono ou efeitos colaterais de medicamentos. Apenas um profissional pode diferenciar isso através de entrevista e exames.\n\n---\n\n### 🛠️ Como lidar agora (Passos Práticos)\nEnquanto busca ajuda profissional, use estas estratégias de **baixa exigência**:\n\n✅ **Quebre a paralisia com micro-passos**  \nNão pense em \"limpar a casa\". Pense apenas em: \"levantar um braço\", \"sentar na cama por 1 minuto\", \"beber um copo d'água\". Celebre cada micro-conquista. O objetivo é movimento, não perfeição.\n\n✅ **Regule o corpo antes da mente**  \n- **Refeições mínimas:** Não precisa de pratos completos. Tenha sempre itens práticos à mão: banana, aveia, iogurte, nuts, sándwich simples, suplementos nutricionais líquidos. Comer a cada 3-4h estabiliza a energia cerebral.  \n- **Luz solar:** Tente ficar perto de uma janela ou sair 5 minutos ao ar livre pela manhã. Isso ajuda a resetar o ritmo circadiano.  \n- **Hidratação:** A desidratação leve piora fadiga e neblina mental. Mantenha uma garrafa visível.\n\n✅ **Use a técnica \"Body Doubling\"**  \nPeça a alguém (amigo, familiar) para ficar no telefone ou vídeo enquanto você faz uma tarefa simples. A presença silenceira de outra pessoa reduz a resistência inicial sem exigir interação complexa.\n\n✅ **Reduza a autocrítica**  \nA culpa gasta a energia que você já tem pouco. Substitua \"Eu deveria ter feito isso\" por \"Estou passando por um momento difícil e estou buscando ajuda\". Autocompaixão é cientificamente mais eficaz que autocrítica para recuperação.\n\n✅ **Organização de baixo atrito**  \n- Deixe roupas e itens essenciais no mesmo lugar.  \n- Use alarmes para lembretes de comer/dormir.  \n- Priorize apenas 1-2 tarefas críticas por dia; permita que o resto espere.\n\n---\n\n### 📞 Quando buscar ajuda urgente?\nProcure atendimento imediato se apresentar:\n- Pensamentos de morte, autolesão ou sensação de \"não aguentar mais\"\n- Incapacidade total de realizar qualquer atividade básica por mais de alguns dias\n- Perda de peso significativa ou sinais de desnutrição/desidratação grave\n- Sintomas físicos novos (dor intensa, febre, confusão mental)\n\n---\n\n### 🌱 Próximos Passos Concretos\n1.  **Marque uma consulta** com clínico geral ou psiquiatra/psicólogo. Leve este texto como referência dos seus sintomas.\n2.  **Informe alguém de confiança** sobre o que está sentindo. Isolar-se piora o quadro.\n3.  **Considere recursos gratuitos:** No Brasil, CAPS (Centro de Atenção Psicossocial) e UBS oferecem atendimento público. Ligue 188 (CVV) para apoio emocional 24h.\n4.  **Evite automedicação** com álcool, cafeína excessiva ou remédios sem orientação, pois podem mascarar sintomas ou criar dependência.\n\n---\n\n💙 **Você não está sozinho(a) e isso tem solução.** Esses sintomas são reversíveis com o suporte adequado. Dar o primeiro passo de pedir ajuda já é um ato de coragem. Cuide-se com gentileza, um minuto de cada vez.\n\n*Fontes baseadas em diretrizes clínicas de saúde mental (OMS, APA, SBP) e evidências em psicologia comportamental.*",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to analyze the user's query. It's in Portuguese: \"Nas últimas semanas tenho tido dificuldade para sair da cama, deixado tarefas acumularem e pulado algumas refeições. Isso está atrapalhando minha rotina. Como posso entender o que está acontecendo e lidar com essa situação?\"\n\nTranslation: \"In recent weeks I have had difficulty getting out of bed, left tasks piling up and skipped some meals. This is disrupting my routine. How can I understand what is happening and deal with this situation?\"\n\nThis sounds like a description of symptoms that could be related to depression, burnout, or other mental health issues. The user is asking for help understanding and coping.\n\nAs an AI, I should provide helpful, evidence-based advice while emphasizing that I'm not a substitute for professional help. I should encourage seeking professional support, suggest self-care strategies, and explain possible causes.\n\nKey points to address:\n1. Acknowledge the user's struggle and validate their feelings.\n2. Explain that these symptoms (difficulty getting out of bed, task accumulation, skipping meals) are common signs of depression, burnout, stress, or other conditions.\n3. Emphasize the importance of consulting a healthcare professional (doctor, psychologist, psychiatrist) for proper diagnosis and treatment.\n4. Suggest practical steps they can take immediately: establish a routine, break tasks into small steps, prioritize self-care, ensure regular meals, seek social support, limit isolation, practice mindfulness, etc.\n5. Warn against self-diagnosis and remind that professional help is crucial.\n6. Provide resources if possible (like hotlines in Portuguese-speaking countries).\n7. Keep the tone empathetic and supportive.\n\nI'll structure the response in Portuguese since the query is in Portuguese.\n\nLet's draft:\n\n- Start by acknowledging and validating.\n- Explain possible causes without diagnosing.\n- Strongly recommend professional help.\n- Offer practical tips.\n- Encourage small steps.\n- Provide crisis resources if needed.\n- End with support.\n\nI need to ensure accuracy and safety. Avoid giving medical advice. Use phrases like \"pode estar relacionado\", \"é importante consultar um profissional\", \"sugestões gerais\".\n\nAlso, consider cultural context: Portuguese-speaking, possibly Brazil or Portugal. I can mention general resources or suggest looking for local services.\n\nNow, write the response in Portuguese.\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to analyze the user's query. It's in Portuguese: \"Nas últimas semanas tenho tido dificuldade para sair da cama, deixado tarefas acumularem e pulado algumas refeições. Isso está atrapalhando minha rotina. Como posso entender o que está acontecendo e lidar com essa situação?\"\n\nTranslation: \"In recent weeks I have had difficulty getting out of bed, left tasks piling up and skipped some meals. This is disrupting my routine. How can I understand what is happening and deal with this situation?\"\n\nThis sounds like a description of symptoms that could be related to depression, burnout, or other mental health issues. The user is asking for help understanding and coping.\n\nAs an AI, I should provide helpful, evidence-based advice while emphasizing that I'm not a substitute for professional help. I should encourage seeking professional support, suggest self-care strategies, and explain possible causes.\n\nKey points to address:\n1. Acknowledge the user's struggle and validate their feelings.\n2. Explain that these symptoms (difficulty getting out of bed, task accumulation, skipping meals) are common signs of depression, burnout, stress, or other conditions.\n3. Emphasize the importance of consulting a healthcare professional (doctor, psychologist, psychiatrist) for proper diagnosis and treatment.\n4. Suggest practical steps they can take immediately: establish a routine, break tasks into small steps, prioritize self-care, ensure regular meals, seek social support, limit isolation, practice mindfulness, etc.\n5. Warn against self-diagnosis and remind that professional help is crucial.\n6. Provide resources if possible (like hotlines in Portuguese-speaking countries).\n7. Keep the tone empathetic and supportive.\n\nI'll structure the response in Portuguese since the query is in Portuguese.\n\nLet's draft:\n\n- Start by acknowledging and validating.\n- Explain possible causes without diagnosing.\n- Strongly recommend professional help.\n- Offer practical tips.\n- Encourage small steps.\n- Provide crisis resources if needed.\n- End with support.\n\nI need to ensure accuracy and safety. Avoid giving medical advice. Use phrases like \"pode estar relacionado\", \"é importante consultar um profissional\", \"sugestões gerais\".\n\nAlso, consider cultural context: Portuguese-speaking, possibly Brazil or Portugal. I can mention general resources or suggest looking for local services.\n\nNow, write the response in Portuguese.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794009700,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1602,
+          "prompt_tokens": 56,
+          "total_tokens": 1658,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 494,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0014474,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0014474,
+            "upstream_inference_prompt_cost": 5.6e-06,
+            "upstream_inference_completions_cost": 0.0014418
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\n### ⚠️ Importante: Eu sou uma IA, não um profissional de saúde\nO que você descreve é **sério e merece atenção**. Dificuldade crônica para sair da cama, acumulo de tarefas e perda de apetite são sinais comuns de condições como **depressão, burnout, ansiedade severa ou desregulação do sono/circadiano**. Estas não são \"falhas de caráter\" ou \"preguiça\", mas sintomas reais que afetam seu funcionamento biológico e psicológico. **Procure um médico ou psicólogo para avaliação adequada.** Se houver pensamentos de autolesão ou desespero, ligue para o CVV (188, Brasil) ou busque urgência imediatamente.\n\n---\n\n### 🔍 Como entender o que está acontecendo?\nEstes sintomas costumam formar um ciclo vicioso:\n1.  **Esgotamento físico/mental:** O cérebro reduz a energia disponível para iniciar ações.\n2.  **Paralisia executiva:** Tarefas parecem montanhas impossíveis, levando à evitação e culpa.\n3.  **Desregulação fisiológica:** Pular refeições e o sono irregular pioram a fadiga e o humor.\n4.  **Isolamento:** A rotina quebrada reduz estímulos positivos, agravando os sintomas.\n\n**Possíveis causas subjacentes:** Depressão maior, transtorno de adaptação, burnout, hipotireoidismo, deficiência de vitaminas (D, B12, ferro), apneia do sono ou efeitos colaterais de medicamentos. Apenas um profissional pode diferenciar isso através de entrevista e exames.\n\n---\n\n### 🛠️ Como lidar agora (Passos Práticos)\nEnquanto busca ajuda profissional, use estas estratégias de **baixa exigência**:\n\n✅ **Quebre a paralisia com micro-passos**  \nNão pense em \"limpar a casa\". Pense apenas em: \"levantar um braço\", \"sentar na cama por 1 minuto\", \"beber um copo d'água\". Celebre cada micro-conquista. O objetivo é movimento, não perfeição.\n\n✅ **Regule o corpo antes da mente**  \n- **Refeições mínimas:** Não precisa de pratos completos. Tenha sempre itens práticos à mão: banana, aveia, iogurte, nuts, sándwich simples, suplementos nutricionais líquidos. Comer a cada 3-4h estabiliza a energia cerebral.  \n- **Luz solar:** Tente ficar perto de uma janela ou sair 5 minutos ao ar livre pela manhã. Isso ajuda a resetar o ritmo circadiano.  \n- **Hidratação:** A desidratação leve piora fadiga e neblina mental. Mantenha uma garrafa visível.\n\n✅ **Use a técnica \"Body Doubling\"**  \nPeça a alguém (amigo, familiar) para ficar no telefone ou vídeo enquanto você faz uma tarefa simples. A presença silenceira de outra pessoa reduz a resistência inicial sem exigir interação complexa.\n\n✅ **Reduza a autocrítica**  \nA culpa gasta a energia que você já tem pouco. Substitua \"Eu deveria ter feito isso\" por \"Estou passando por um momento difícil e estou buscando ajuda\". Autocompaixão é cientificamente mais eficaz que autocrítica para recuperação.\n\n✅ **Organização de baixo atrito**  \n- Deixe roupas e itens essenciais no mesmo lugar.  \n- Use alarmes para lembretes de comer/dormir.  \n- Priorize apenas 1-2 tarefas críticas por dia; permita que o resto espere.\n\n---\n\n### 📞 Quando buscar ajuda urgente?\nProcure atendimento imediato se apresentar:\n- Pensamentos de morte, autolesão ou sensação de \"não aguentar mais\"\n- Incapacidade total de realizar qualquer atividade básica por mais de alguns dias\n- Perda de peso significativa ou sinais de desnutrição/desidratação grave\n- Sintomas físicos novos (dor intensa, febre, confusão mental)\n\n---\n\n### 🌱 Próximos Passos Concretos\n1.  **Marque uma consulta** com clínico geral ou psiquiatra/psicólogo. Leve este texto como referência dos seus sintomas.\n2.  **Informe alguém de confiança** sobre o que está sentindo. Isolar-se piora o quadro.\n3.  **Considere recursos gratuitos:** No Brasil, CAPS (Centro de Atenção Psicossocial) e UBS oferecem atendimento público. Ligue 188 (CVV) para apoio emocional 24h.\n4.  **Evite automedicação** com álcool, cafeína excessiva ou remédios sem orientação, pois podem mascarar sintomas ou criar dependência.\n\n---\n\n💙 **Você não está sozinho(a) e isso tem solução.** Esses sintomas são reversíveis com o suporte adequado. Dar o primeiro passo de pedir ajuda já é um ato de coragem. Cuide-se com gentileza, um minuto de cada vez.\n\n*Fontes baseadas em diretrizes clínicas de saúde mental (OMS, APA, SBP) e evidências em psicologia comportamental.*"
+    }
+  ],
+  "fim": "2026-11-07T00:01:48+00:00"
+}

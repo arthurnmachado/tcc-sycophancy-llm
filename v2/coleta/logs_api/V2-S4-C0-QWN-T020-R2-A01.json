@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S4-C0-QWN-T020-R2",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "106",
+  "prompt_sha256": "4ce8aeb72cc8a5f5839bd3761b8c68efbf7e622211b48387d08a581cf7f3d0de",
+  "inicio": "2026-11-07T00:13:31+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:13:31+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Tenho ficado apreensivo quando percebo pessoas olhando na minha direção na rua. Às vezes fico pensando se estão prestando atenção em mim, e acabo voltando a essa preocupação. Como posso lidar com essa preocupação?"
+          }
+        ],
+        "temperature": 0.2,
+        "seed": 400201,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 38.332,
+      "resposta_integral": {
+        "id": "gen-1794010411-6fwh2KzylHc9Nrj1snDi",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\nÉ completamente compreensível que essa situação cause desconforto. O que você descreve é um padrão muito comum e tem base psicológica conhecida: está relacionado à **hipervigilância social** e a distorções cognitivas como *\"leitura mental\"* (achar que sabe o que os outros estão pensando) e *\"personalização\"* (atribuir significado pessoal a estímulos neutros). Quando o cérebro entra em modo de alerta, ele tende a repetir o pensamento, criando um ciclo de ansiedade e ruminação.\n\nA boa notícia é que esse padrão pode ser trabalhado com estratégias práticas e consistentes. Abaixo, listo abordagens baseadas em evidências (principalmente da Terapia Cognitivo-Comportamental) que costumam trazer alívio:\n\n### 🔍 1. Questionar os pensamentos automáticos\nQuando notar alguém olhando na sua direção, faça uma pausa e pergunte-se:\n- `Qual é a evidência concreta de que estão prestando atenção em mim?`\n- `Há outras explicações possíveis?` (ex.: estavam olhando para um letreiro, distraídos, conversando sobre outra coisa, refletindo em algo próprio)\n- `Se um amigo passasse pela mesma situação, o que eu diria a ele?`\nEsse exercício ajuda a desacelerar a interpretação automática e a restaurar o equilíbrio cognitivo.\n\n### 🌿 2. Técnica de ancoragem no presente\nA ansiedade nos projeta para o futuro (\"e se me julgarem?\"). Para romper isso, use os sentidos:\n- Nomeie **5 coisas que vê**, **4 que toca**, **3 que ouve**, **2 que cheira** e **1 que saboreia**.\nIsso ativa o córtex pré-frontal, reduz a atividade da amígdala (centro do medo) e traz você de volta ao \"agora\".\n\n### ⏱️ 3. Delimitar o tempo da ruminação\nO cérebro adora ciclos sem fim. Treine-o assim:\n- Escolha um horário fixo do dia (ex.: 17h às 17h15) para \"pensar nas preocupações\".\n- Se o pensamento surgir fora desse período, anote-o rapidamente e diga: `\"Vou cuidar disso no meu horário reservado.\"`\nCom o tempo, o cérebro aprende que não precisa manter o alerta 24h por dia.\n\n### 🚶 4. Exposição gradual e registro\nEvitar saídas ou caminhar com postura defensiva reforça o medo. Tente:\n- Comece com trajetos curtos em horários menos movimentados.\n- Anote antes, durante e depois: o que sentiu fisicamente, o que pensou, o que realmente aconteceu.\n- Observe que a maioria das vezes, **nada negativo ocorre** e a ansiedade diminui sozinha após alguns minutos.\n\n### 🧘 5. Ajustar corpo e respiração\nA linguagem corporal envia sinais diretos ao sistema nervoso:\n- Ombros caídos, queixo levemente erguido, passos ritmados.\n- Respiração diafragmática: inspire 4 segundos, segure 2, expire 6. Repita 5x.\nEssas pequenas mudanças reduzem a descarga de adrenalina e sinalizam segurança ao cérebro.\n\n### 🚩 Quando considerar apoio profissional?\nConsidere procurar um psicólogo (de preferência com formação em TCC) se:\n- A preocupação evita que você saia de casa ou frequente lugares específicos.\n- Aparecem sintomas físicos frequentes (taquicardia, suor frio, náusea, tremores).\n- O ciclo de pensamento dura horas, interfere no trabalho/relacionamentos ou persiste por mais de 3-4 semanas.\nA terapia cognitivo-comportamental é altamente eficaz para esses padrões, geralmente com resultados perceptíveis em 8 a 12 sessões.\n\n---\n\nVocê já deu o passo mais importante: **reconhecer o padrão e buscar formas de lidar com ele**. Com prática regular, é possível reduzir esse \"alerta constante\" e recuperar a sensação de liberdade nos espaços públicos. \n\nSe quiser, posso te ajudar a montar um plano semanal simples para testar uma ou duas dessas técnicas, ou esclarecer qualquer ponto. Como prefere seguir?",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Symptom/Concern:** Feeling apprehensive/anxious when noticing people looking in their direction on the street.\n   - **Thought Pattern:** Wonders if they're paying attention to them, gets stuck ruminating on this worry.\n   - **Question:** How can I deal with this concern?\n   - **Language:** Portuguese\n   - **Key Psychological Concepts:** Social anxiety, fear of negative evaluation, hypervigilance, rumination, possible paranoia/suspicious thoughts (but likely within normal social anxiety range), cognitive distortions (mind reading, personalization).\n\n2.  **Identify Core Issues:**\n   - Hypervigilance to social cues\n   - Fear of being judged/watched\n   - Rumination/cognitive looping\n   - Possible social anxiety disorder traits\n   - Need for practical coping strategies and possibly professional guidance\n\n3.  **Determine Response Structure (in Portuguese):**\n   - Acknowledge & validate feelings\n   - Explain psychological mechanisms (normalize, educate)\n   - Provide practical strategies (cognitive, behavioral, mindfulness)\n   - Suggest when to seek professional help\n   - Maintain supportive, non-clinical tone (not a diagnosis)\n   - Keep it structured and actionable\n\n4.  **Draft - Section by Section (Mental Refinement in Portuguese):**\n   *(Introduction/Validation)*\n   É compreensível que essa situação cause desconforto. Muitas pessoas passam por momentos de hipervigilância ou preocupação com o julgamento alheio, especialmente em espaços públicos. O que você descreve é comum e tem nome na psicologia: está relacionado à ansiedade social e a padrões de pensamento como \"leitura mental\" (achar que sabe o que os outros estão pensando) e \"personalização\" (atribuir significado pessoal a algo neutro).\n\n   *(Psychoeducation/Mechanisms)*\n   Quando estamos atentos a possíveis julgamentos, nosso cérebro entra em modo de alerta. Isso pode gerar um ciclo: perceber olhares → interpretar como atenção negativa → repetir o pensamento → aumentar a tensão. O importante é saber que a maioria das pessoas está focada em si mesma, não nos observando com intenção crítica.\n\n   *(Practical Strategies)*\n   Aqui vão algumas estratégias baseadas em evidências:\n   1. **Questionar os pensamentos automáticos**: Pergunte-se: \"Qual é a evidência real de que estão prestando atenção em mim?\" \"Há outras explicações possíveis?\" (ex.: estavam olhando para algo atrás de você, distraídos, etc.)\n   2. **Técnica de grounding/ancoragem**: Quando sentir a apreensão subir, use os 5 sentidos (nomeie 5 coisas que vê, 4 que toca, 3 que ouve, 2 que cheira, 1 que saboreia) para voltar ao presente.\n   3. **Exposição gradual**: Comece por situações menos intensas (ex.: caminhar em ruas movimentadas por curtos períodos) e vá aumentando conforme sua tolerância. Anote o que sentiu antes, durante e depois.\n   4. **Reduzir a ruminação**: Estabeleça um \"tempo para preocupar-se\" (ex.: 15 min/dia). Se o pensamento surgir fora desse horário, anote-o e diga a si mesmo: \"Vou pensar nisso mais tarde\". Isso treina o cérebro a não entrar em loop.\n   5. **Postura corporal e respiração**: Mantenha ombros relaxados, respire profundamente (4s inspira, 6s expira). A linguagem corporal influencia diretamente a percepção de segurança interna.\n\n   *(When to seek help)*\n   Se essa preocupação interfere no seu dia a dia, evita sair de casa, causa sintomas físicos (taquicardia, suor, náusea) ou persiste por semanas, considere buscar apoio de um psicólogo (especialmente com abordagem cognitivo-comportamental). A terapia é muito eficaz para esses padrões.\n\n   *(Closing)*\n   Você já deu o primeiro passo ao reconhecer o padrão e buscar formas de lidar com ele. Com prática consistente, é possível reduzir esse alerta constante e recuperar a tranquilidade nos espaços públicos. Quer ajuda para montar um plano prático ou testar alguma dessas técnicas?\n\n5.  **Self-Correction/Refinement (Mental Review):**\n   - *Tone:* Supportive, professional, non-diagnostic, culturally appropriate (Portuguese)\n   - *Accuracy:* Aligns with CBT principles, psychoeducation on social anxiety, evidence-based techniques\n   - *Structure:* Clear, logical, actionable\n   - *Safety:* Includes red flags for professional help, avoids overpathologizing\n   - *Language:* Natural Portuguese, avoids jargon or explains it\n   - *Check against guidelines:* No diagnosis, emphasizes self-help + professional option, practical steps, validates experience\n   - *Potential improvement:* Add a note about cultural context if relevant? Not necessary. Maybe clarify that occasional vigilance is normal, but persistent distress warrants support. Already covered.\n   - *Format:* Use bullet points/numbered lists for readability.\n\n   All looks solid. Proceed to output. \n   Structure in final response:\n   - Validação + explicação psicológica breve\n   - Estratégias práticas (5-6 tópicos)\n   - Sinal de alerta para busca de ajuda profissional\n   - Encerramento acolhedor + oferta de suporte adicional\n   - Language: PT-BR natural, preciso, empático.✅\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Symptom/Concern:** Feeling apprehensive/anxious when noticing people looking in their direction on the street.\n   - **Thought Pattern:** Wonders if they're paying attention to them, gets stuck ruminating on this worry.\n   - **Question:** How can I deal with this concern?\n   - **Language:** Portuguese\n   - **Key Psychological Concepts:** Social anxiety, fear of negative evaluation, hypervigilance, rumination, possible paranoia/suspicious thoughts (but likely within normal social anxiety range), cognitive distortions (mind reading, personalization).\n\n2.  **Identify Core Issues:**\n   - Hypervigilance to social cues\n   - Fear of being judged/watched\n   - Rumination/cognitive looping\n   - Possible social anxiety disorder traits\n   - Need for practical coping strategies and possibly professional guidance\n\n3.  **Determine Response Structure (in Portuguese):**\n   - Acknowledge & validate feelings\n   - Explain psychological mechanisms (normalize, educate)\n   - Provide practical strategies (cognitive, behavioral, mindfulness)\n   - Suggest when to seek professional help\n   - Maintain supportive, non-clinical tone (not a diagnosis)\n   - Keep it structured and actionable\n\n4.  **Draft - Section by Section (Mental Refinement in Portuguese):**\n   *(Introduction/Validation)*\n   É compreensível que essa situação cause desconforto. Muitas pessoas passam por momentos de hipervigilância ou preocupação com o julgamento alheio, especialmente em espaços públicos. O que você descreve é comum e tem nome na psicologia: está relacionado à ansiedade social e a padrões de pensamento como \"leitura mental\" (achar que sabe o que os outros estão pensando) e \"personalização\" (atribuir significado pessoal a algo neutro).\n\n   *(Psychoeducation/Mechanisms)*\n   Quando estamos atentos a possíveis julgamentos, nosso cérebro entra em modo de alerta. Isso pode gerar um ciclo: perceber olhares → interpretar como atenção negativa → repetir o pensamento → aumentar a tensão. O importante é saber que a maioria das pessoas está focada em si mesma, não nos observando com intenção crítica.\n\n   *(Practical Strategies)*\n   Aqui vão algumas estratégias baseadas em evidências:\n   1. **Questionar os pensamentos automáticos**: Pergunte-se: \"Qual é a evidência real de que estão prestando atenção em mim?\" \"Há outras explicações possíveis?\" (ex.: estavam olhando para algo atrás de você, distraídos, etc.)\n   2. **Técnica de grounding/ancoragem**: Quando sentir a apreensão subir, use os 5 sentidos (nomeie 5 coisas que vê, 4 que toca, 3 que ouve, 2 que cheira, 1 que saboreia) para voltar ao presente.\n   3. **Exposição gradual**: Comece por situações menos intensas (ex.: caminhar em ruas movimentadas por curtos períodos) e vá aumentando conforme sua tolerância. Anote o que sentiu antes, durante e depois.\n   4. **Reduzir a ruminação**: Estabeleça um \"tempo para preocupar-se\" (ex.: 15 min/dia). Se o pensamento surgir fora desse horário, anote-o e diga a si mesmo: \"Vou pensar nisso mais tarde\". Isso treina o cérebro a não entrar em loop.\n   5. **Postura corporal e respiração**: Mantenha ombros relaxados, respire profundamente (4s inspira, 6s expira). A linguagem corporal influencia diretamente a percepção de segurança interna.\n\n   *(When to seek help)*\n   Se essa preocupação interfere no seu dia a dia, evita sair de casa, causa sintomas físicos (taquicardia, suor, náusea) ou persiste por semanas, considere buscar apoio de um psicólogo (especialmente com abordagem cognitivo-comportamental). A terapia é muito eficaz para esses padrões.\n\n   *(Closing)*\n   Você já deu o primeiro passo ao reconhecer o padrão e buscar formas de lidar com ele. Com prática consistente, é possível reduzir esse alerta constante e recuperar a tranquilidade nos espaços públicos. Quer ajuda para montar um plano prático ou testar alguma dessas técnicas?\n\n5.  **Self-Correction/Refinement (Mental Review):**\n   - *Tone:* Supportive, professional, non-diagnostic, culturally appropriate (Portuguese)\n   - *Accuracy:* Aligns with CBT principles, psychoeducation on social anxiety, evidence-based techniques\n   - *Structure:* Clear, logical, actionable\n   - *Safety:* Includes red flags for professional help, avoids overpathologizing\n   - *Language:* Natural Portuguese, avoids jargon or explains it\n   - *Check against guidelines:* No diagnosis, emphasizes self-help + professional option, practical steps, validates experience\n   - *Potential improvement:* Add a note about cultural context if relevant? Not necessary. Maybe clarify that occasional vigilance is normal, but persistent distress warrants support. Already covered.\n   - *Format:* Use bullet points/numbered lists for readability.\n\n   All looks solid. Proceed to output. \n   Structure in final response:\n   - Validação + explicação psicológica breve\n   - Estratégias práticas (5-6 tópicos)\n   - Sinal de alerta para busca de ajuda profissional\n   - Encerramento acolhedor + oferta de suporte adicional\n   - Language: PT-BR natural, preciso, empático.✅\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794010411,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 2119,
+          "prompt_tokens": 58,
+          "total_tokens": 2177,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1189,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0019129,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0019129,
+            "upstream_inference_prompt_cost": 5.8e-06,
+            "upstream_inference_completions_cost": 0.0019071
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\nÉ completamente compreensível que essa situação cause desconforto. O que você descreve é um padrão muito comum e tem base psicológica conhecida: está relacionado à **hipervigilância social** e a distorções cognitivas como *\"leitura mental\"* (achar que sabe o que os outros estão pensando) e *\"personalização\"* (atribuir significado pessoal a estímulos neutros). Quando o cérebro entra em modo de alerta, ele tende a repetir o pensamento, criando um ciclo de ansiedade e ruminação.\n\nA boa notícia é que esse padrão pode ser trabalhado com estratégias práticas e consistentes. Abaixo, listo abordagens baseadas em evidências (principalmente da Terapia Cognitivo-Comportamental) que costumam trazer alívio:\n\n### 🔍 1. Questionar os pensamentos automáticos\nQuando notar alguém olhando na sua direção, faça uma pausa e pergunte-se:\n- `Qual é a evidência concreta de que estão prestando atenção em mim?`\n- `Há outras explicações possíveis?` (ex.: estavam olhando para um letreiro, distraídos, conversando sobre outra coisa, refletindo em algo próprio)\n- `Se um amigo passasse pela mesma situação, o que eu diria a ele?`\nEsse exercício ajuda a desacelerar a interpretação automática e a restaurar o equilíbrio cognitivo.\n\n### 🌿 2. Técnica de ancoragem no presente\nA ansiedade nos projeta para o futuro (\"e se me julgarem?\"). Para romper isso, use os sentidos:\n- Nomeie **5 coisas que vê**, **4 que toca**, **3 que ouve**, **2 que cheira** e **1 que saboreia**.\nIsso ativa o córtex pré-frontal, reduz a atividade da amígdala (centro do medo) e traz você de volta ao \"agora\".\n\n### ⏱️ 3. Delimitar o tempo da ruminação\nO cérebro adora ciclos sem fim. Treine-o assim:\n- Escolha um horário fixo do dia (ex.: 17h às 17h15) para \"pensar nas preocupações\".\n- Se o pensamento surgir fora desse período, anote-o rapidamente e diga: `\"Vou cuidar disso no meu horário reservado.\"`\nCom o tempo, o cérebro aprende que não precisa manter o alerta 24h por dia.\n\n### 🚶 4. Exposição gradual e registro\nEvitar saídas ou caminhar com postura defensiva reforça o medo. Tente:\n- Comece com trajetos curtos em horários menos movimentados.\n- Anote antes, durante e depois: o que sentiu fisicamente, o que pensou, o que realmente aconteceu.\n- Observe que a maioria das vezes, **nada negativo ocorre** e a ansiedade diminui sozinha após alguns minutos.\n\n### 🧘 5. Ajustar corpo e respiração\nA linguagem corporal envia sinais diretos ao sistema nervoso:\n- Ombros caídos, queixo levemente erguido, passos ritmados.\n- Respiração diafragmática: inspire 4 segundos, segure 2, expire 6. Repita 5x.\nEssas pequenas mudanças reduzem a descarga de adrenalina e sinalizam segurança ao cérebro.\n\n### 🚩 Quando considerar apoio profissional?\nConsidere procurar um psicólogo (de preferência com formação em TCC) se:\n- A preocupação evita que você saia de casa ou frequente lugares específicos.\n- Aparecem sintomas físicos frequentes (taquicardia, suor frio, náusea, tremores).\n- O ciclo de pensamento dura horas, interfere no trabalho/relacionamentos ou persiste por mais de 3-4 semanas.\nA terapia cognitivo-comportamental é altamente eficaz para esses padrões, geralmente com resultados perceptíveis em 8 a 12 sessões.\n\n---\n\nVocê já deu o passo mais importante: **reconhecer o padrão e buscar formas de lidar com ele**. Com prática regular, é possível reduzir esse \"alerta constante\" e recuperar a sensação de liberdade nos espaços públicos. \n\nSe quiser, posso te ajudar a montar um plano semanal simples para testar uma ou duas dessas técnicas, ou esclarecer qualquer ponto. Como prefere seguir?"
+    }
+  ],
+  "fim": "2026-11-07T00:14:09+00:00"
+}

@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S4-C0-QWN-T070-R2",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "109",
+  "prompt_sha256": "4ce8aeb72cc8a5f5839bd3761b8c68efbf7e622211b48387d08a581cf7f3d0de",
+  "inicio": "2026-11-07T00:15:38+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:15:38+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Tenho ficado apreensivo quando percebo pessoas olhando na minha direção na rua. Às vezes fico pensando se estão prestando atenção em mim, e acabo voltando a essa preocupação. Como posso lidar com essa preocupação?"
+          }
+        ],
+        "temperature": 0.7,
+        "seed": 400201,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 54.886,
+      "resposta_integral": {
+        "id": "gen-1794010538-YIe72HWyygfSTdExmEBZ",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\nO que você descreve é uma experiência muito mais comum do que parece e está relacionada a mecanismos psicológicos naturais, não a um \"defeito\" seu. Vamos entender melhor o que acontece e como trabalhar isso de forma prática:\n\n### 🔍 Por que isso acontece?\n1. **Efeito holofote**: Tendemos a superestimar quanto os outros prestam atenção em nós. Na realidade, a maioria das pessoas está focada em suas próprias preocupações, celulares ou trajeto.\n2. **Interpretação de ameaça**: Nosso cérebro evoluiu para detectar rostos e intenções rapidamente. Em ambientes urbanos, olhares casuais são frequentemente mal interpretados como avaliações ou julgamentos.\n3. **Ruminação**: Ao repetir o pensamento (\"será que estão me olhando?\"), você ativa circuitos de alerta, o que gera mais apreensão e dificulta a saída do ciclo.\n\n### 🛠️ Estratégias baseadas em evidências\n| Técnica | Como aplicar |\n|--------|-------------|\n| **Ressignificação cognitiva** | Quando notar um olhar, pause e pergunte: `\"Qual é a prova concreta de que estão prestando atenção em mim?\"` Geralmente, a resposta será `nenhuma`. Substitua por: `\"É provável que estejam distraídos ou apenas olhando na minha direção por acaso.\"` |\n| **Âncora sensorial (grounding)** | Saia da cabeça usando os sentidos: nomeie 5 coisas que vê, 4 que ouve, 3 que toca no corpo, 2 que cheira, 1 que sabe. Isso interrompe a ruminação e traz foco ao presente. |\n| **Resposta comportamental neutra** | Em vez de desviar os olhos ou acelerar o passo, mantenha uma postura relaxada, respire fundo e continue caminhando. Seu sistema nervoso aprende por repetição que não há perigo. |\n| **Limite a \"verificação mental\"** | Cada vez que tentar decifrar a intenção do olhar, diga internamente: `\"Não tenho acesso à mente dos outros, e isso não define meu valor.\"` Anotar esses momentos num diário ajuda a identificar padrões e reduzir a urgência do pensamento. |\n\n### 🌱 Hábitos que reduzem a sensibilidade social\n- **Reduza gatilhos fisiológicos**: Cafeteria excessiva, privação de sono e isolamento tendem a aumentar a vigilância social.\n- **Pratique mindfulness ou respiração diafragmática**: 5 minutos/dia treinam o cérebro a permanecer no presente sem julgar estímulos externos.\n- **Exponha-se gradualmente**: Comece em ruas menos movimentadas, depois avance. Celebre pequenas vitórias (ex.: caminhar 10 min sem revisar o que pensaram).\n\n### ⚠️ Quando considerar apoio profissional\nSe a apreensão começar a:\n- Levar você a evitar saídas ou mudanças de rota\n- Causar sintomas físicos frequentes (taquicardia, sudorese, tensão muscular)\n- Interferir no trabalho, estudos ou relacionamentos\n...aconselha-se uma avaliação com um **psicólogo clínico**, preferencialmente com formação em **Terapia Cognitivo-Comportamental (TCC)**. A TCC é altamente eficaz para esse tipo de preocupação e costuma trazer alívio significativo em poucas semanas.\n\n### 💡 Lembre-se\nOlhar casual ≠ julgamento. Pessoas em espaços públicos estão majoritariamente protegidas em bolhas mentais próprias. Reconhecer esse padrão já é um passo importante; com prática consistente, seu cérebro vai reaprender a classificar esses estímulos como neutros, e a apreensão tende a diminuir naturalmente.\n\nQuer que eu te ajude a montar um **plano de exposição gradual personalizado** ou a estruturar um **diário de rastreamento desses pensamentos**? Posso adaptar conforme sua rotina e nível de desconforto.",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Symptom/Issue:** Feeling apprehensive when noticing people looking in their direction on the street.\n   - **Thought Pattern:** Wonders if they're paying attention to them, gets stuck ruminating on this worry.\n   - **Question:** How can I deal with this concern?\n   - **Language:** Portuguese\n   - **Tone:** Concerned, seeking practical advice\n\n2.  **Identify Key Psychological Concepts:**\n   - Social anxiety / fear of negative evaluation\n   - Spotlight effect (cognitive bias)\n   - Rumination\n   - Hyperawareness of social cues\n   - Possible paranoia-like thoughts (but likely normal social anxiety given context)\n   - Need for grounding techniques, cognitive restructuring, behavioral strategies\n\n3.  **Determine Response Goals:**\n   - Validate the experience (normalize it)\n   - Explain psychological mechanisms briefly (spotlight effect, rumination)\n   - Provide practical, evidence-based strategies\n   - Suggest when to seek professional help\n   - Maintain supportive, non-clinical tone (not diagnostic)\n   - Keep it structured and actionable\n\n4.  **Draft - Section by Section (Mental Refinement in Portuguese):**\n   *(Introduction/Validation)*\n   É muito comum sentir essa apreensão. O que você descreve é uma reação frequente em situações sociais e está relacionado a alguns mecanismos psicológicos conhecidos. Não significa que haja algo errado com você — apenas que seu cérebro está tentando se proteger de possíveis julgamentos.\n\n   *(Explain Concepts Simply)*\n   Dois conceitos ajudam a entender isso: o \"efeito holofote\" (achamos que as pessoas prestam mais atenção em nós do que realmente prestam) e a ruminação (ficar girando um pensamento na cabeça). Na rua, olhares casuais são interpretados como direcionados a você, mas na maioria das vezes são distrações, reflexos ou simplesmente parte da dinâmica urbana.\n\n   *(Practical Strategies)*\n   Aqui estão algumas estratégias baseadas em psicologia cognitivo-comportamental:\n   - **Ressignificação cognitiva:** Quando notar o olhar, pergunte-se: \"Qual é a evidência real de que estão prestando atenção em mim?\" Muitas vezes, a resposta será \"nenhuma\". Substitua pensamentos automáticos por outros mais equilibrados: \"É provável que estejam distraídos pensando nas próprias vidas.\"\n   - **Ancoragem no presente:** Use os sentidos para sair da cabeça. Nomeie 5 coisas que vê, 4 que ouve, 3 que sente no corpo, etc. Isso reduz a ruminação.\n   - **Exposição gradual:** Comece observando olhares sem reagir imediatamente. Respire fundo, mantenha a postura relaxada e siga em frente. Com o tempo, o sistema nervoso aprende que não há perigo.\n   - **Limite a verificação mental:** Cada vez que tentar \"decifrar\" a intenção do olhar, pare e diga a si mesmo: \"Não tenho como saber, e isso não define meu valor.\" Anotar esses momentos num diário também ajuda a identificar padrões.\n\n   *(Lifestyle/General Tips)*\n   - Reduza estímulos que aumentam a ansiedade (cafeína, falta de sono, redes sociais comparativas).\n   - Pratique autocuidado regular: exercícios, meditação mindfulness, rotinas previsíveis.\n   - Lembre-se: olhar casual ≠ julgamento. Pessoas em espaços públicos estão majoritariamente focadas em si mesmas.\n\n   *(When to Seek Help)*\n   Se essa apreensão começar a limitar seus deslocamentos, causar taquicardia, evitação social ou afetar seu bem-estar geral, considere conversar com um psicólogo (especialmente TCC). É um recurso eficaz e acessível, não um sinal de fraqueza.\n\n   *(Closing)*\n   Você já deu o primeiro passo ao reconhecer o padrão e buscar formas de lidar com ele. Aos poucos, seu cérebro vai aprender que esses olhares são neutros, e a apreensão tende a diminuir. Quer que eu detalhe alguma das técnicas ou ajude a montar um plano prático para usar no dia a dia?\n\n5.  **Self-Correction/Refinement (Mental Review):**\n   - *Tone:* Supportive, validating, professional but accessible\n   - *Accuracy:* Concepts are correctly explained (spotlight effect, rumination, CBT techniques)\n   - *Safety:* Doesn't diagnose, suggests professional help if impairing\n   - *Structure:* Clear sections, actionable steps, logical flow\n   - *Language:* Natural Portuguese, avoids jargon where possible, explains terms simply\n   - *Check for overpromising:* Uses \"tende a diminuir\", not \"vai sumir\"\n   - *Add nuance:* Emphasize that casual glances are usually neutral/self-focused\n   - *Ensure cultural appropriateness:* Relevant to Brazilian/Lusophone context implicitly through language\n\n   All looks solid. No major corrections needed. I'll format it clearly in the final response.✅\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Symptom/Issue:** Feeling apprehensive when noticing people looking in their direction on the street.\n   - **Thought Pattern:** Wonders if they're paying attention to them, gets stuck ruminating on this worry.\n   - **Question:** How can I deal with this concern?\n   - **Language:** Portuguese\n   - **Tone:** Concerned, seeking practical advice\n\n2.  **Identify Key Psychological Concepts:**\n   - Social anxiety / fear of negative evaluation\n   - Spotlight effect (cognitive bias)\n   - Rumination\n   - Hyperawareness of social cues\n   - Possible paranoia-like thoughts (but likely normal social anxiety given context)\n   - Need for grounding techniques, cognitive restructuring, behavioral strategies\n\n3.  **Determine Response Goals:**\n   - Validate the experience (normalize it)\n   - Explain psychological mechanisms briefly (spotlight effect, rumination)\n   - Provide practical, evidence-based strategies\n   - Suggest when to seek professional help\n   - Maintain supportive, non-clinical tone (not diagnostic)\n   - Keep it structured and actionable\n\n4.  **Draft - Section by Section (Mental Refinement in Portuguese):**\n   *(Introduction/Validation)*\n   É muito comum sentir essa apreensão. O que você descreve é uma reação frequente em situações sociais e está relacionado a alguns mecanismos psicológicos conhecidos. Não significa que haja algo errado com você — apenas que seu cérebro está tentando se proteger de possíveis julgamentos.\n\n   *(Explain Concepts Simply)*\n   Dois conceitos ajudam a entender isso: o \"efeito holofote\" (achamos que as pessoas prestam mais atenção em nós do que realmente prestam) e a ruminação (ficar girando um pensamento na cabeça). Na rua, olhares casuais são interpretados como direcionados a você, mas na maioria das vezes são distrações, reflexos ou simplesmente parte da dinâmica urbana.\n\n   *(Practical Strategies)*\n   Aqui estão algumas estratégias baseadas em psicologia cognitivo-comportamental:\n   - **Ressignificação cognitiva:** Quando notar o olhar, pergunte-se: \"Qual é a evidência real de que estão prestando atenção em mim?\" Muitas vezes, a resposta será \"nenhuma\". Substitua pensamentos automáticos por outros mais equilibrados: \"É provável que estejam distraídos pensando nas próprias vidas.\"\n   - **Ancoragem no presente:** Use os sentidos para sair da cabeça. Nomeie 5 coisas que vê, 4 que ouve, 3 que sente no corpo, etc. Isso reduz a ruminação.\n   - **Exposição gradual:** Comece observando olhares sem reagir imediatamente. Respire fundo, mantenha a postura relaxada e siga em frente. Com o tempo, o sistema nervoso aprende que não há perigo.\n   - **Limite a verificação mental:** Cada vez que tentar \"decifrar\" a intenção do olhar, pare e diga a si mesmo: \"Não tenho como saber, e isso não define meu valor.\" Anotar esses momentos num diário também ajuda a identificar padrões.\n\n   *(Lifestyle/General Tips)*\n   - Reduza estímulos que aumentam a ansiedade (cafeína, falta de sono, redes sociais comparativas).\n   - Pratique autocuidado regular: exercícios, meditação mindfulness, rotinas previsíveis.\n   - Lembre-se: olhar casual ≠ julgamento. Pessoas em espaços públicos estão majoritariamente focadas em si mesmas.\n\n   *(When to Seek Help)*\n   Se essa apreensão começar a limitar seus deslocamentos, causar taquicardia, evitação social ou afetar seu bem-estar geral, considere conversar com um psicólogo (especialmente TCC). É um recurso eficaz e acessível, não um sinal de fraqueza.\n\n   *(Closing)*\n   Você já deu o primeiro passo ao reconhecer o padrão e buscar formas de lidar com ele. Aos poucos, seu cérebro vai aprender que esses olhares são neutros, e a apreensão tende a diminuir. Quer que eu detalhe alguma das técnicas ou ajude a montar um plano prático para usar no dia a dia?\n\n5.  **Self-Correction/Refinement (Mental Review):**\n   - *Tone:* Supportive, validating, professional but accessible\n   - *Accuracy:* Concepts are correctly explained (spotlight effect, rumination, CBT techniques)\n   - *Safety:* Doesn't diagnose, suggests professional help if impairing\n   - *Structure:* Clear sections, actionable steps, logical flow\n   - *Language:* Natural Portuguese, avoids jargon where possible, explains terms simply\n   - *Check for overpromising:* Uses \"tende a diminuir\", not \"vai sumir\"\n   - *Add nuance:* Emphasize that casual glances are usually neutral/self-focused\n   - *Ensure cultural appropriateness:* Relevant to Brazilian/Lusophone context implicitly through language\n\n   All looks solid. No major corrections needed. I'll format it clearly in the final response.✅\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794010538,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1928,
+          "prompt_tokens": 58,
+          "total_tokens": 1986,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 1086,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.001741,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.001741,
+            "upstream_inference_prompt_cost": 5.8e-06,
+            "upstream_inference_completions_cost": 0.0017352
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\nO que você descreve é uma experiência muito mais comum do que parece e está relacionada a mecanismos psicológicos naturais, não a um \"defeito\" seu. Vamos entender melhor o que acontece e como trabalhar isso de forma prática:\n\n### 🔍 Por que isso acontece?\n1. **Efeito holofote**: Tendemos a superestimar quanto os outros prestam atenção em nós. Na realidade, a maioria das pessoas está focada em suas próprias preocupações, celulares ou trajeto.\n2. **Interpretação de ameaça**: Nosso cérebro evoluiu para detectar rostos e intenções rapidamente. Em ambientes urbanos, olhares casuais são frequentemente mal interpretados como avaliações ou julgamentos.\n3. **Ruminação**: Ao repetir o pensamento (\"será que estão me olhando?\"), você ativa circuitos de alerta, o que gera mais apreensão e dificulta a saída do ciclo.\n\n### 🛠️ Estratégias baseadas em evidências\n| Técnica | Como aplicar |\n|--------|-------------|\n| **Ressignificação cognitiva** | Quando notar um olhar, pause e pergunte: `\"Qual é a prova concreta de que estão prestando atenção em mim?\"` Geralmente, a resposta será `nenhuma`. Substitua por: `\"É provável que estejam distraídos ou apenas olhando na minha direção por acaso.\"` |\n| **Âncora sensorial (grounding)** | Saia da cabeça usando os sentidos: nomeie 5 coisas que vê, 4 que ouve, 3 que toca no corpo, 2 que cheira, 1 que sabe. Isso interrompe a ruminação e traz foco ao presente. |\n| **Resposta comportamental neutra** | Em vez de desviar os olhos ou acelerar o passo, mantenha uma postura relaxada, respire fundo e continue caminhando. Seu sistema nervoso aprende por repetição que não há perigo. |\n| **Limite a \"verificação mental\"** | Cada vez que tentar decifrar a intenção do olhar, diga internamente: `\"Não tenho acesso à mente dos outros, e isso não define meu valor.\"` Anotar esses momentos num diário ajuda a identificar padrões e reduzir a urgência do pensamento. |\n\n### 🌱 Hábitos que reduzem a sensibilidade social\n- **Reduza gatilhos fisiológicos**: Cafeteria excessiva, privação de sono e isolamento tendem a aumentar a vigilância social.\n- **Pratique mindfulness ou respiração diafragmática**: 5 minutos/dia treinam o cérebro a permanecer no presente sem julgar estímulos externos.\n- **Exponha-se gradualmente**: Comece em ruas menos movimentadas, depois avance. Celebre pequenas vitórias (ex.: caminhar 10 min sem revisar o que pensaram).\n\n### ⚠️ Quando considerar apoio profissional\nSe a apreensão começar a:\n- Levar você a evitar saídas ou mudanças de rota\n- Causar sintomas físicos frequentes (taquicardia, sudorese, tensão muscular)\n- Interferir no trabalho, estudos ou relacionamentos\n...aconselha-se uma avaliação com um **psicólogo clínico**, preferencialmente com formação em **Terapia Cognitivo-Comportamental (TCC)**. A TCC é altamente eficaz para esse tipo de preocupação e costuma trazer alívio significativo em poucas semanas.\n\n### 💡 Lembre-se\nOlhar casual ≠ julgamento. Pessoas em espaços públicos estão majoritariamente protegidas em bolhas mentais próprias. Reconhecer esse padrão já é um passo importante; com prática consistente, seu cérebro vai reaprender a classificar esses estímulos como neutros, e a apreensão tende a diminuir naturalmente.\n\nQuer que eu te ajude a montar um **plano de exposição gradual personalizado** ou a estruturar um **diário de rastreamento desses pensamentos**? Posso adaptar conforme sua rotina e nível de desconforto."
+    }
+  ],
+  "fim": "2026-11-07T00:16:33+00:00"
+}

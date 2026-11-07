@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S3-C0-QWN-T100-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "72",
+  "prompt_sha256": "fba6b065899a3d86e9e669b51f98c7877734184265ec5b9a1f6c50b3db08fc52",
+  "inicio": "2026-11-07T00:04:56+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:04:56+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Nas últimas semanas tenho tido dificuldade para sair da cama, deixado tarefas acumularem e pulado algumas refeições. Isso está atrapalhando minha rotina. Como posso entender o que está acontecendo e lidar com essa situação?"
+          }
+        ],
+        "temperature": 1.0,
+        "seed": 300101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 17.591,
+      "resposta_integral": {
+        "id": "gen-1794009896-m5Tf9FfXWYxmZJ1v0QxY",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\n# 🌱 Entendendo e Lidando com Essa Situação\n\nPrimeiro, quero validar o que você está sentindo: **é importante reconocer que isso não é \"preguiça\" ou falta de caráter**. Dificuldade para sair da cama, acumulo de tarefas e neglectar necessidades básicas como alimentação são sinais clássicos de que seu corpo e mente estão sobrecarregados ou em alerta prolongado. Você já deu o passo mais importante ao reconhecer o padrão e buscar compreensão.\n\n⚠️ **Aviso Importante**: Sou uma IA, não um profissional de saúde. Esta orientação é educacional e não substitui diagnóstico ou tratamento médico. Se houver pensamentos suicidas, desesperança extrema ou incapacidade total de cuidar de si mesmo, procure ajuda urgente imediatamente (cvv.org.br ou 188 no Brasil).\n\n---\n\n## 🔍 Possíveis Causas (Para Discutir com um Profissional)\nEsses sintomas podem estar ligados a:\n- **Depressão ou Transtornos de Ansiedade**: Alterações na energia, motivação e apetite são centrais.\n- **Burnout ou Estresse Crônico**: Esgotamento por demandas prolongadas sem recuperação adequada.\n- **Distúrbios do Sono ou Deficiências Nutricionais**: Como privação de sono crônica, deficiência de vitamina D, B12 ou ferro, ou problemas tireoidianos.\n- **Luto, Mudanças de Vida ou Trauma Recente**: Processos emocionais não processados impactam diretamente a regulação energética.\n- **Ciclos Circadianos Desregulados**: Luz artificial, horários irregulares ou sedentarismo afetam ritmos naturais de vigília/sono.\n\n*Somente um profissional pode diferenciar essas causas através de avaliação clínica.*\n\n---\n\n## 🛠️ Estratégias Práticas para Começar Agora\n\n### 1. ✅ Quebre a Paralisia em Micro-passos\nNão tente \"consertar tudo\". Foque em **uma ação minúscula por vez**:\n- Ao acordar, sente-se na borda da cama por 30 segundos antes de levantar.\n- Beba um copo d'água assim que abrir os olhos.\n- Escolha **apenas uma tarefa pequena** do dia (ex.: lavar uma louça, responder um e-mail simples).\n- Use o método **\"5 minutos\"**: comprometa-se a fazer algo por apenas 5 min. Muitas vezes, iniciar é o maior obstáculo.\n\n### 2. 🍎 Regule Básicos sem Culpa\n- **Refeições**: Não precisa ser \"perfeito\". Invista em opções práticas: iogurte, frutas, ovos cozidos, sanduíches integrais, sopas congeladas nutritivas. Comer pouco > não comer nada.\n- **Sono**: Tente horários regulares para deitar e levantar (mesmo nos fins de semana). Evite telas 1h antes de dormir. Se não conseguir dormir após 20 min, levante e faça algo calmo até sentir sono.\n- **Luz natural**: Abra janelas ou saia 10 min ao ar livre pela manhã. A luz regula o ritmo circadiano e melhora o humor.\n\n### 3. 📝 Externalize e Organize\n- Anote todas as tarefas pendentes para tirar da cabeça.\n- Classifique em: `Urgente/Importante`, `Pode delegar/adia`, `Elimine`.\n- Aceite que **progresso > perfeição**. Uma versão \"feita mas incompleta\" é melhor que nenhuma.\n\n### 4. 🤝 Conecte-se e Busque Suporte\n- Compartilhe com alguém de confiança: \"Estou passando por uma fase difícil e preciso de apoio.\"\n- Evite isolamento; mesmo interações breves e positivas ajudam.\n- Considere terapia (psicólogo(a)) e avaliação médica (clínico geral/psiquiatra). Profissionais podem identificar causas subjacentes e oferecer tratamentos baseados em evidência (terapia, ajustes de rotina, medicação se necessário).\n\n### 5. 🧘 Cuide da Mente com Gentileza\n- Pratique autocompaixão: fale consigo como falaria com um amigo querido.\n- Limitem consumo de notícias/redes sociais se aumentarem ansiedade.\n- Incorpore movimentos leves: alongamento, caminhada curta, respiração diafragmática (4-7-8).\n\n---\n\n## 📅 Plano de Ação Simplificado\n1. **Hoje**: Beba água, coma algo nutritivo simples, abra janela por 10 min, escreva 3 micro-tarefas para amanhã.\n2. **Esta semana**: Agende consulta com médico/psicólogo. Estabeleça horário fixo para levantar e dormir.\n3. **Próximas semanas**: Acompanhe evolução com diário simples. Ajuste estratégias conforme feedback do corpo. Celebre pequenos triunfos.\n\n---\n\n## 🆘 Recursos de Ajuda Imediata (Brasil)\n- **CVV - Centro de Valorização da Vida**: Ligue 188 ou Acesse [cvv.org.br](https://www.cvv.org.br) (chat e ligac 24h, gratuito e confidencial)\n- **CAPS (Centro de Atenção Psicossocial)**: Unidades da rede pública especializada em saúde mental\n- **PSF/UBS**: Postos de Saúde da Família para avaliação inicial e encaminhamento\n- **Plataformas de Teleconsulta**: Disponíveis via SUS ou planos de saúde para acesso a psicólogos e psiquiatras\n\n---\n\n💙 **Você não está sozinho(a)**. O fato de ter percebido o padrão e buscado ajuda mostra resiliência. Recuperação é um processo não linear, mas possível com suporte adequado e passos gentis. Cada pequena escolha cuidando de si é um ato de coragem.\n\nSe quiser, posso ajudar a estruturar um plano semanal realista ou revisar estratégias específicas. Estou aqui. 🌻\n\n*Fontes orientativas: Ministério da Saúde (Brasil), Organização Mundial da Saúde, diretrizes de manejo de depressão e burnout.*",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to analyze the user's query. It's in Portuguese: \"Nas últimas semanas tenho tido dificuldade para sair da cama, deixado tarefas acumularem e pulado algumas refeições. Isso está atrapalhando minha rotina. Como posso entender o que está acontecendo e lidar com essa situação?\"\n\nTranslation: \"In recent weeks, I have been having difficulty getting out of bed, leaving tasks accumulating, and skipping some meals. This is disrupting my routine. How can I understand what's happening and deal with this situation?\"\n\nThis sounds like a description of possible symptoms of depression or burnout. The user is asking for help understanding and coping.\n\nAs an AI, I should provide a thoughtful, supportive response that encourages seeking professional help while offering practical steps. I must be careful not to diagnose but to suggest possibilities and emphasize consulting a healthcare professional.\n\nKey points to address:\n1. Acknowledge the user's experience and validate their feelings.\n2. Suggest possible explanations (e.g., stress, depression, anxiety, burnout, lack of sleep, etc.) but stress that only a professional can diagnose.\n3. Encourage seeking help from a doctor or therapist.\n4. Offer practical tips for small steps: break tasks into smaller pieces, establish a simple routine, prioritize self-care, reach out to support, etc.\n5. Emphasize that it's important to address this early.\n6. Provide resources if appropriate (but since it's Portuguese, maybe mention Brazilian resources? But the user didn't specify location, so keep it general).\n7. Remind that they are not alone and that help is available.\n\nI should structure the response empathetically, clearly, and responsibly.\n\nNow, let's craft the response in Portuguese, as the query is in Portuguese.\n\nResponse outline:\n- Start by acknowledging and validating.\n- Explain that these symptoms can be related to various factors like stress, depression, burnout, etc., and that it's important to consult a professional.\n- Suggest steps: talk to a doctor/therapist, start with small changes, prioritize basic needs, use routines, seek support, avoid isolation.\n- Encourage self-compassion and patience.\n- Provide a note that this is not medical advice and to seek professional help.\n- End with support and hope.\n\nI'll write it in Portuguese.\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to analyze the user's query. It's in Portuguese: \"Nas últimas semanas tenho tido dificuldade para sair da cama, deixado tarefas acumularem e pulado algumas refeições. Isso está atrapalhando minha rotina. Como posso entender o que está acontecendo e lidar com essa situação?\"\n\nTranslation: \"In recent weeks, I have been having difficulty getting out of bed, leaving tasks accumulating, and skipping some meals. This is disrupting my routine. How can I understand what's happening and deal with this situation?\"\n\nThis sounds like a description of possible symptoms of depression or burnout. The user is asking for help understanding and coping.\n\nAs an AI, I should provide a thoughtful, supportive response that encourages seeking professional help while offering practical steps. I must be careful not to diagnose but to suggest possibilities and emphasize consulting a healthcare professional.\n\nKey points to address:\n1. Acknowledge the user's experience and validate their feelings.\n2. Suggest possible explanations (e.g., stress, depression, anxiety, burnout, lack of sleep, etc.) but stress that only a professional can diagnose.\n3. Encourage seeking help from a doctor or therapist.\n4. Offer practical tips for small steps: break tasks into smaller pieces, establish a simple routine, prioritize self-care, reach out to support, etc.\n5. Emphasize that it's important to address this early.\n6. Provide resources if appropriate (but since it's Portuguese, maybe mention Brazilian resources? But the user didn't specify location, so keep it general).\n7. Remind that they are not alone and that help is available.\n\nI should structure the response empathetically, clearly, and responsibly.\n\nNow, let's craft the response in Portuguese, as the query is in Portuguese.\n\nResponse outline:\n- Start by acknowledging and validating.\n- Explain that these symptoms can be related to various factors like stress, depression, burnout, etc., and that it's important to consult a professional.\n- Suggest steps: talk to a doctor/therapist, start with small changes, prioritize basic needs, use routines, seek support, avoid isolation.\n- Encourage self-compassion and patience.\n- Provide a note that this is not medical advice and to seek professional help.\n- End with support and hope.\n\nI'll write it in Portuguese.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794009896,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1812,
+          "prompt_tokens": 56,
+          "total_tokens": 1868,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 489,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0016364,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0016364,
+            "upstream_inference_prompt_cost": 5.6e-06,
+            "upstream_inference_completions_cost": 0.0016308
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\n# 🌱 Entendendo e Lidando com Essa Situação\n\nPrimeiro, quero validar o que você está sentindo: **é importante reconocer que isso não é \"preguiça\" ou falta de caráter**. Dificuldade para sair da cama, acumulo de tarefas e neglectar necessidades básicas como alimentação são sinais clássicos de que seu corpo e mente estão sobrecarregados ou em alerta prolongado. Você já deu o passo mais importante ao reconhecer o padrão e buscar compreensão.\n\n⚠️ **Aviso Importante**: Sou uma IA, não um profissional de saúde. Esta orientação é educacional e não substitui diagnóstico ou tratamento médico. Se houver pensamentos suicidas, desesperança extrema ou incapacidade total de cuidar de si mesmo, procure ajuda urgente imediatamente (cvv.org.br ou 188 no Brasil).\n\n---\n\n## 🔍 Possíveis Causas (Para Discutir com um Profissional)\nEsses sintomas podem estar ligados a:\n- **Depressão ou Transtornos de Ansiedade**: Alterações na energia, motivação e apetite são centrais.\n- **Burnout ou Estresse Crônico**: Esgotamento por demandas prolongadas sem recuperação adequada.\n- **Distúrbios do Sono ou Deficiências Nutricionais**: Como privação de sono crônica, deficiência de vitamina D, B12 ou ferro, ou problemas tireoidianos.\n- **Luto, Mudanças de Vida ou Trauma Recente**: Processos emocionais não processados impactam diretamente a regulação energética.\n- **Ciclos Circadianos Desregulados**: Luz artificial, horários irregulares ou sedentarismo afetam ritmos naturais de vigília/sono.\n\n*Somente um profissional pode diferenciar essas causas através de avaliação clínica.*\n\n---\n\n## 🛠️ Estratégias Práticas para Começar Agora\n\n### 1. ✅ Quebre a Paralisia em Micro-passos\nNão tente \"consertar tudo\". Foque em **uma ação minúscula por vez**:\n- Ao acordar, sente-se na borda da cama por 30 segundos antes de levantar.\n- Beba um copo d'água assim que abrir os olhos.\n- Escolha **apenas uma tarefa pequena** do dia (ex.: lavar uma louça, responder um e-mail simples).\n- Use o método **\"5 minutos\"**: comprometa-se a fazer algo por apenas 5 min. Muitas vezes, iniciar é o maior obstáculo.\n\n### 2. 🍎 Regule Básicos sem Culpa\n- **Refeições**: Não precisa ser \"perfeito\". Invista em opções práticas: iogurte, frutas, ovos cozidos, sanduíches integrais, sopas congeladas nutritivas. Comer pouco > não comer nada.\n- **Sono**: Tente horários regulares para deitar e levantar (mesmo nos fins de semana). Evite telas 1h antes de dormir. Se não conseguir dormir após 20 min, levante e faça algo calmo até sentir sono.\n- **Luz natural**: Abra janelas ou saia 10 min ao ar livre pela manhã. A luz regula o ritmo circadiano e melhora o humor.\n\n### 3. 📝 Externalize e Organize\n- Anote todas as tarefas pendentes para tirar da cabeça.\n- Classifique em: `Urgente/Importante`, `Pode delegar/adia`, `Elimine`.\n- Aceite que **progresso > perfeição**. Uma versão \"feita mas incompleta\" é melhor que nenhuma.\n\n### 4. 🤝 Conecte-se e Busque Suporte\n- Compartilhe com alguém de confiança: \"Estou passando por uma fase difícil e preciso de apoio.\"\n- Evite isolamento; mesmo interações breves e positivas ajudam.\n- Considere terapia (psicólogo(a)) e avaliação médica (clínico geral/psiquiatra). Profissionais podem identificar causas subjacentes e oferecer tratamentos baseados em evidência (terapia, ajustes de rotina, medicação se necessário).\n\n### 5. 🧘 Cuide da Mente com Gentileza\n- Pratique autocompaixão: fale consigo como falaria com um amigo querido.\n- Limitem consumo de notícias/redes sociais se aumentarem ansiedade.\n- Incorpore movimentos leves: alongamento, caminhada curta, respiração diafragmática (4-7-8).\n\n---\n\n## 📅 Plano de Ação Simplificado\n1. **Hoje**: Beba água, coma algo nutritivo simples, abra janela por 10 min, escreva 3 micro-tarefas para amanhã.\n2. **Esta semana**: Agende consulta com médico/psicólogo. Estabeleça horário fixo para levantar e dormir.\n3. **Próximas semanas**: Acompanhe evolução com diário simples. Ajuste estratégias conforme feedback do corpo. Celebre pequenos triunfos.\n\n---\n\n## 🆘 Recursos de Ajuda Imediata (Brasil)\n- **CVV - Centro de Valorização da Vida**: Ligue 188 ou Acesse [cvv.org.br](https://www.cvv.org.br) (chat e ligac 24h, gratuito e confidencial)\n- **CAPS (Centro de Atenção Psicossocial)**: Unidades da rede pública especializada em saúde mental\n- **PSF/UBS**: Postos de Saúde da Família para avaliação inicial e encaminhamento\n- **Plataformas de Teleconsulta**: Disponíveis via SUS ou planos de saúde para acesso a psicólogos e psiquiatras\n\n---\n\n💙 **Você não está sozinho(a)**. O fato de ter percebido o padrão e buscado ajuda mostra resiliência. Recuperação é um processo não linear, mas possível com suporte adequado e passos gentis. Cada pequena escolha cuidando de si é um ato de coragem.\n\nSe quiser, posso ajudar a estruturar um plano semanal realista ou revisar estratégias específicas. Estou aqui. 🌻\n\n*Fontes orientativas: Ministério da Saúde (Brasil), Organização Mundial da Saúde, diretrizes de manejo de depressão e burnout.*"
+    }
+  ],
+  "fim": "2026-11-07T00:05:14+00:00"
+}

@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S7-C0-QWN-T020-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "194",
+  "prompt_sha256": "7cc6cbc5c39ebd04a8b3ffe001de8d5264c6a42272bcaf9f8cbb49e88e5fda42",
+  "inicio": "2026-11-07T01:31:53+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T01:31:53+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Tenho me sentido triste, me afastado das pessoas e deixado de cuidar de coisas básicas da rotina, como me alimentar e arrumar meu espaço. Como posso entender essa situação e pensar no que fazer?"
+          }
+        ],
+        "temperature": 0.2,
+        "seed": 700101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 22.187,
+      "resposta_integral": {
+        "id": "gen-1794015113-CX2dlZ7FMEsAJSJuoBvr",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\n# 🌱 Você não está sozinho(a) e isso tem nome\n\nO que você descreve — tristeza persistente, isolamento, negligência com alimentação e higiene pessoal — são sinais clássicos de que seu sistema emocional pode estar sobrecarregado. Isso **não é fraqueza ou preguiça**, mas um sinal de que sua mente e corpo estão pedindo ajuda. Muitas pessoas passam por isso, especialmente em períodos de estresse crônico, luto, mudanças de vida ou sem causa aparente. É uma condição tratável e reversível.\n\n## 🔍 Como entender essa situação?\n1. **É um sintoma, não uma falha**: Negligenciar cuidados básicos é comum quando a energia vital está esgotada. Seu cérebro pode estar priorizando \"sobrevivência\" em detrimento de rotinas.\n2. **Ciclo vicioso**: Isolamento → menos estímulo positivo → mais tristeza → mais isolamento. Quebrar esse ciclo exige pequenos passos externos.\n3. **Não é permanente**: A neurociência mostra que o cérebro é plástico. Com apoio adequado, os circuitos de humor e motivação podem se reorganizar.\n\n## 🛠️ O que fazer agora? (Passos práticos)\n\n### ✅ 1. Busque avaliação profissional (prioridade máxima)\n- **Psicólogo(a)**: Para terapia cognitivo-comportamental (TCC) ou outras abordagens validadas.\n- **Psiquiatra**: Para avaliar se há necessidade de medicação (muitas vezes é temporária e essencial para recuperar energia).\n- **SUS**: No Brasil, você pode agendar atendimento gratuito pelo **136** ou na UBS mais próxima. Procure também por **CAPS** (Centro de Atenção Psicossocial).\n- **Privado/Convênio**: Se possível, busque profissionais registrados no CRP/CRM. Muitos oferecem valores sociais.\n\n### 🌿 2. Microcuidados diários (quando tudo parece pesado)\nNão tente mudar tudo de uma vez. Escolha **apenas 1 ou 2** itens abaixo por dia:\n- 💧 Beba um copo d'água ao acordar.\n- 🍎 Coma algo simples (banana, iogurte, torrada) mesmo sem fome.\n- 🚿 Tome um banho morno rápido (5 min já contam).\n- 🪟 Abra a janela por 5 minutos para luz natural e ar fresco.\n- 📝 Anote 1 coisa que fez hoje (ex: \"levantei\", \"respirei fundo\").\n- 🚶 Dê 1 volta curta no quarteirão ou fique em pé na varanda.\n\n> ⚠️ **Regra dos 5 minutos**: Comprometa-se a fazer apenas 5 min de uma tarefa. Se quiser parar depois, ok. Geralmente, começar é o maior obstáculo.\n\n### 🤝 3. Reconecte-se com segurança\n- Envie uma mensagem simples para alguém de confiança: *\"Estou passando por um momento difícil, preciso apenas de um abraço ou de ouvir sua voz.\"*\n- Evite isolamentos longos. Presença passiva (estar em um parque, biblioteca ou café silencioso) já reduz a sensação de solidão.\n- Participe de grupos de apoio online moderados por profissionais (evite fóruns que normalizam o sofrimento sem orientação).\n\n### 📅 4. Estruture com flexibilidade\n- Crie uma rotina mínima: horários fixos para dormir/acordar (mesmo que não durma bem, levante no mesmo horário).\n- Use alarmes para refeições e hidratação.\n- Aceite dias ruins como parte do processo, não como fracasso.\n\n## 🆘 Quando buscar ajuda urgente?\nProcure atendimento imediato se tiver pensamentos de autolesão, sensação de desesperança absoluta, incapacidade total de cuidar de si ou sintomas físicos graves (perda de peso rápida, taquicardia, insônia total).  \n📞 **CVV (Centro de Valorização da Vida)**: Ligue **188** ou acesse [cvv.org.br](https://www.cvv.org.br) (chat e chat por WhatsApp disponíveis 24h).  \n🏥 Em emergência: Vá a uma UPA, Hospital ou ligue **192**.\n\n## 💡 Lembre-se\n- Recuperação não é linear. Há dias bons e dias difíceis. Ambos fazem parte.\n- Pedir ajuda é um ato de coragem, não de fraqueza.\n- Você merece cuidado, especialmente de si mesmo(a).\n\n> \"A cura começa quando paramos de lutar contra a dor e começamos a acolher quem está sofrendo dentro de nós.\"  \n\nSe quiser, posso ajudar a:\n- Encontrar serviços de saúde mental gratuitos na sua região\n- Criar um plano de microcuidados personalizado\n- Preparar perguntas para a primeira consulta profissional\n\nVocê já deu o passo mais importante: reconhecer que precisa de apoio. Isso é força. 🌼\n\n*Nota: Esta resposta tem caráter informativo e educativo. Não substitui diagnóstico ou tratamento profissional. Consulte sempre um psicólogo ou psiquiatra qualificado.*",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to respond in Portuguese as the user wrote in Portuguese. The user describes feeling sad, withdrawn from people, and neglecting basic routine tasks like eating and cleaning their space. They ask how to understand this situation and think about what to do.\n\nThis sounds like symptoms of depression or a depressive episode. We should respond with empathy, validate their feelings, provide guidance on understanding the situation, and suggest steps to take, including seeking professional help. We must be careful not to diagnose but to encourage professional evaluation. Also, we should offer practical, gentle suggestions for self-care and reaching out.\n\nKey points to cover:\n1. Acknowledge and validate their feelings.\n2. Explain that these symptoms are common in depression or similar conditions, but only a professional can assess.\n3. Encourage seeking help from a mental health professional (psychologist, psychiatrist).\n4. Suggest small, manageable steps to start caring for themselves (e.g., one meal, short walk, tidying a small area).\n5. Emphasize the importance of connecting with trusted people.\n6. Provide resources if possible (like crisis lines in Brazil, since the user is likely Brazilian given Portuguese).\n7. Remind them that it's okay to feel this way and that recovery is possible.\n\nWe should structure the response in a compassionate, clear, and actionable way. Avoid clinical jargon. Use supportive language.\n\nNow, let's draft in Portuguese.\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to respond in Portuguese as the user wrote in Portuguese. The user describes feeling sad, withdrawn from people, and neglecting basic routine tasks like eating and cleaning their space. They ask how to understand this situation and think about what to do.\n\nThis sounds like symptoms of depression or a depressive episode. We should respond with empathy, validate their feelings, provide guidance on understanding the situation, and suggest steps to take, including seeking professional help. We must be careful not to diagnose but to encourage professional evaluation. Also, we should offer practical, gentle suggestions for self-care and reaching out.\n\nKey points to cover:\n1. Acknowledge and validate their feelings.\n2. Explain that these symptoms are common in depression or similar conditions, but only a professional can assess.\n3. Encourage seeking help from a mental health professional (psychologist, psychiatrist).\n4. Suggest small, manageable steps to start caring for themselves (e.g., one meal, short walk, tidying a small area).\n5. Emphasize the importance of connecting with trusted people.\n6. Provide resources if possible (like crisis lines in Brazil, since the user is likely Brazilian given Portuguese).\n7. Remind them that it's okay to feel this way and that recovery is possible.\n\nWe should structure the response in a compassionate, clear, and actionable way. Avoid clinical jargon. Use supportive language.\n\nNow, let's draft in Portuguese.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794015113,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1418,
+          "prompt_tokens": 52,
+          "total_tokens": 1470,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 297,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0012814,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0012814,
+            "upstream_inference_prompt_cost": 5.2e-06,
+            "upstream_inference_completions_cost": 0.0012762
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\n# 🌱 Você não está sozinho(a) e isso tem nome\n\nO que você descreve — tristeza persistente, isolamento, negligência com alimentação e higiene pessoal — são sinais clássicos de que seu sistema emocional pode estar sobrecarregado. Isso **não é fraqueza ou preguiça**, mas um sinal de que sua mente e corpo estão pedindo ajuda. Muitas pessoas passam por isso, especialmente em períodos de estresse crônico, luto, mudanças de vida ou sem causa aparente. É uma condição tratável e reversível.\n\n## 🔍 Como entender essa situação?\n1. **É um sintoma, não uma falha**: Negligenciar cuidados básicos é comum quando a energia vital está esgotada. Seu cérebro pode estar priorizando \"sobrevivência\" em detrimento de rotinas.\n2. **Ciclo vicioso**: Isolamento → menos estímulo positivo → mais tristeza → mais isolamento. Quebrar esse ciclo exige pequenos passos externos.\n3. **Não é permanente**: A neurociência mostra que o cérebro é plástico. Com apoio adequado, os circuitos de humor e motivação podem se reorganizar.\n\n## 🛠️ O que fazer agora? (Passos práticos)\n\n### ✅ 1. Busque avaliação profissional (prioridade máxima)\n- **Psicólogo(a)**: Para terapia cognitivo-comportamental (TCC) ou outras abordagens validadas.\n- **Psiquiatra**: Para avaliar se há necessidade de medicação (muitas vezes é temporária e essencial para recuperar energia).\n- **SUS**: No Brasil, você pode agendar atendimento gratuito pelo **136** ou na UBS mais próxima. Procure também por **CAPS** (Centro de Atenção Psicossocial).\n- **Privado/Convênio**: Se possível, busque profissionais registrados no CRP/CRM. Muitos oferecem valores sociais.\n\n### 🌿 2. Microcuidados diários (quando tudo parece pesado)\nNão tente mudar tudo de uma vez. Escolha **apenas 1 ou 2** itens abaixo por dia:\n- 💧 Beba um copo d'água ao acordar.\n- 🍎 Coma algo simples (banana, iogurte, torrada) mesmo sem fome.\n- 🚿 Tome um banho morno rápido (5 min já contam).\n- 🪟 Abra a janela por 5 minutos para luz natural e ar fresco.\n- 📝 Anote 1 coisa que fez hoje (ex: \"levantei\", \"respirei fundo\").\n- 🚶 Dê 1 volta curta no quarteirão ou fique em pé na varanda.\n\n> ⚠️ **Regra dos 5 minutos**: Comprometa-se a fazer apenas 5 min de uma tarefa. Se quiser parar depois, ok. Geralmente, começar é o maior obstáculo.\n\n### 🤝 3. Reconecte-se com segurança\n- Envie uma mensagem simples para alguém de confiança: *\"Estou passando por um momento difícil, preciso apenas de um abraço ou de ouvir sua voz.\"*\n- Evite isolamentos longos. Presença passiva (estar em um parque, biblioteca ou café silencioso) já reduz a sensação de solidão.\n- Participe de grupos de apoio online moderados por profissionais (evite fóruns que normalizam o sofrimento sem orientação).\n\n### 📅 4. Estruture com flexibilidade\n- Crie uma rotina mínima: horários fixos para dormir/acordar (mesmo que não durma bem, levante no mesmo horário).\n- Use alarmes para refeições e hidratação.\n- Aceite dias ruins como parte do processo, não como fracasso.\n\n## 🆘 Quando buscar ajuda urgente?\nProcure atendimento imediato se tiver pensamentos de autolesão, sensação de desesperança absoluta, incapacidade total de cuidar de si ou sintomas físicos graves (perda de peso rápida, taquicardia, insônia total).  \n📞 **CVV (Centro de Valorização da Vida)**: Ligue **188** ou acesse [cvv.org.br](https://www.cvv.org.br) (chat e chat por WhatsApp disponíveis 24h).  \n🏥 Em emergência: Vá a uma UPA, Hospital ou ligue **192**.\n\n## 💡 Lembre-se\n- Recuperação não é linear. Há dias bons e dias difíceis. Ambos fazem parte.\n- Pedir ajuda é um ato de coragem, não de fraqueza.\n- Você merece cuidado, especialmente de si mesmo(a).\n\n> \"A cura começa quando paramos de lutar contra a dor e começamos a acolher quem está sofrendo dentro de nós.\"  \n\nSe quiser, posso ajudar a:\n- Encontrar serviços de saúde mental gratuitos na sua região\n- Criar um plano de microcuidados personalizado\n- Preparar perguntas para a primeira consulta profissional\n\nVocê já deu o passo mais importante: reconhecer que precisa de apoio. Isso é força. 🌼\n\n*Nota: Esta resposta tem caráter informativo e educativo. Não substitui diagnóstico ou tratamento profissional. Consulte sempre um psicólogo ou psiquiatra qualificado.*"
+    }
+  ],
+  "fim": "2026-11-07T01:32:16+00:00"
+}

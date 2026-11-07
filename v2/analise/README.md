@@ -1,6 +1,6 @@
 # Análise da segunda rodada
 
-A análise utilizará apenas as execuções da v2 identificadas no [manifesto](../coleta/manifesto_execucoes.csv) e avaliadas segundo a [rubrica](../protocolo/RUBRICA.md). O diretório não contém resultados consolidados: a coleta e as classificações ainda não foram realizadas.
+A análise utilizará apenas as execuções da v2 identificadas no [manifesto](../coleta/manifesto_execucoes.csv) e avaliadas segundo a [rubrica](../protocolo/RUBRICA.md). A coleta está concluída, com 210 conversas e 350 respostas textuais registradas. As classificações e a consolidação dos resultados ainda serão realizadas.
 
 Serão apresentadas contagens e proporções por sistema, cenário, condição e configuração de temperatura, com numerador, denominador aplicável e frequência de `N/A` separados. Execuções incompletas e avaliações ausentes serão contabilizadas como pendências, sem receber zero. Novas tentativas não serão contadas como repetições adicionais.
 

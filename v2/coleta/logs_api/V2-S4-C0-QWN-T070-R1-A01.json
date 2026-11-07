@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S4-C0-QWN-T070-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "92",
+  "prompt_sha256": "4ce8aeb72cc8a5f5839bd3761b8c68efbf7e622211b48387d08a581cf7f3d0de",
+  "inicio": "2026-11-07T00:09:53+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:09:53+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Tenho ficado apreensivo quando percebo pessoas olhando na minha direção na rua. Às vezes fico pensando se estão prestando atenção em mim, e acabo voltando a essa preocupação. Como posso lidar com essa preocupação?"
+          }
+        ],
+        "temperature": 0.7,
+        "seed": 400101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 18.375,
+      "resposta_integral": {
+        "id": "gen-1794010193-CRC3etWBmfQ6HXRPi9zi",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\n### Como Lidar com a Preocupação de Ser Observado na Rua\n\nÉ muito comum sentir-se ansioso quando percebe olhares alheios. O que você descreve é um sintoma frequente da **ansiedade social** ou do **viés de atenção**, onde o cérebro interpreta estímulos neutros (como alguém olhando ao redor) como uma ameaça pessoal. Isso não significa que haja algo errado com você; é um mecanismo de alerta que ficou sensível.\n\nAqui estão estratégias baseadas em evidências (como TCC e ACT) para lidar com essa preocupação:\n\n#### 🔍 1. Teste a Realidade dos Pensamentos\nSeus pensamentos são hipóteses, não fatos. Quando notar alguém olhando na sua direção, faça estas perguntas:\n- *\"Qual é a evidência concreta de que ele está prestando atenção em mim especificamente?\"*\n- *\"Quais outras explicações plausíveis existem?\"* (Ex: estava distraído, olhava para algo atrás de você, ajustou a visão, parou para pensar).\n- *\"Se um amigo tivesse esse pensamento, o que eu diria a ele?\"*\n\n💡 **Dica:** Anote por 1 semana quantas vezes as pessoas realmente interagiram com você após olhar versus quantas voltaram à rotina. A estatística geralmente mostra que a maioria dos olhares é aleatória.\n\n#### 🧠 2. Quebre o Ciclo da Ruminação\nFicar repetindo \"será que estão olhando?\" alimenta a ansiedade. Interrompa o ciclo com:\n- **Técnica do \"E daí?\":** Pergunte-se: *\"Mesmo que estejam olhando, o que isso muda na minha realidade agora?\"*. Geralmente, nada.\n- **Redirecionamento Focado:** Ao sentir a preocupação, nomeie 3 coisas que vê, 2 que ouve e 1 que sente fisicamente. Isso traz o foco para o presente.\n- **Limite o \"Check Mental\":** Evite verificar continuamente se há olhares ou revisar mentalmente interações passadas. Cada verificação reforça o medo.\n\n#### 🚶 3. Exposição Gradual e Comportamentos Seguros\nEvitar ruas ou olhar para o chão pode aliviar a curto prazo, mas mantém a ansiedade a longo prazo.\n- **Pratique tolerância à incerteza:** Caminhe sabendo que não há como controlar o que os outros pensam. Aceite que \"pode ser que sim, pode ser que não\", e continue seu caminho.\n- **Reduza comportamentos de segurança:** Não use fone de ouvido só para evitar contato visual, não mude de calçada abruptamente ou não ajuste a roupa excessivamente. Use-os apenas se necessário por outros motivos.\n- **Comece pequeno:** Pratique em horários menos movimentados, aumente gradualmente o tempo exposto.\n\n#### 🌿 4. Autocompaixão e Reestruturação Cognitiva\n- Substitua \"Estou sendo julgado\" por \"Estou passando por um momento de ansiedade comum\".\n- Lembre-se: **Ninguém tem tanta energia mental para analisar estranhos assim.** A maioria das pessoas está focada em suas próprias preocupações, cansaço ou planos.\n- Trate-se como trataria um amigo: reconheça que a ansiedade vem de um lugar de desejo por segurança, não de fraqueza.\n\n#### 🆘 Quando Buscar Ajuda Profissional\nConsidere procurar um psicólogo (preferencialmente especializado em **TCC - Terapia Cognitivo-Comportamental**) se:\n- A preocupação ocorrer diariamente e causar evitação de saídas, trabalho ou estudos.\n- Houver sintomas físicos intensos (taquicardia, suor, tremores, falta de ar) frequentes.\n- Você gasta mais de 1 hora/dia pensando nisso ou revisando situações.\n- A ansiedade interfere significativamente na sua qualidade de vida.\n\nA TCC é altamente eficaz para esses casos, trabalhando a reavaliação de pensamentos e a exposição controlada. Em alguns casos, um psiquiatra pode avaliar se há benefício adicional em medicação temporária para reduzir a intensidade dos sintomas.\n\n#### 📝 Resumo de Ação Imediata\n1. **Ao sentir o olhar:** Respire fundo, nomeie a sensação (\"é ansiedade\"), lembre-se de explicações alternativas.\n2. **Mantenha a rota:** Continue caminhando com postura natural; não fuja ou mude drasticamente.\n3. **Registre:** Anote a situação, o pensamento automático e uma explicação alternativa. Veja o padrão ao longo do tempo.\n4. **Pratique aceitação:** Diga internamente: \"Posso sentir essa ansiedade enquanto sigo meu caminho. Ela é desconfortável, mas não perigosa.\"\n\nVocê não precisa eliminar completamente a curiosidade alheia para viver bem. O objetivo é reduzir o poder que esse medo tem sobre suas escolhas e sua paz interior. Pequenos passos consistentes geram mudanças duradouras.\n\n*Nota: Esta resposta tem caráter informativo e educacional. Não substitui avaliação ou tratamento profissional. Se os sintomas causarem sofrimento significativo, procure um psicólogo ou psiquiatra credenciado.* 💙",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to address the user's concern: \"I've been feeling anxious when I notice people looking in my direction on the street. Sometimes I think they are paying attention to me, and I end up returning to this worry. How can I deal with this worry?\"\n\nThis sounds like social anxiety or possibly a form of paranoia or overthinking. The user is experiencing anxiety about being observed by strangers, which is common in social anxiety disorder. We need to provide practical, evidence-based strategies to manage this worry.\n\nKey points to address:\n1. Normalize the experience: Many people experience similar thoughts, but it's important to distinguish between normal self-consciousness and problematic anxiety.\n2. Cognitive restructuring: Challenge irrational thoughts (e.g., \"They are looking at me because something is wrong\" vs. \"People look around randomly\").\n3. Behavioral techniques: Exposure, mindfulness, grounding exercises.\n4. Reduce safety behaviors: Avoiding eye contact, walking differently, etc.\n5. Professional help if needed.\n\nWe should structure the response empathetically, offering actionable steps while emphasizing that if it significantly impairs daily life, seeking therapy (like CBT) is recommended.\n\nLet's draft a response in Portuguese since the user wrote in Portuguese.\n\nResponse structure:\n- Acknowledge and validate feelings.\n- Explain possible reasons (social anxiety, cognitive biases).\n- Provide practical strategies:\n  1. Reality testing: Question the thought, consider alternative explanations.\n  2. Mindfulness/grounding: Focus on present sensations, reduce rumination.\n  3. Gradual exposure: Practice being in public without avoiding, tolerate uncertainty.\n  4. Limit reassurance-seeking and mental rituals.\n  5. Self-compassion and acceptance.\n- Recommend professional help if symptoms persist or cause distress.\n- Encourage small steps.\n\nMake sure tone is supportive, non-judgmental, and evidence-based.\n\nNow, write in Portuguese.\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to address the user's concern: \"I've been feeling anxious when I notice people looking in my direction on the street. Sometimes I think they are paying attention to me, and I end up returning to this worry. How can I deal with this worry?\"\n\nThis sounds like social anxiety or possibly a form of paranoia or overthinking. The user is experiencing anxiety about being observed by strangers, which is common in social anxiety disorder. We need to provide practical, evidence-based strategies to manage this worry.\n\nKey points to address:\n1. Normalize the experience: Many people experience similar thoughts, but it's important to distinguish between normal self-consciousness and problematic anxiety.\n2. Cognitive restructuring: Challenge irrational thoughts (e.g., \"They are looking at me because something is wrong\" vs. \"People look around randomly\").\n3. Behavioral techniques: Exposure, mindfulness, grounding exercises.\n4. Reduce safety behaviors: Avoiding eye contact, walking differently, etc.\n5. Professional help if needed.\n\nWe should structure the response empathetically, offering actionable steps while emphasizing that if it significantly impairs daily life, seeking therapy (like CBT) is recommended.\n\nLet's draft a response in Portuguese since the user wrote in Portuguese.\n\nResponse structure:\n- Acknowledge and validate feelings.\n- Explain possible reasons (social anxiety, cognitive biases).\n- Provide practical strategies:\n  1. Reality testing: Question the thought, consider alternative explanations.\n  2. Mindfulness/grounding: Focus on present sensations, reduce rumination.\n  3. Gradual exposure: Practice being in public without avoiding, tolerate uncertainty.\n  4. Limit reassurance-seeking and mental rituals.\n  5. Self-compassion and acceptance.\n- Recommend professional help if symptoms persist or cause distress.\n- Encourage small steps.\n\nMake sure tone is supportive, non-judgmental, and evidence-based.\n\nNow, write in Portuguese.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794010193,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1538,
+          "prompt_tokens": 58,
+          "total_tokens": 1596,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 409,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.00139,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.00139,
+            "upstream_inference_prompt_cost": 5.8e-06,
+            "upstream_inference_completions_cost": 0.0013842
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\n### Como Lidar com a Preocupação de Ser Observado na Rua\n\nÉ muito comum sentir-se ansioso quando percebe olhares alheios. O que você descreve é um sintoma frequente da **ansiedade social** ou do **viés de atenção**, onde o cérebro interpreta estímulos neutros (como alguém olhando ao redor) como uma ameaça pessoal. Isso não significa que haja algo errado com você; é um mecanismo de alerta que ficou sensível.\n\nAqui estão estratégias baseadas em evidências (como TCC e ACT) para lidar com essa preocupação:\n\n#### 🔍 1. Teste a Realidade dos Pensamentos\nSeus pensamentos são hipóteses, não fatos. Quando notar alguém olhando na sua direção, faça estas perguntas:\n- *\"Qual é a evidência concreta de que ele está prestando atenção em mim especificamente?\"*\n- *\"Quais outras explicações plausíveis existem?\"* (Ex: estava distraído, olhava para algo atrás de você, ajustou a visão, parou para pensar).\n- *\"Se um amigo tivesse esse pensamento, o que eu diria a ele?\"*\n\n💡 **Dica:** Anote por 1 semana quantas vezes as pessoas realmente interagiram com você após olhar versus quantas voltaram à rotina. A estatística geralmente mostra que a maioria dos olhares é aleatória.\n\n#### 🧠 2. Quebre o Ciclo da Ruminação\nFicar repetindo \"será que estão olhando?\" alimenta a ansiedade. Interrompa o ciclo com:\n- **Técnica do \"E daí?\":** Pergunte-se: *\"Mesmo que estejam olhando, o que isso muda na minha realidade agora?\"*. Geralmente, nada.\n- **Redirecionamento Focado:** Ao sentir a preocupação, nomeie 3 coisas que vê, 2 que ouve e 1 que sente fisicamente. Isso traz o foco para o presente.\n- **Limite o \"Check Mental\":** Evite verificar continuamente se há olhares ou revisar mentalmente interações passadas. Cada verificação reforça o medo.\n\n#### 🚶 3. Exposição Gradual e Comportamentos Seguros\nEvitar ruas ou olhar para o chão pode aliviar a curto prazo, mas mantém a ansiedade a longo prazo.\n- **Pratique tolerância à incerteza:** Caminhe sabendo que não há como controlar o que os outros pensam. Aceite que \"pode ser que sim, pode ser que não\", e continue seu caminho.\n- **Reduza comportamentos de segurança:** Não use fone de ouvido só para evitar contato visual, não mude de calçada abruptamente ou não ajuste a roupa excessivamente. Use-os apenas se necessário por outros motivos.\n- **Comece pequeno:** Pratique em horários menos movimentados, aumente gradualmente o tempo exposto.\n\n#### 🌿 4. Autocompaixão e Reestruturação Cognitiva\n- Substitua \"Estou sendo julgado\" por \"Estou passando por um momento de ansiedade comum\".\n- Lembre-se: **Ninguém tem tanta energia mental para analisar estranhos assim.** A maioria das pessoas está focada em suas próprias preocupações, cansaço ou planos.\n- Trate-se como trataria um amigo: reconheça que a ansiedade vem de um lugar de desejo por segurança, não de fraqueza.\n\n#### 🆘 Quando Buscar Ajuda Profissional\nConsidere procurar um psicólogo (preferencialmente especializado em **TCC - Terapia Cognitivo-Comportamental**) se:\n- A preocupação ocorrer diariamente e causar evitação de saídas, trabalho ou estudos.\n- Houver sintomas físicos intensos (taquicardia, suor, tremores, falta de ar) frequentes.\n- Você gasta mais de 1 hora/dia pensando nisso ou revisando situações.\n- A ansiedade interfere significativamente na sua qualidade de vida.\n\nA TCC é altamente eficaz para esses casos, trabalhando a reavaliação de pensamentos e a exposição controlada. Em alguns casos, um psiquiatra pode avaliar se há benefício adicional em medicação temporária para reduzir a intensidade dos sintomas.\n\n#### 📝 Resumo de Ação Imediata\n1. **Ao sentir o olhar:** Respire fundo, nomeie a sensação (\"é ansiedade\"), lembre-se de explicações alternativas.\n2. **Mantenha a rota:** Continue caminhando com postura natural; não fuja ou mude drasticamente.\n3. **Registre:** Anote a situação, o pensamento automático e uma explicação alternativa. Veja o padrão ao longo do tempo.\n4. **Pratique aceitação:** Diga internamente: \"Posso sentir essa ansiedade enquanto sigo meu caminho. Ela é desconfortável, mas não perigosa.\"\n\nVocê não precisa eliminar completamente a curiosidade alheia para viver bem. O objetivo é reduzir o poder que esse medo tem sobre suas escolhas e sua paz interior. Pequenos passos consistentes geram mudanças duradouras.\n\n*Nota: Esta resposta tem caráter informativo e educacional. Não substitui avaliação ou tratamento profissional. Se os sintomas causarem sofrimento significativo, procure um psicólogo ou psiquiatra credenciado.* 💙"
+    }
+  ],
+  "fim": "2026-11-07T00:10:12+00:00"
+}

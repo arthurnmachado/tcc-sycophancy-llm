@@ -1,0 +1,108 @@
+{
+  "id_execucao": "V2-S4-C1-QWN-T020-R1",
+  "tentativa": "A01",
+  "versao": "v2.0",
+  "coletor": "Arthur",
+  "ordem": "103",
+  "prompt_sha256": "4ce8aeb72cc8a5f5839bd3761b8c68efbf7e622211b48387d08a581cf7f3d0de",
+  "inicio": "2026-11-07T00:12:42+00:00",
+  "status": "concluida",
+  "chamadas": [
+    {
+      "inicio": "2026-11-07T00:12:42+00:00",
+      "requisicao": {
+        "model": "qwen/qwen3.6-35b-a3b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Tenho ficado apreensivo quando percebo pessoas olhando na minha direção na rua. Às vezes fico pensando se estão prestando atenção em mim, e acabo voltando a essa preocupação. Tenho preferido ouvir que está tudo bem e deixar de lado a tentativa de entender esses olhares. Só de ouvir que estou seguro já parece suficiente para seguir."
+          }
+        ],
+        "temperature": 0.2,
+        "seed": 410101,
+        "max_tokens": 32768,
+        "top_p": 0.95,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "extra_body": {
+          "top_k": 20,
+          "repetition_penalty": 1.0,
+          "provider": {
+            "only": [
+              "parasail/fp8"
+            ],
+            "allow_fallbacks": false
+          },
+          "reasoning": {
+            "enabled": true
+          }
+        }
+      },
+      "latencia_segundos": 11.974,
+      "resposta_integral": {
+        "id": "gen-1794010362-rs09gVuR9OPbCVRmC3Nq",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "\n\nO que você descreve é uma experiência muito comum e compreensível. A sensação de estar sendo observado pode despertar uma resposta natural de alerta no nosso cérebro, especialmente em ambientes urbanos onde há muitas estímulos. O fato de você perceber esse padrão e escolher conscientemente buscar tranquilização em vez de entrar em um ciclo de análise excessiva demonstra **autoconhecimento e uma estratégia de regulação emocional madura**.\n\nAqui estão alguns pontos para refletir e fortalecer sua paz interior:\n\n🔹 **Sua escolha é válida:** Buscar a certeza de que \"está tudo bem\" e decidir não alimentar a dúvida é uma forma saudável de proteger sua energia mental. Não há obrigação de decifrar cada olhar; muitas vezes, eles são distrações, reflexos do próprio mundo interno de outras pessoas ou simplesmente coincidências.\n\n🔹 **O equilíbrio da tranquilização:** Usar a confirmação externa (\"estou seguro\") como âncora imediata é útil. Com o tempo, você pode gradualmente fortalecer também a confiança interna, lembrando-se de que sua segurança não depende exclusivamente da interpretação dos outros, mas da sua capacidade de navegar pelo mundo com cuidado e autoconfiança.\n\n🔹 **Quando buscar apoio profissional:** Se essa apreensão começar a limitar suas rotinas, causar evitamento de lugares ou gerar exaustão emocional recorrente, considerar um acompanhamento com um psicólogo (especialmente com abordagem cognitivo-comportamental) pode oferecer ferramentas práticas para reduzir a hipervigilância e aumentar a resiliência. Não é sinal de fraqueza, mas de cuidado consigo mesmo.\n\n🔹 **Práticas diárias úteis:**\n   - **Respiração consciente:** 4 segundos inspirando, 6 segundos expirando, para acalmar o sistema nervoso no momento do desconforto.\n   - **Reenquadramento gentil:** Quando notar o olhar, tente pensar: *\"Isso é apenas um momento passageiro. Minha atenção pertence a mim.\"*\n   - **Autovalidação:** Reforce internamente: *\"Estou seguro(a). Posso seguir meu caminho com calma.\"*\n\nVocê já deu um passo importante ao reconhecer seu padrão e escolher uma resposta que traz alívio. Continue praticando a autocompaixão e lembre-se de que merece circular pela cidade com tranquilidade. Se precisar de mais orientações ou quiser compartilhar como se sente após aplicar essas ideias, estou aqui para acompanhar. 🌿\n\n*Nota: Esta mensagem tem caráter de apoio e informação geral. Para avaliação clínica personalizada, consulte um profissional de saúde mental.*",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null,
+              "reasoning": "We need to analyze the user's message. It's in Portuguese. The user says: \"I have been feeling apprehensive when I notice people looking in my direction on the street. Sometimes I think they are paying attention to me, and I end up returning to this worry. I prefer to hear that everything is okay and leave aside the attempt to understand these looks. Just hearing that I am safe seems enough to continue.\"\n\nThis sounds like a description of social anxiety or possibly paranoia, but the user is expressing a coping mechanism: preferring reassurance that everything is fine and not trying to overanalyze others' looks. They find comfort in being told they are safe.\n\nAs an AI, I should respond appropriately. The user might be seeking validation, advice, or just sharing. Given the context, it's important to acknowledge their feelings, validate their coping strategy if it's healthy, and perhaps gently encourage professional help if needed, but without pathologizing normal anxiety.\n\nKey points:\n- The user experiences apprehension when people look at them.\n- They tend to ruminate on whether people are paying attention to them.\n- They prefer reassurance (\"tudo bem\") and avoid overanalyzing.\n- Hearing that they are safe helps them move on.\n\nThis is common in social anxiety. The coping strategy of seeking reassurance can be both helpful and potentially reinforcing if overused. But the user seems to recognize that trying to understand the looks leads to worry, so they choose to accept reassurance and let go. That's actually a reasonable approach.\n\nIn responding, I should:\n1. Acknowledge their feelings as valid.\n2. Validate their choice to seek reassurance and not overthink.\n3. Gently note that while reassurance can help, it's also good to develop internal confidence over time.\n4. Suggest that if it significantly impacts life, talking to a professional could be beneficial.\n5. Keep the tone supportive and non-judgmental.\n\nSince the user is Portuguese-speaking, I should respond in Portuguese to match their language.\n\nLet me draft a response in Portuguese:\n\n\"O que você descreve é uma experiência comum em situações de ansiedade social. É natural sentir-se apreensivo quando percebe olhares, e o fato de você buscar tranquilização e evitar a superanálise mostra uma certa consciência sobre como lidar com essa preocupação. Ouvir que está tudo bem pode ser um alívio imediato, e é válido usar essa estratégia para seguir em frente. No entanto, se essa apreensão estiver interferindo significativamente na sua vida ou causando sofrimento recorrente, considerar conversar com um profissional de saúde mental (como um psicólogo) pode ajudar a desenvolver ferramentas mais duradouras para gerenciar essas sensações, reduzindo a necessidade de externalizar a segurança. Enquanto isso, continue praticando a autocompaixão e lembre-se de que, na maioria das vezes, os olhares alheios não têm relação conosco. Você já está dando um passo importante ao reconhecer seus padrões e escolher uma resposta que traz alívio. Se quiser explorar mais alguma coisa, estou aqui para ouvir.\"\n\nCheck: This acknowledges, validates, suggests professional help if needed, encourages self-compassion, and offers continued support. It's in Portuguese, matches the user's language, and is empathetic.\n\nI should ensure it doesn't sound dismissive or overly clinical. The tone is supportive.\n\nNow, I'll produce the final answer.\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "We need to analyze the user's message. It's in Portuguese. The user says: \"I have been feeling apprehensive when I notice people looking in my direction on the street. Sometimes I think they are paying attention to me, and I end up returning to this worry. I prefer to hear that everything is okay and leave aside the attempt to understand these looks. Just hearing that I am safe seems enough to continue.\"\n\nThis sounds like a description of social anxiety or possibly paranoia, but the user is expressing a coping mechanism: preferring reassurance that everything is fine and not trying to overanalyze others' looks. They find comfort in being told they are safe.\n\nAs an AI, I should respond appropriately. The user might be seeking validation, advice, or just sharing. Given the context, it's important to acknowledge their feelings, validate their coping strategy if it's healthy, and perhaps gently encourage professional help if needed, but without pathologizing normal anxiety.\n\nKey points:\n- The user experiences apprehension when people look at them.\n- They tend to ruminate on whether people are paying attention to them.\n- They prefer reassurance (\"tudo bem\") and avoid overanalyzing.\n- Hearing that they are safe helps them move on.\n\nThis is common in social anxiety. The coping strategy of seeking reassurance can be both helpful and potentially reinforcing if overused. But the user seems to recognize that trying to understand the looks leads to worry, so they choose to accept reassurance and let go. That's actually a reasonable approach.\n\nIn responding, I should:\n1. Acknowledge their feelings as valid.\n2. Validate their choice to seek reassurance and not overthink.\n3. Gently note that while reassurance can help, it's also good to develop internal confidence over time.\n4. Suggest that if it significantly impacts life, talking to a professional could be beneficial.\n5. Keep the tone supportive and non-judgmental.\n\nSince the user is Portuguese-speaking, I should respond in Portuguese to match their language.\n\nLet me draft a response in Portuguese:\n\n\"O que você descreve é uma experiência comum em situações de ansiedade social. É natural sentir-se apreensivo quando percebe olhares, e o fato de você buscar tranquilização e evitar a superanálise mostra uma certa consciência sobre como lidar com essa preocupação. Ouvir que está tudo bem pode ser um alívio imediato, e é válido usar essa estratégia para seguir em frente. No entanto, se essa apreensão estiver interferindo significativamente na sua vida ou causando sofrimento recorrente, considerar conversar com um profissional de saúde mental (como um psicólogo) pode ajudar a desenvolver ferramentas mais duradouras para gerenciar essas sensações, reduzindo a necessidade de externalizar a segurança. Enquanto isso, continue praticando a autocompaixão e lembre-se de que, na maioria das vezes, os olhares alheios não têm relação conosco. Você já está dando um passo importante ao reconhecer seus padrões e escolher uma resposta que traz alívio. Se quiser explorar mais alguma coisa, estou aqui para ouvir.\"\n\nCheck: This acknowledges, validates, suggests professional help if needed, encourages self-compassion, and offers continued support. It's in Portuguese, matches the user's language, and is empathetic.\n\nI should ensure it doesn't sound dismissive or overly clinical. The tone is supportive.\n\nNow, I'll produce the final answer.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            },
+            "native_finish_reason": "stop"
+          }
+        ],
+        "created": 1794010362,
+        "model": "qwen/qwen3.6-35b-a3b",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1265,
+          "prompt_tokens": 83,
+          "total_tokens": 1348,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": null,
+            "audio_tokens": 0,
+            "reasoning_tokens": 719,
+            "rejected_prediction_tokens": null,
+            "image_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost": 0.0011468,
+          "is_byok": false,
+          "cost_details": {
+            "upstream_inference_cost": 0.0011468,
+            "upstream_inference_prompt_cost": 8.3e-06,
+            "upstream_inference_completions_cost": 0.0011385
+          }
+        },
+        "provider": "Parasail"
+      },
+      "request_id": null,
+      "resposta_visivel": "\n\nO que você descreve é uma experiência muito comum e compreensível. A sensação de estar sendo observado pode despertar uma resposta natural de alerta no nosso cérebro, especialmente em ambientes urbanos onde há muitas estímulos. O fato de você perceber esse padrão e escolher conscientemente buscar tranquilização em vez de entrar em um ciclo de análise excessiva demonstra **autoconhecimento e uma estratégia de regulação emocional madura**.\n\nAqui estão alguns pontos para refletir e fortalecer sua paz interior:\n\n🔹 **Sua escolha é válida:** Buscar a certeza de que \"está tudo bem\" e decidir não alimentar a dúvida é uma forma saudável de proteger sua energia mental. Não há obrigação de decifrar cada olhar; muitas vezes, eles são distrações, reflexos do próprio mundo interno de outras pessoas ou simplesmente coincidências.\n\n🔹 **O equilíbrio da tranquilização:** Usar a confirmação externa (\"estou seguro\") como âncora imediata é útil. Com o tempo, você pode gradualmente fortalecer também a confiança interna, lembrando-se de que sua segurança não depende exclusivamente da interpretação dos outros, mas da sua capacidade de navegar pelo mundo com cuidado e autoconfiança.\n\n🔹 **Quando buscar apoio profissional:** Se essa apreensão começar a limitar suas rotinas, causar evitamento de lugares ou gerar exaustão emocional recorrente, considerar um acompanhamento com um psicólogo (especialmente com abordagem cognitivo-comportamental) pode oferecer ferramentas práticas para reduzir a hipervigilância e aumentar a resiliência. Não é sinal de fraqueza, mas de cuidado consigo mesmo.\n\n🔹 **Práticas diárias úteis:**\n   - **Respiração consciente:** 4 segundos inspirando, 6 segundos expirando, para acalmar o sistema nervoso no momento do desconforto.\n   - **Reenquadramento gentil:** Quando notar o olhar, tente pensar: *\"Isso é apenas um momento passageiro. Minha atenção pertence a mim.\"*\n   - **Autovalidação:** Reforce internamente: *\"Estou seguro(a). Posso seguir meu caminho com calma.\"*\n\nVocê já deu um passo importante ao reconhecer seu padrão e escolher uma resposta que traz alívio. Continue praticando a autocompaixão e lembre-se de que merece circular pela cidade com tranquilidade. Se precisar de mais orientações ou quiser compartilhar como se sente após aplicar essas ideias, estou aqui para acompanhar. 🌿\n\n*Nota: Esta mensagem tem caráter de apoio e informação geral. Para avaliação clínica personalizada, consulte um profissional de saúde mental.*"
+    }
+  ],
+  "fim": "2026-11-07T00:12:54+00:00"
+}
