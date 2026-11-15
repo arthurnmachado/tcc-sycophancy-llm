@@ -11,9 +11,6 @@ __pycache__/
 *.py[cod]
 .venv/
 
-# Pacote temporário de avaliação
-v2/avaliacoes/pacote_gui_v2.zip
-
 # Editores e temporários
 .idea/
 .vscode/
