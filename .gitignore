@@ -11,9 +11,8 @@ __pycache__/
 *.py[cod]
 .venv/
 
-# Correspondência dos códigos e arquivos locais.
+# Pacote temporário de avaliação
 v2/avaliacoes/pacote_gui_v2.zip
-v2/avaliacoes/privado/
 
 # Cópia local do TCC
 latex/

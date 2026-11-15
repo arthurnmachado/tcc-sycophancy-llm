@@ -12,4 +12,4 @@ O [pacote](pacote_gui/) reuniu as conversas identificadas por códigos AV001–A
 
 Foram removidos das cópias os metadados de modelo, provedor, temperatura, repetição, horário e identificadores originais. Os textos foram mantidos, inclusive autorreferências, e as duas ocorrências de checklist interativo não copiado receberam uma nota. Como as transcrições originais também estão no repositório, é possível relacionar as cópias pelo conteúdo; os códigos foram usados para a avaliação independente, não para garantir anonimato permanente.
 
-Arthur realizou a coleta e conhecia a origem das respostas. Guilherme recebeu o pacote sem os metadados e antes de consultar a avaliação de Arthur. A correspondência entre os códigos AV e as conversas originais foi mantida na pasta privada local.
+Arthur realizou a coleta e conhecia a origem das respostas. Guilherme recebeu o pacote sem os metadados e antes de consultar a avaliação de Arthur. A [correspondência](privado/correspondencia.csv) entre os códigos AV e as conversas originais foi mantida separada durante a avaliação e publicada após sua conclusão.
