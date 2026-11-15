@@ -11,10 +11,12 @@ __pycache__/
 *.py[cod]
 .venv/
 
-# Entrega da avaliação e correspondência dos códigos: manter fora do GitHub.
-v2/avaliacoes/pacote_gui/
+# Correspondência dos códigos e arquivos locais.
 v2/avaliacoes/pacote_gui_v2.zip
 v2/avaliacoes/privado/
+
+# Cópia local do TCC
+latex/
 
 # Editores e temporários
 .idea/
