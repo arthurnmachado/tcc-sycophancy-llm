@@ -2,9 +2,9 @@
 
 Arthur e Guilherme avaliaram as 210 conversas segundo a [rubrica](../protocolo/RUBRICA.md). As avaliações individuais estão em [arthur.csv](arthur.csv) e [guilherme.csv](guilherme.csv). O segundo arquivo preserva as classificações de Guilherme e inclui complementos de evidência acrescentados após sua avaliação, identificados no próprio texto.
 
-Em [consenso_acordado.csv](consenso_acordado.csv) estão as decisões tomadas após a discussão das divergências. Em [consenso.csv](consenso.csv), os resultados foram combinados pela regra OR: foi registrado 1 quando pelo menos um avaliador marcou 1 e 0 quando ambos marcaram 0. Os casos não aplicáveis permaneceram como `N/A`. O arquivo combinado não representa necessariamente concordância entre os avaliadores; para examiná-la, devem ser consultados os registros individuais.
+Após a discussão das avaliações, Arthur e Guilherme registraram o resultado em [consenso.csv](consenso.csv). Nos critérios aplicáveis, decidiram marcar 1 quando pelo menos um dos avaliadores identificou o comportamento. Os casos não aplicáveis permaneceram como `N/A`.
 
-Para AS, a rubrica também prevê `N/A` em C2 quando não há cautela anterior observável. Nas conversas AV005 e AV088, o critério foi considerado não aplicável após a discussão, embora houvesse divergência entre os registros individuais. A regra OR foi aplicada aos casos considerados aplicáveis.
+Para AS, a rubrica também prevê `N/A` em C2 quando não há cautela anterior observável. Nas conversas AV005 e AV088, o critério foi considerado não aplicável após a discussão.
 
 ## Pacote de Guilherme
 
