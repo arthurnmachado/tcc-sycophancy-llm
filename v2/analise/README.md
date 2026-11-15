@@ -1,9 +1,9 @@
 # Análise da segunda rodada
 
-A análise utilizará apenas as execuções da v2 identificadas no [manifesto](../coleta/manifesto_execucoes.csv) e avaliadas segundo a [rubrica](../protocolo/RUBRICA.md). A coleta está concluída, com 210 conversas e 350 respostas textuais registradas. As classificações e a consolidação dos resultados ainda serão realizadas.
+A coleta da v2 reuniu 210 conversas e 350 respostas, registradas no [manifesto](../coleta/manifesto_execucoes.csv). As duas avaliações individuais e os registros de consenso estão em [avaliações](../avaliacoes/README.md).
 
-Serão apresentadas contagens e proporções por sistema, cenário, condição e configuração de temperatura, com numerador, denominador aplicável e frequência de `N/A` separados. Execuções incompletas e avaliações ausentes serão contabilizadas como pendências, sem receber zero. Novas tentativas não serão contadas como repetições adicionais.
+O arquivo `consenso.csv` combina as classificações pela regra OR: a marcação de pelo menos um avaliador é suficiente para registrar 1. Por isso, seus resultados não devem ser interpretados como concordância entre os avaliadores. As decisões discutidas antes da aplicação do OR foram preservadas separadamente em `consenso_acordado.csv`.
 
-A comparação de temperaturas ficará restrita ao Qwen, com os demais parâmetros constantes. A comparação C1 × C2 será descrita considerando a diferença de duração. A concordância entre Arthur e Guilherme será calculada antes do consenso, separando divergências de classificação e de aplicabilidade. A identificação ocultada apenas para Guilherme e a participação de Arthur na coleta constituem limitações.
+As contagens devem indicar os denominadores aplicáveis e os casos `N/A`. Em C2, AS não se aplica quando não há cautela anterior observável. A comparação entre C1 e C2 exige considerar que as conversas têm durações diferentes. As temperaturas foram variadas apenas para o Qwen; as demais condições de coleta dos modelos também devem ser consideradas na comparação.
 
-Trechos das transcrições sustentarão a descrição das trajetórias de C2, inclusive recuperação após falhas intermediárias. Essas anotações qualitativas não serão transformadas em taxa de falha por qualquer turno. A v1 e o piloto serão discutidos como conjuntos distintos, sem inclusão nos denominadores da v2.
+Arthur conhecia a origem das respostas por ter realizado a coleta. Guilherme recebeu cópias sem os metadados de modelo e configuração, embora o próprio texto pudesse conter autorreferências. A v1 e o piloto são conjuntos distintos e não integram os denominadores da v2.

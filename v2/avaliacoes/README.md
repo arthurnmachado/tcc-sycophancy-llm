@@ -1,23 +1,15 @@
 # Avaliações da segunda rodada
 
-Foram preparados registros para a avaliação independente das 210 conversas por Arthur e Guilherme, segundo a [rubrica](../protocolo/RUBRICA.md). Nos arquivos [arthur.csv](arthur.csv) e [guilherme.csv](guilherme.csv), foram preenchidos os códigos de avaliação, cenários e condições. Os campos de classificação e justificativa foram deixados vazios. O [consenso.csv](consenso.csv) foi criado apenas com o cabeçalho, para preenchimento após as avaliações independentes. As avaliações individuais e o consenso ainda não foram preenchidos.
+Arthur e Guilherme avaliaram as 210 conversas segundo a [rubrica](../protocolo/RUBRICA.md). As avaliações individuais estão em [arthur.csv](arthur.csv) e [guilherme.csv](guilherme.csv). O segundo arquivo preserva as classificações de Guilherme e inclui complementos de evidência acrescentados após sua avaliação, identificados no próprio texto.
+
+Em [consenso_acordado.csv](consenso_acordado.csv) estão as decisões tomadas após a discussão das divergências. Em [consenso.csv](consenso.csv), os resultados foram combinados pela regra OR: foi registrado 1 quando pelo menos um avaliador marcou 1 e 0 quando ambos marcaram 0. Os casos não aplicáveis permaneceram como `N/A`. O arquivo combinado não representa necessariamente concordância entre os avaliadores; para examiná-la, devem ser consultados os registros individuais.
+
+Para AS, a rubrica também prevê `N/A` em C2 quando não há cautela anterior observável. Nas conversas AV005 e AV088, o critério foi considerado não aplicável após a discussão, embora houvesse divergência entre os registros individuais. A regra OR foi aplicada aos casos considerados aplicáveis.
 
 ## Pacote de Guilherme
 
-As 210 conversas foram anonimizadas para a avaliação de Guilherme, com códigos AV001–AV210 e ordem embaralhada. O pacote local `pacote_gui_v2.zip` reuniu as conversas, o índice, a rubrica e o CSV de avaliação. Os três turnos de C2 foram mantidos juntos, na sequência original. Foram incluídas apenas as conversas selecionadas no manifesto, com exclusão das tentativas interrompidas.
+O [pacote](pacote_gui/) reuniu as conversas identificadas por códigos AV001–AV210, em ordem embaralhada, o índice, a rubrica e o formulário de avaliação. O [CSV devolvido por Guilherme](pacote_gui/guilherme.csv) foi preservado como recebido; a cópia em `guilherme.csv` foi convertida para o formato usado no repositório.
 
-Os mesmos códigos foram utilizados nos CSVs dos dois autores. A correspondência com as conversas originais foi armazenada em `privado/correspondencia.csv`, sob guarda de Arthur e fora do pacote destinado a Guilherme. A pasta do pacote, o ZIP e a pasta privada foram excluídos do versionamento pelo Git.
+Foram removidos das cópias os metadados de modelo, provedor, temperatura, repetição, horário e identificadores originais. Os textos foram mantidos, inclusive autorreferências, e as duas ocorrências de checklist interativo não copiado receberam uma nota. Como as transcrições originais também estão no repositório, é possível relacionar as cópias pelo conteúdo; os códigos foram usados para a avaliação independente, não para garantir anonimato permanente.
 
-Foram removidos do pacote os metadados de modelo, provedor, temperatura, repetição, horário e IDs originais. Os textos das mensagens e respostas foram preservados integralmente, inclusive as autorreferências. As duas ocorrências de checklist não copiado foram acompanhadas de uma nota neutra sobre a ausência do componente. Os detalhes de falhas técnicas externos ao diálogo foram mantidos nos registros originais.
-
-As instruções do pacote orientaram o preenchimento independente do CSV na ordem do índice, sem consulta às transcrições identificadas ou à avaliação do outro autor. Também indicaram o registro de eventual identificação inferida ou exposição anterior à origem e a manutenção de campos pendentes, com justificativa, quando o conteúdo disponível fosse insuficiente para classificar um critério.
-
-## Registros independentes
-
-Arthur realizou a coleta e, por esse motivo, teve acesso à origem das conversas. Para a avaliação de Guilherme, foram preparadas cópias com códigos neutros, sem metadados de modelo ou temperatura e em ordem embaralhada. O campo `id_avaliacao` identificou as mesmas conversas nos dois formulários. A correspondência entre esse código e o ID do manifesto foi armazenada separadamente, com acesso reservado a Arthur durante a avaliação independente.
-
-A preservação dos textos integrais manteve a possibilidade de inferir o modelo por autorreferências. Por isso, foi incluído no formulário um campo para registrar identificação inferida ou exposição anterior à origem.
-
-Cada linha do formulário incluiu campos para CP, RP, MP e AS, justificativa, evidência e anotações qualitativas da trajetória. A rubrica definiu `N/A` para MP/AS em C0/C1 e para AS sem cautela anterior observável. Para avaliações pendentes e ausência de dados, foi previsto o campo vazio. As anotações intermediárias foram destinadas à análise qualitativa, sem criação de outro critério binário.
-
-O preenchimento do consenso foi reservado à etapa posterior às duas avaliações independentes, com preservação dos arquivos individuais. Para as divergências, foi previsto o registro dos valores originais e da decisão na justificativa, com manutenção da pendência na ausência de acordo.
+Arthur realizou a coleta e conhecia a origem das respostas. Guilherme recebeu o pacote sem os metadados e antes de consultar a avaliação de Arthur. A correspondência entre os códigos AV e as conversas originais foi mantida na pasta privada local.
