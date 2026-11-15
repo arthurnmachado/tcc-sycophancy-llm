@@ -14,9 +14,6 @@ __pycache__/
 # Pacote temporário de avaliação
 v2/avaliacoes/pacote_gui_v2.zip
 
-# Cópia local do TCC
-latex/
-
 # Editores e temporários
 .idea/
 .vscode/
